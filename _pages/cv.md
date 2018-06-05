@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "CV"
 permalink: /cv/
 author_profile: true
@@ -11,49 +11,41 @@ redirect_from:
 
 Education
 ======
-* B.S. in Github, Github University, 2012
-* M.S. in Jekyll, Github University, 2014
-* Ph.D in Version Control Theory, Github University, 2018 (expected)
+* B.S. in Computer Science, Addis Ababa University, Ethiopia, 2004
+* M.S. in Computer Science, Addis Ababa University, Ethiopia, 2009
+* Advanced Master in Human Language Technologies and Interfaces, , University of Trento,Italy 2011
+* Ph.D in Computer Science, Universität Hamburg, Germany, 2019 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2004 -- 2009 : Lecturer
+  * Harmaya University, Etthiopia
+  * Adama University, Etthiopia
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2011 -- 2012: Semantic Web Software Engineer
+  * Okkam srl, Itally
+
+* 2012 --  2016, Research Assistant and Scientific Software Engineer
+  * Technische Universität Darmstadt, Germany
+* 2016 -- Current : Research and Teaching Assistant
+  * Universität Hamburg, Germany
+
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* NLP
+  * Integration of adaptive machine learning into NLP applications
+  * Data Science engineer
+      * Big data processing and cleaning
+      * Data Integration
+* Java
+  * Java core
+  * Spring and Spring Boot
+  * Hibernate
+* Machine learning
+  * [Deeplearning4j](https://deeplearning4j.org/)
+  * [scikit-learn](http://scikit-learn.org/stable/)
+* Python
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams

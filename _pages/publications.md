@@ -1,16 +1,65 @@
 ---
-layout: archive
+layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+  You can also find my articles on <u><a href="https://scholar.google.de/citations?user=rDKEGNgAAAAJ&hl=en">my Google Scholar profile</a>.</u>
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<div id="c32945">
+<p><span face="TheSansUHHBold, sans-serif"> </span></p>
+</div>
+<div id="c32946">
+<div>
+<h2>Book Chapters</h2>
+</div>
+<ul>
+<li>Biemann, C., Bontcheva, K., Eckart de Castilho, R., Gurevych, I., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong> (2017): Collaborative Web-based Tools for Multi-layer Text Annotation. In: N. Ide and J. Pustejovsky (Eds.): Handbook of Linguistic Annotation, Springer (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt//publications/2017-biemannetal-hola-webbasedtools-preprint.pdf">preprint pdf</a>)</li>
+</ul>
+</div>
+<div id="c32947">
+<div>
+<h2>Journal Publications</h2>
+</div>
+<ul>
+<li><strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Biemann, C., Majnaric, L., Šabanović, Š., Holzinger, A. (2016): An adaptive annotation approach for <g data-gr-id="98" id="98">biomedical</g> entity and relation recognition. Brain Informatics, (online first), 10.1007/s40708-016-0036-4 (<a href="https://www.lt.informatik.tu-darmstadt.de/fileadmin/user_upload/Group_LangTech/publications/YimamEtAl2016BRIN.pdf">pdf</a>)</li>
+</ul>
+</div>
+<div id="c32948">
+<div>
+<h2>Conference Proceedings</h2>
+</div>
+<ul>
+<li><span style="color: #0000ff;"><strong>Yimam S.M,</strong></span> Biemann C. (2018): Par4Sim – Adaptive Paraphrasing for Text Simplification. In Proceedings of The 27th International Conference on Computational Linguistics (COLING 2018). Santa Fe, New-Mexico, USA (to appear).</li>
+<li><strong><span style="color: #0000ff;">Yimam S.M</span></strong>, Štajner S., Riedl M., Biemann C. (2017): CWIG3G2 - Complex Word Identification Task across Three Text Genres and Two User Groups. In Proceedings of The 8th International Joint Conference on Natural Language Processing (IJCNLP 2017). Taipei, Taiwan (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt//publications/2017-yimametal-ijcnlp.pdf">pdf</a>) (to apear)</li>
+<li><strong><span style="color: #0000ff;">Yimam S.M</span></strong>, Štajner S., Riedl Martin, Biemann C. (2017): Multilingual and Cross-Lingual Complex Word Identification. In Proceedings of The 2017 International Conference on Recent Advances in Natural Language Processing (RANLP). Varna, Bulgaria (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt//publications/2017-yimametal-ranlp.pdf">pdf</a>)</li>
+<li><strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Ulrich, H., von Landesberger, T., Rosenbach, M., Regneri, M., Panchenko, A., Lehmann, F., Fahrer, U., Biemann, C. and Ballweg, K. (2016): new/s/leak – Information Extraction and Visualization for Investigative Data Journalists. ACL 2016 Demo Session, Berlin, Germany (<a href="http://www.aclweb.org/anthology/P16-4028">pdf</a>)</li>
+<li><strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Biemann, C., Majnaric, L., Šabanović, Š., Holzinger, A. (2015): Interactive and Iterative Annotation for Biomedical Entity Recognition, International Conference on Brain Informatics and Health (BIH’15), London, UK (<a href="https://www.lt.informatik.tu-darmstadt.de/fileadmin/user_upload/Group_LangTech/publications/YimamEtAl_BIH2015London.pdf">pdf</a>)</li>
+<li>Benikova, D., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Biemann C. (2015). GermaNER: Free Open German Named Entity Recognition  Tool. In: Proceedings of the GSCL 2015. Essen, Germany (<a href="https://www.lt.informatik.tu-darmstadt.de/fileadmin/user_upload/Group_LangTech/publications/BenikovaEtAl_gscl2015_GermaNER.pdf">pdf</a>)</li>
+<li><strong><span style="color: #0000ff;">Yimam, S.M</span></strong>., Eckart de Castilho, R., Gurevych, I., Biemann C. (2014): Automatic Annotation Suggestions and Custom Annotation Layers in WebAnno. Proceedings of ACL 2014 System Demonstrations, Baltimore, MD, USA (<a href="https://www.lt.informatik.tu-darmstadt.de/fileadmin/user_upload/Group_LangTech/publications/YimamEtAl_ACL2014demo_WebAnno.pdf" title="TEXT, Yimam Et Al ACL2014demo Web Anno, YimamEtAl_ACL2014demo_WebAnno.pdf, 299 KB">pdf</a>)</li>
+<li><strong><span style="color: #0000ff;">Yimam, S.M</span></strong>., Gurevych, I., Eckart de Castilho, R., and Biemann C. (2013): WebAnno: A Flexible, Web-based and Visually Supported System for Distributed Annotations. Proceedings of ACL-2013, demo session, Sofia, Bulgaria (<a href="https://www.lt.informatik.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/publikationen/2013/Yimam_WebAnno_ACL2013demo.pdf" title="APPLIKATION, Yimam Web Anno ACL2013demo, Yimam_WebAnno_ACL2013demo.pdf, 590 KB">pdf</a>)</li>
+</ul>
+</div>
+<div id="c32949">
+<div>
+<h2>Workshop Proceedings</h2>
+<ul>
+<li><strong><span style="color: #0000ff;">Yimam, S.M</span></strong>., Biemann, C., Malmasi, S., Paetzold, G.H., Speica, L., Štajner, S., Tack, A., Zampieri, M., (2018): A Report on the Complex Word Identification Shared Task 2018. Proceedings of the 13th Workshop on Innovative Use of NLP for Building Educational Applications, New Orleans, LA, USA (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt//publications/2018-yimametal-bea-cwi-task.pdf">pdf</a>)</li>
+</ul>
+</div>
+<ul>
+<li><strong><span style="color: #0000ff;">Yimam S.M</span></strong>., Remus S., Panchenko A., Holzinger A., Biemann C. (2017): Entity-Centric Information Access with the Human-in-the-Loop for the Biomedical Domains. Biomedical NLP Workshop associated with RANLP 2017. Varna, Bulgaria (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt//publications/2017-yimametal-bionlpatranlp.pdf">pdf</a>) </li>
+<li>Müller, M., Ballweg, K. von Landesberger, T., <strong><span style="color: #0000ff;">Yimam, S.M</span></strong>., Fahrer, U., Biemann, C., Rosenbach, M., Regneri, M., Ulrich, H. (2017). Guidance for Multi-Type Entity Graphs from Text Collections. EuroVis Workshop on Visual Analytics 2017, Barcelona, Spain (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt//publications/2017-mueller-eurova-newsleak-guidance.pdf">pdf</a>)</li>
+<li>Nandi, T., Biemann, C., <strong><span style="color: #0000ff;">Yimam, SM</span></strong>., Gupta, Deepak., Kohail, S., Ekbal, A., Bhattacharyya, Pushpak. (2017): IT-UHH at SemEval-2017 Task 3: Exploring Multiple Features for Community Question Answering and Implicit Dialogue Identification, In Proceedings of the 11th International Workshop on Semantic Evaluation (SemEval 2017), Vancouver, Canada.(<a href="http://aclanthology.coli.uni-saarland.de/pdf/S/S17/S17-2009.pdf">pdf</a>)</li>
+<li>Eckart de Castilho, R. Mújdricza-Maydt, E., <span style="color: #0000ff;"><strong>Yimam, S.M</strong></span>., Hartmann, S., Gurevych, I., Frank, A. and Biemann, C. (2016): A Web-based Tool for the Integrated Annotation of Semantic and Syntactic Structures. Proceedings of the COLING workshop on Language Technology Resources and Tools for Digital Humanities (LT4DH), Osaka, Japan (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt//publications/webanno3-tl4dh2016.pdf">pdf</a>)</li>
+<li>Ballweg K., Zouhar F., Wilhelmi-Dworski P., von Landesberger T., Fahrer U., Panchenko A., <strong><span style="color: #0000ff;">Yimam S.M</span></strong>. Biemann C., Regneri M., Ulrich H. (2016) new/s/leak – A Tool for Visual Exploration of Large Text Document Collections in the Journalistic Domain, Baltimore, MD, USA, (<a href="https://www.lt.informatik.tu-darmstadt.de/fileadmin/user_upload/Group_LangTech/publications/newsleak-VIP-latest.pdf">pdf</a>)</li>
+<li><span style="color: #0000ff;"><strong>Yimam, S.M.</strong></span>, Martínez Alonso, H., Riedl M. and Biemann, C. (2016): Learning Paraphrasing for Multiword Expressions. The 12th Workshop on Multiword Expressions (MWE 2016), co-located with ACL 2016, Berlin, Germany (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt//publications/2016-yimametal-acl-berlin.pdf">pdf</a>)</li>
+<li><strong><span style="color: #0000ff;">Yimam, S.M</span></strong>. (2015): Narrowing the Loop: Integration of Resources and Linguistic Dataset Development with Interactive Machine Learning. NAACL 2015 Student Research Workshop,  p. 88--95, Denver, Colorado (<a href="http://www.aclweb.org/anthology/N/N15/N15-2012.pdf">pdf</a>)</li>
+<li>Eckart de Castilho, R., Biemann, C., Gurevych, I., <strong><span style="color: #0000ff;">Yimam, S.M</span></strong>. (2014): WebAnno: a flexible, web-based annotation tool for CLARIN. CLARIN Annual Conference 2014, Soesterberg, The Netherlands (<a href="https://www.lt.informatik.tu-darmstadt.de/fileadmin/user_upload/Group_LangTech/publications/CAC2014_WebAnno.pdf" title="TEXT, CAC2014 Web Anno, CAC2014_WebAnno.pdf, 469 KB">pdf</a>)</li>
+<li><g data-gr-id="170" id="170">Benikova</g>, D., Fahrer, U., Gabriel, A., Kaufmann, M., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, von Landesberger, T., Biemann, C. (2014): Network of the Day: Aggregating and Visualizing Entity Networks from Online Sources. KONVENS 2014 Workshop proceedings: NLP4CMC, pp. 48-52, Hildesheim, Germany (<a href="https://www.lt.informatik.tu-darmstadt.de/fileadmin/user_upload/Group_LangTech/publications/BenikovaEtAl_NoD_NLP4CMC2014.pdf" title="TEXT, Benikova Et Al No D NLP4CMC2014, BenikovaEtAl_NoD_NLP4CMC2014.pdf, 609 KB">pdf</a>)</li>
+<li><strong><span style="color: #0000ff;">Yimam, S.M,</span></strong> Libse, M. (2009): TETEYEQ: Amharic Question Answering For Factoid Questions, SEPLN09. SALTMIL workshop - Information Retrieval and Information Extraction for <g data-gr-id="171" id="171">Less Resourced</g> Languages (IE-IR-LRL), p. 17-25 (<a href="https://www.lt.informatik.tu-darmstadt.de/fileadmin/user_upload/Group_LangTech/AQA_Yimam_Libse.pdf">pdf</a>)</li>
+</ul>
+</div>
