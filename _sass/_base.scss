@@ -20,11 +20,13 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   font-family: $header-font-family;
   font-weight: bold;
+   color: #1D3B2C;
 }
 
 h1 {
   margin-top: 0;
   font-size: $type-size-3;
+
 }
 
 h2 {
@@ -114,6 +116,7 @@ a {
   &:active {
     outline: 0;
   }
+  color: blue;
 }
 
 /* code */
