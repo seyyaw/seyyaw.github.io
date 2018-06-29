@@ -13,9 +13,9 @@ author_profile: true
 <li><a href="https://webanno.github.io/">WebAnno</a>: Web-based, distributive, and generic annotation tool</li>
 <li><a href="https://uhh-lt.github.io/par4sem/">Par4Sem</a>: Semantic Writing aid</li>
 
-<li><a href="https://github.com/uhh-lt/newsleak-frontend">New/s/leak </a>:New/s/leak: NetWork of Searchable Leaks</li>
+<li><a href="http://www.newsleak.io/">New/s/leak </a>:New/s/leak: NetWork of Searchable Leaks</li>
 
-<li><a href="https://github.com/uhh-lt/newsleak-frontend">Network of the Day </a>:https://github.com/uhh-lt/NoDWeb</li>
+<li><a href="https://github.com/uhh-lt/NoDWeb">NoD </a>:Network of the day</li>
 
 
 </ul>
