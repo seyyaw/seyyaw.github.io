@@ -15,7 +15,7 @@ author_profile: true
 
 <li><a href="http://www.newsleak.io/">New/s/leak </a>: NetWork of Searchable Leaks</li>
 
-<li><a href="https://github.com/uhh-lt/NoDWeb">NoD </a>:Network of the day</li>
+<li><a href="https://github.com/uhh-lt/NoDWeb">Network of the Day </a>: nteractive visualization of time-dependent relationships of public agents</li>
 
 
 </ul>
