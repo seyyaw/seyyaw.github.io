@@ -18,6 +18,6 @@ author_profile: true
 <ul>
 <li><a href="https://webanno.github.io/">WebAnno</a>: Web-based, distributive, and generic annotation tool</li>
 <li><a href="http://ltbev.informatik.uni-hamburg.de/nodstud/">Network of the day</a>: Interactive <span>visualization of time-dependent relationships of public agents</span></li>
-<li><a href="https://ltdemos.informatik.uni-hamburg.de/newsleak/">new/s/leak</a>: NetWork of Searchable Leaks</li>
+<li><a href="https://ltdemos.informatik.uni-hamburg.de/newsleak/">new/s/leak</a>: NetWork of Searchable Leaks</li> login with: user/password
 <li><a href="https://ltmaggie.informatik.uni-hamburg.de/par4sem/">Par4Sem</a>: Semantic Writing aid - Paraphrasing texts</li>
 </ul>
