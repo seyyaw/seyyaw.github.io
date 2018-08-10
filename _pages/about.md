@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-This is [Seid Muhie Yimam](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/seid-muhie-yimam.html)'s academic web page.
+This is [Seid Muhie Yimam - ሰይድ ሙሄ ይማም](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/seid-muhie-yimam.html)'s academic web page.
 
 Short intro:
 =====
