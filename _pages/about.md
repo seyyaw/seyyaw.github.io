@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-This is [Seid Muhie Yimam - ሰይድ ሙሄ ይማም](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/seid-muhie-yimam.html)'s academic web page.
+This is [Seid Muhie Yimam](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/seid-muhie-yimam.html)'s (ሰይድ <a onclick="play1()" class="button"><audio id="audio1" src="files/seid.m4a"></audio><span class="glyphicon glyphicon-volume-up"></span></a> ሙሄ <a onclick="play2()" class="button"><audio id="audio2" src="files/muhie.m4a"></audio><span class="glyphicon glyphicon-volume-up"></span></a> ይማም <a onclick="play3()" class="button"><audio id="audio3" src="files/yimam.m4a"></audio><span class="glyphicon glyphicon-volume-up"></span></a>) academic web page.
 
 Short intro:
 =====
