@@ -34,7 +34,7 @@ author_profile: true
 </div>
 <ul>
   
-<li>Wiedemann G., <strong><span style="color: #0000ff;">Yimam S.M.</span></strong>, and Biemann C. (2018) : A Multilingual Information Extraction Pipeline for Investigative Journalism. In Proceedings of 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP 2018). Brussels, Belgium(<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2018-wiedemannetal-socinfo-multinewsleak.pdf">pdf</a>)</li>
+<li>Wiedemann G., <strong><span style="color: #0000ff;">Yimam S.M.</span></strong>, and Biemann C. (2018) : A Multilingual Information Extraction Pipeline for Investigative Journalism. In Proceedings of 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP 2018). Brussels, Belgium(<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2018-wiedemannetal-emnl-multinewsleak.pdf">pdf</a>)</li>
   
 <li><strong><span style="color: #0000ff;">Yimam S. M.</span></strong>, Biemann C. (2018): Demonstrating Par4Sem - A Semantic Writing Aid with Adaptive Paraphrasing. In Proceedings of 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP 2018). Brussels, Belgium (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2018-yimamandbieman-emnlp-par4sem.pdf">pdf</a>).</li>
 <li>Wiedemann G., <strong><span style="color: #0000ff;">Yimam S.M.</span></strong>, and Biemann C. (2018) : New/s/leak 2.0 – Multilingual Information Extraction and Visualization for Investigative Journalism. In: Proceedings of the 10th International Conference on Social Informatics (SocInfo 2018). St.Petersburg, Russia (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2018-wiedemannetal-socinfo-multinewsleak.pdf">pdf</a>)</li>
