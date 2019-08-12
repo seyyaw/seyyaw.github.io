@@ -19,6 +19,9 @@ author_profile: true
 </div>
 <ul>
 <li><strong><span style="color: #0000ff;">Yimam, S.M.</span></strong> (2019): Adaptive Approaches to Natural Language Processing in Annotation and Application. Ph.D Thesis, University of Hamburg(<a href="https://ediss.sub.uni-hamburg.de/volltexte/2019/9914/pdf/Dissertation.pdf">pdf</a>)</li>
+  
+ <li><strong><span style="color: #0000ff;">Yimam, S.M.</span></strong> (2009): TETEYEQ (ተጠየቅ): AMHARIC QUESTION ANSWERING SYSTEM FOR FACTOID QUESTIONS. Master Thesis, Addis Ababa University([pdf](/files/Seid Muhie_MSC.pdf))</li>
+  
 </ul>
 </div>
 
