@@ -12,6 +12,16 @@ author_profile: true
 <div id="c32945">
 <p><span face="TheSansUHHBold, sans-serif"> </span></p>
 </div>
+
+<div id="c32945.1">
+<div>
+<h2>Monographs</h2>
+</div>
+<ul>
+<li><strong><span style="color: #0000ff;">Yimam, S.M.</span></strong> (2019): Adaptive Approaches to Natural Language Processing in Annotation and Application. Ph.D Thesis, University of Hamburg(<a href="https://ediss.sub.uni-hamburg.de/volltexte/2019/9914/pdf/Dissertation.pdf">pdf</a>)</li>
+</ul>
+</div>
+
 <div id="c32946">
 <div>
 <h2>Book Chapters</h2>
