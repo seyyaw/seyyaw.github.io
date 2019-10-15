@@ -30,7 +30,7 @@ Work experience
 * 2016 -- Current : Research and Teaching Assistant
   * Universität Hamburg, Germany
 
-  
+
 Skills
 ======
 * NLP
@@ -45,7 +45,9 @@ Skills
 * Machine learning
   * [Deeplearning4j](https://deeplearning4j.org/)
   * [scikit-learn](http://scikit-learn.org/stable/)
+  * [PyTorch](https://pytorch.org)
+  * [spaCy](https://spacy.io)
+  * [NLTK](https://www.nltk.org)
 * Python
-
-
-  
+* CrowdSourcing
+  * Amazon Mechanical Turk
