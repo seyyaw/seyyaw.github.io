@@ -80,4 +80,11 @@ author_profile: true
 <li><g data-gr-id="170" id="170">Benikova</g>, D., Fahrer, U., Gabriel, A., Kaufmann, M., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, von Landesberger, T., Biemann, C. (2014): Network of the Day: Aggregating and Visualizing Entity Networks from Online Sources. KONVENS 2014 Workshop proceedings: NLP4CMC, pp. 48-52, Hildesheim, Germany (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2014-benikovaetall-konvens-nod.pdf" title="TEXT, Benikova Et Al No D NLP4CMC2014, BenikovaEtAl_NoD_NLP4CMC2014.pdf, 609 KB">pdf</a>)</li>
 <li><strong><span style="color: #0000ff;">Yimam, S.M,</span></strong> Libse, M. (2009): TETEYEQ: Amharic Question Answering For Factoid Questions, SEPLN09. SALTMIL workshop - Information Retrieval and Information Extraction for <g data-gr-id="171" id="171">Less Resourced</g> Languages (IE-IR-LRL), p. 17-25 (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/seid-muhie-yimam/yimam-ms-thesis.pdf">pdf</a>)</li>
 </ul>
+  
+  <h2>Workshop Proceedings</h2>
+  <ul>
+  <li>
+    <strong><span style="color: #0000ff;">Yimam, S.M</span></strong>, Biemann C.,. (2019): Current Status, Issues, and Future Directions for Ethiopian Natural Language Processing (NLP) Research. International Conference Language Technologies for All (LT4All), Paris, France (<a href="https://seyyaw.github.io/files/Yimametal_2019_lt4all.pdf">pdf</a>)
+  </li>
+  </ul>
 </div>
