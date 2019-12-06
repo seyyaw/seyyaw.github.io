@@ -81,7 +81,7 @@ author_profile: true
 <li><strong><span style="color: #0000ff;">Yimam, S.M,</span></strong> Libse, M. (2009): TETEYEQ: Amharic Question Answering For Factoid Questions, SEPLN09. SALTMIL workshop - Information Retrieval and Information Extraction for <g data-gr-id="171" id="171">Less Resourced</g> Languages (IE-IR-LRL), p. 17-25 (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/seid-muhie-yimam/yimam-ms-thesis.pdf">pdf</a>)</li>
 </ul>
   
-  <h2>Workshop Proceedings</h2>
+  <h2>Posters</h2>
   <ul>
   <li>
     <strong><span style="color: #0000ff;">Yimam, S.M</span></strong>, Biemann C.,. (2019): Current Status, Issues, and Future Directions for Ethiopian Natural Language Processing (NLP) Research. International Conference Language Technologies for All (LT4All), Paris, France (<a href="https://seyyaw.github.io/files/Yimametal_2019_lt4all.pdf">pdf</a>)
