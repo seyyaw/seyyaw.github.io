@@ -48,8 +48,7 @@ author_profile: true
 </div>
 <ul>
   
-   <li><strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Ayele, A. A., Biemann C. (2019): Analysis of the Ethiopic Twitter Dataset for Abusive Speech in Amharic. In Proceedings of  International Conference On Language Technologies For All: Enabling Linguistic Diversity And Multilingualism Worldwide (LT4ALL 2019). Paris, France (<a href="http://arxiv.org/abs/1912.04419">pdf</a>). </li>
-  
+ 
 <li>Wiedemann G., <strong><span style="color: #0000ff;">Yimam S.M.</span></strong>, and Biemann C. (2018) : A Multilingual Information Extraction Pipeline for Investigative Journalism. In Proceedings of 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP 2018). Brussels, Belgium (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2018-wiedemannetal-emnl-multinewsleak.pdf">pdf</a>)</li>
   
 <li><strong><span style="color: #0000ff;">Yimam S. M.</span></strong>, Biemann C. (2018): Demonstrating Par4Sem - A Semantic Writing Aid with Adaptive Paraphrasing. In Proceedings of 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP 2018). Brussels, Belgium (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2018-yimamandbieman-emnlp-par4sem.pdf">pdf</a>).</li>
@@ -68,6 +67,7 @@ author_profile: true
 <div>
 <h2>Workshop Proceedings</h2>
 <ul>
+     <li><strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Ayele, A. A., Biemann C. (2019): Analysis of the Ethiopic Twitter Dataset for Abusive Speech in Amharic. In Proceedings of  International Conference On Language Technologies For All: Enabling Linguistic Diversity And Multilingualism Worldwide (LT4ALL 2019). Paris, France (<a href="http://arxiv.org/abs/1912.04419">pdf</a>). </li>
 <li><strong><span style="color: #0000ff;">Yimam, S.M</span></strong>., Biemann, C., Malmasi, S., Paetzold, G.H., Speica, L., Štajner, S., Tack, A., Zampieri, M., (2018): A Report on the Complex Word Identification Shared Task 2018. Proceedings of the 13th Workshop on Innovative Use of NLP for Building Educational Applications, New Orleans, LA, USA (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2018-yimametal-bea-cwi-task.pdf">pdf</a>)</li>
 </ul>
 </div>
