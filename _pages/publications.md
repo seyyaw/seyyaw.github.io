@@ -18,6 +18,10 @@ author_profile: true
 <h2>Monographs</h2>
 </div>
 <ul>
+  
+ <li><strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Ayele, A. A., Biemann C. (2019): Analysis of the Ethiopic Twitter Dataset for Abusive Speech in Amharic. In Proceedings of  International Conference On Language Technologies For All: Enabling Linguistic Diversity And Multilingualism Worldwide (LT4ALL 2019). Paris, France (<a href="http://arxiv.org/abs/1912.04419">pdf</a>). </li>
+ 
+ 
 <li><strong><span style="color: #0000ff;">Yimam, S.M.</span></strong> (2019): Adaptive Approaches to Natural Language Processing in Annotation and Application. Ph.D Thesis, University of Hamburg (<a href="https://ediss.sub.uni-hamburg.de/volltexte/2019/9914/pdf/Dissertation.pdf">pdf</a>)</li>
   
  <li><strong><span style="color: #0000ff;">Yimam, S.M.</span></strong> (2009): TETEYEQ (ተጠየቅ): AMHARIC QUESTION ANSWERING SYSTEM FOR FACTOID QUESTIONS. Master Thesis, Addis Ababa University <a href="https://seyyaw.github.io/files/Seid Muhie_MSC.pdf">pdf</a> </li>
