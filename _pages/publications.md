@@ -48,7 +48,7 @@ author_profile: true
 </div>
 <ul>
  
- <li><<strong><span style="color: #0000ff;">Yimam S. M.</span></strong>, Venkatesh, G., Lee, J. Biemann, C. (2020): Automatic Compilation of Resources for Academic Writing and Evaluating with Informal Word Identification and Paraphrasing System, The International Conference on Language Resources and Evaluation (LREC 2020), Marseille, France. (<a href="https://arxiv.org/pdf/2003.02955.pdf"> pdf </a>)</li>
+ <li><strong><span style="color: #0000ff;">Yimam S. M.</span></strong>, Venkatesh, G., Lee, J. Biemann, C. (2020): Automatic Compilation of Resources for Academic Writing and Evaluating with Informal Word Identification and Paraphrasing System, The International Conference on Language Resources and Evaluation (LREC 2020), Marseille, France. (<a href="https://arxiv.org/pdf/2003.02955.pdf"> pdf </a>)</li>
  
 <li>Wiedemann G., <strong><span style="color: #0000ff;">Yimam S.M.</span></strong>, and Biemann C. (2018) : A Multilingual Information Extraction Pipeline for Investigative Journalism. In Proceedings of 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP 2018). Brussels, Belgium (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2018-wiedemannetal-emnl-multinewsleak.pdf">pdf</a>)</li>
   
