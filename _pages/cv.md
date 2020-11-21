@@ -14,7 +14,7 @@ Education
 * B.S. in Computer Science, Addis Ababa University, Ethiopia, 2004
 * M.S. in Computer Science, Addis Ababa University, Ethiopia, 2009
 * Advanced Master in Human Language Technologies and Interfaces, , University of Trento,Italy 2011
-* Ph.D in Computer Science, Universität Hamburg, Germany, 2019 (expected)
+* Ph.D in Computer Science, Universität Hamburg, Germany, July 3, 2019
 
 Work experience
 ======
