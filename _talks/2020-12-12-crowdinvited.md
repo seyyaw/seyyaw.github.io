@@ -1,7 +1,7 @@
 ---
 title: "Quality Control in Crowdsourcing"
 collection: talks
-type: "Talk"
+type: "Invited Talk"
 permalink: /talks/2020-12-12-crowdinvited
 venue: "Virtual NeurIPS 2020"
 date: 2020-12-12
