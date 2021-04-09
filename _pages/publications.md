@@ -47,7 +47,7 @@ author_profile: true
 <h2>Conference Proceedings</h2>
 </div>
 <ul>
-<li>Gooding, S., Kochmar, E., <strong><span style="color: #0000ff;">Yimam S. M.</span></strong>, Biemann, C. (2021): Word Complexity is in the Eye of the Beholder. The 2021 Conference of the North American Chapter of the Association for Computational Linguistics - Human Language Technologies (NAACL-HLT), Mexico City, Mexico.</li>
+<li>Gooding, S., Kochmar, E., <strong><span style="color: #0000ff;">Yimam S. M.</span></strong>, Biemann, C. (2021): Word Complexity is in the Eye of the Beholder. The 2021 Conference of the North American Chapter of the Association for Computational Linguistics - Human Language Technologies (NAACL-HLT), Mexico City, Mexico. (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2021-sianetal-naacl-cwi.pdf">pdf</a>)</li>
 <li>Mathew, B., Saha, P., <strong><span style="color: #0000ff;">Yimam S. M.</span></strong>, Biemann, C., Goyal, P., Mukherjee, A. (2021): HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection. Proceedings of AAAI-21, Virtual Conference. (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2021-mathewetal-aaai-hatexplain.pdf">pdf</a>)</li>
 <li>Haase, C., Anwar, S.,<strong><span style="color: #0000ff;">Yimam S. M.</span></strong>, Friedrich, A., Biemann, C. (2021): SCoT: Sense Clustering over Time: a tool for the analysis of lexical change. The 2021 Conference of the European Chapter of the Association for Computational Linguistics - System Demonstrations. Kyiv, Ukraine (Online) (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2021-haaseetal-eacldemo-scot.pdf">pdf</a>)</li>
 
