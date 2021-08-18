@@ -47,6 +47,7 @@ author_profile: true
 <h2>Conference Proceedings</h2>
 </div>
 <ul>
+ <li>von Boguszewski, N., Moin, S., Bhowmick, A., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Biemann, C. (2021): How Hateful are Movies? A Study and Prediction on Movie Subtitles. Proceedings of KONVENS, Düsseldorf, Germany (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2021-boguszewskietal-konvens-hatemovies.pdf">pdf</a>)</li>
  <li>Wiechmann, M., <strong><span style="color: #0000ff;">Yimam S. M.,</span></strong> Biemann, C. (2021): ActiveAnno: General-Purpose Document-Level Annotation Tool with Active Learning Integration. The 2021 Conference of the North American Chapter of the Association for Computational Linguistics - Human Language Technologies - System Demonstrations, Mexico City, Mexico (online) (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2021-wichmannetal-naacl-activeanno.pdf">pdf</a>)</li>
   
 <li>Gooding, S., Kochmar, E., <strong><span style="color: #0000ff;">Yimam S. M.</span></strong>, Biemann, C. (2021): Word Complexity is in the Eye of the Beholder. The 2021 Conference of the North American Chapter of the Association for Computational Linguistics - Human Language Technologies (NAACL-HLT), Mexico City, Mexico. (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2021-sianetal-naacl-cwi.pdf">pdf</a>)</li>
