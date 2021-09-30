@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Get PDF version of my [CV](files/Seid M CV.pdf)
+Get PDF version of my [CV](/files/Seid M CV.pdf)
 
 Education
 ======
