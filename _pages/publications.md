@@ -46,11 +46,7 @@ author_profile: true
 <div>
 <h2>Conference Proceedings</h2>
 </div>
-  
-  Belay, T. D., Ayele, A.A., Gelaye, G., Yimam, S.M., and Biemann, C. (2021): Impacts of Homophone Normalization on Semantic Models for Amharic. Proceedings of the Third International Conference on ICT for Development for Africa (ICT4DA 2021), Bahir Dar, Ethiopia (pdf)
-  
 <ul>
-  
    <li>Belay, T. D., Ayele, A.A., Gelaye, G., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Biemann, C. (2021): Impacts of Homophone Normalization on Semantic Models for Amharic. Proceedings of the Third International Conference on ICT for Development for Africa (ICT4DA 2021), Bahir Dar, Ethiopia (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2021-belayetal-ict4da-amharicnorm.pdf">pdf</a>)</li>
   
   
