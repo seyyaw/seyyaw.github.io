@@ -23,22 +23,22 @@ author_profile: true
   
  <li><strong><span style="color: #0000ff;">Yimam, S.M.</span></strong> (2009): TETEYEQ (ተጠየቅ): AMHARIC QUESTION ANSWERING SYSTEM FOR FACTOID QUESTIONS. Master Thesis, Addis Ababa University <a href="https://seyyaw.github.io/files/Seid Muhie_MSC.pdf">pdf</a> </li>
   
-</ol>
+
 </div>
 
 <div id="c32946">
 <div>
 <h2>Book Chapters</h2>
 </div>
-<ol>
+
 <li>Biemann, C., Bontcheva, K., Eckart de Castilho, R., Gurevych, I., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong> (2017): Collaborative Web-based Tools for Multi-layer Text Annotation. In: N. Ide and J. Pustejovsky (Eds.): Handbook of Linguistic Annotation, Springer (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2017-biemannetal-hola-webbasedtools-preprint.pdf">preprint pdf</a>)</li>
-</ol>
+
 </div>
 <div id="c32947">
 <div>
 <h2>Journal Publications</h2>
 </div>
-<ol>
+
 <li><strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Biemann, C., Majnaric, L., Šabanović, Š., Holzinger, A. (2016): An adaptive annotation approach for <g data-gr-id="98" id="98">biomedical</g> entity and relation recognition. Brain Informatics, (online first), 10.1007/s40708-016-0036-4 (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2016-yimametal-brin.pdf">pdf</a>)</li>
 </ol>
 </div>
