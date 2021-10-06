@@ -17,36 +17,36 @@ author_profile: true
 <div>
 <h2>Monographs</h2>
 </div>
-<ul>
+<ol>
  
 <li><strong><span style="color: #0000ff;">Yimam, S.M.</span></strong> (2019): Adaptive Approaches to Natural Language Processing in Annotation and Application. Ph.D Thesis, University of Hamburg (<a href="https://ediss.sub.uni-hamburg.de/volltexte/2019/9914/pdf/Dissertation.pdf">pdf</a>)</li>
   
  <li><strong><span style="color: #0000ff;">Yimam, S.M.</span></strong> (2009): TETEYEQ (ተጠየቅ): AMHARIC QUESTION ANSWERING SYSTEM FOR FACTOID QUESTIONS. Master Thesis, Addis Ababa University <a href="https://seyyaw.github.io/files/Seid Muhie_MSC.pdf">pdf</a> </li>
   
-</ul>
+</ol>
 </div>
 
 <div id="c32946">
 <div>
 <h2>Book Chapters</h2>
 </div>
-<ul>
+<ol>
 <li>Biemann, C., Bontcheva, K., Eckart de Castilho, R., Gurevych, I., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong> (2017): Collaborative Web-based Tools for Multi-layer Text Annotation. In: N. Ide and J. Pustejovsky (Eds.): Handbook of Linguistic Annotation, Springer (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2017-biemannetal-hola-webbasedtools-preprint.pdf">preprint pdf</a>)</li>
-</ul>
+</ol>
 </div>
 <div id="c32947">
 <div>
 <h2>Journal Publications</h2>
 </div>
-<ul>
+<ol>
 <li><strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Biemann, C., Majnaric, L., Šabanović, Š., Holzinger, A. (2016): An adaptive annotation approach for <g data-gr-id="98" id="98">biomedical</g> entity and relation recognition. Brain Informatics, (online first), 10.1007/s40708-016-0036-4 (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2016-yimametal-brin.pdf">pdf</a>)</li>
-</ul>
+</ol>
 </div>
 <div id="c32948">
 <div>
 <h2>Conference Proceedings</h2>
 </div>
-<ul>
+<ol>
    <li>Belay, T. D., Ayele, A.A., Gelaye, G., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Biemann, C. (2021): Impacts of Homophone Normalization on Semantic Models for Amharic. Proceedings of the Third International Conference on ICT for Development for Africa (ICT4DA 2021), Bahir Dar, Ethiopia (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2021-belayetal-ict4da-amharicnorm.pdf">pdf</a>)</li>
   
   
@@ -73,12 +73,12 @@ author_profile: true
 <li>Benikova, D., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Biemann C. (2015). GermaNER: Free Open German Named Entity Recognition  Tool. In: Proceedings of the GSCL 2015. Essen, Germany (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2015-benikovaetal-gscl2015-germa.pdf">pdf</a>)</li>
 <li><strong><span style="color: #0000ff;">Yimam, S.M</span></strong>., Eckart de Castilho, R., Gurevych, I., Biemann C. (2014): Automatic Annotation Suggestions and Custom Annotation Layers in WebAnno. Proceedings of ACL 2014 System Demonstrations, Baltimore, MD, USA (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2014-yimametal-acl2014demo-webanno.pdf" title="TEXT, Yimam Et Al ACL2014demo Web Anno, YimamEtAl_ACL2014demo_WebAnno.pdf, 299 KB">pdf</a>)</li>
 <li><strong><span style="color: #0000ff;">Yimam, S.M</span></strong>., Gurevych, I., Eckart de Castilho, R., and Biemann C. (2013): WebAnno: A Flexible, Web-based and Visually Supported System for Distributed Annotations. Proceedings of ACL-2013, demo session, Sofia, Bulgaria (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2013-yimametal-acl-webanno.pdf" title="APPLIKATION, Yimam Web Anno ACL2013demo, Yimam_WebAnno_ACL2013demo.pdf, 590 KB">pdf</a>)</li>
-</ul>
+</ol>
 </div>
 <div id="c32949">
 <div>
 <h2>Workshop Proceedings</h2>
-<ul>
+<ol>
  
  <li>David Ifeoluwa Adelani and Jade Abbott and Graham Neubig and Daniel D'souza and Julia Kreutzer and Constantine Lignos and Chester Palen-Michel and Happy Buzaaba and Shruti Rijhwani and Sebastian Ruder and Stephen Mayhew and Israel Abebe Azime and Shamsuddeen Muhammad and Chris Chinenye Emezue and Joyce Nakatumba-Nabende and Perez Ogayo and Anuoluwapo Aremu and Catherine Gitau and Derguene Mbaye and Jesujoba Alabi and <strong><span style="color: #0000ff;"> Seid Muhie Yimam</span></strong> and Tajuddeen Gwadabe and Ignatius Ezeani and Rubungo Andre Niyongabo and Jonathan Mukiibi and Verrah Otiende and Iroro Orife and Davis David and Samba Ngom and Tosin Adewumi and Paul Rayson and Mofetoluwa Adeyemi and Gerald Muriuki and Emmanuel Anebi and Chiamaka Chukwuneke and Nkiruka Odu and Eric Peter Wairagala and Samuel Oyerinde and Clemencia Siro and Tobius Saul Bateesa and Temilola Oloyede and Yvonne Wambui and Victor Akinode and Deborah Nabagereka and Maurice Katusiime and Ayodele Awokoya and Mouhamadane MBOUP and Dibora Gebreyohannes and Henok Tilaye and Kelechi Nwaike and Degaga Wolde and Abdoulaye Faye and Blessing Sibanda and Orevaoghene Ahia and Bonaventure F. P. Dossou and Kelechi Ogueji and Thierno Ibrahima DIOP and Abdoulaye Diallo and Adewale Akinfaderin and Tendai Marengereke and Salomey Osei (2021): MasakhaNER: Named Entity Recognition for African Languages. Proceedings of AfricaNLP Workshop, Strengthening African NLP.  EACL 2021. (<a href="https://arxiv.org/pdf/2103.11811.pdf">pdf</a>). </li>
   
@@ -86,9 +86,9 @@ author_profile: true
  
 <li><strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Ayele, A. A., Biemann C. (2019): Analysis of the Ethiopic Twitter Dataset for Abusive Speech in Amharic. In Proceedings of  International Conference On Language Technologies For All: Enabling Linguistic Diversity And Multilingualism Worldwide (LT4ALL 2019). Paris, France p. 210-214 (<a href="https://lt4all.elra.info/proceedings/lt4all2019/pdf/2019.lt4all-1.53.pdf">pdf</a>). </li>
 <li><strong><span style="color: #0000ff;">Yimam, S.M</span></strong>., Biemann, C., Malmasi, S., Paetzold, G.H., Speica, L., Štajner, S., Tack, A., Zampieri, M., (2018): A Report on the Complex Word Identification Shared Task 2018. Proceedings of the 13th Workshop on Innovative Use of NLP for Building Educational Applications, New Orleans, LA, USA (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2018-yimametal-bea-cwi-task.pdf">pdf</a>)</li>
-</ul>
+</ol>
 </div>
-<ul>
+<ol>
 <li><strong><span style="color: #0000ff;">Yimam S.M</span></strong>., Remus S., Panchenko A., Holzinger A., Biemann C. (2017): Entity-Centric Information Access with the Human-in-the-Loop for the Biomedical Domains. Biomedical NLP Workshop associated with RANLP 2017. Varna, Bulgaria (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2017-yimametal-bionlpatranlp.pdf">pdf</a>) </li>
 <li>Müller, M., Ballweg, K. von Landesberger, T., <strong><span style="color: #0000ff;">Yimam, S.M</span></strong>., Fahrer, U., Biemann, C., Rosenbach, M., Regneri, M., Ulrich, H. (2017). Guidance for Multi-Type Entity Graphs from Text Collections. EuroVis Workshop on Visual Analytics 2017, Barcelona, Spain (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2017-mueller-eurova-newsleak-guidance.pdf">pdf</a>)</li>
 <li>Nandi, T., Biemann, C., <strong><span style="color: #0000ff;">Yimam, SM</span></strong>., Gupta, Deepak., Kohail, S., Ekbal, A., Bhattacharyya, Pushpak. (2017): IT-UHH at SemEval-2017 Task 3: Exploring Multiple Features for Community Question Answering and Implicit Dialogue Identification, In Proceedings of the 11th International Workshop on Semantic Evaluation (SemEval 2017), Vancouver, Canada.(<a href="http://aclanthology.coli.uni-saarland.de/pdf/S/S17/S17-2009.pdf">pdf</a>)</li>
@@ -99,12 +99,12 @@ author_profile: true
 <li>Eckart de Castilho, R., Biemann, C., Gurevych, I., <strong><span style="color: #0000ff;">Yimam, S.M</span></strong>. (2014): WebAnno: a flexible, web-based annotation tool for CLARIN. CLARIN Annual Conference 2014, Soesterberg, The Netherlands (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2014-castilhoetal-cac2014-webanno.pdf" title="TEXT, CAC2014 Web Anno, CAC2014_WebAnno.pdf, 469 KB">pdf</a>)</li>
 <li><g data-gr-id="170" id="170">Benikova</g>, D., Fahrer, U., Gabriel, A., Kaufmann, M., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, von Landesberger, T., Biemann, C. (2014): Network of the Day: Aggregating and Visualizing Entity Networks from Online Sources. KONVENS 2014 Workshop proceedings: NLP4CMC, pp. 48-52, Hildesheim, Germany (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2014-benikovaetall-konvens-nod.pdf" title="TEXT, Benikova Et Al No D NLP4CMC2014, BenikovaEtAl_NoD_NLP4CMC2014.pdf, 609 KB">pdf</a>)</li>
 <li><strong><span style="color: #0000ff;">Yimam, S.M,</span></strong> Libse, M. (2009): TETEYEQ: Amharic Question Answering For Factoid Questions, SEPLN09. SALTMIL workshop - Information Retrieval and Information Extraction for <g data-gr-id="171" id="171">Less Resourced</g> Languages (IE-IR-LRL), p. 17-25 (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/seid-muhie-yimam/yimam-ms-thesis.pdf">pdf</a>)</li>
-</ul>
+</ol>
   
   <h2>Posters</h2>
-  <ul>
+  <ol>
   <li>
     <strong><span style="color: #0000ff;">Yimam, S.M</span></strong>, Biemann C.,. (2019): Current Status, Issues, and Future Directions for Ethiopian Natural Language Processing (NLP) Research. International Conference Language Technologies for All (LT4All), Paris, France (<a href="https://seyyaw.github.io/files/Yimametal_2019_lt4all.pdf">pdf</a>)
   </li>
-  </ul>
+  </ol>
 </div>
