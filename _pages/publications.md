@@ -31,7 +31,7 @@ author_profile: true
 <h2>Book Chapters</h2>
 </div>
 <ol>
-<li>Biemann, C., Bontcheva, K., Eckart de Castilho, R., Gurevych, I., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong> (2017): Collaborative Web-based Tools for Multi-layer Text Annotation. In: N. Ide and J. Pustejovsky (Eds.): Handbook of Linguistic Annotation, Springer (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2017-biemannetal-hola-webbasedtools-preprint.pdf">preprint pdf</a>)</li>
+<li>Biemann, C., Bontcheva, K., Eckart de Castilho, R., Gurevych, I., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong> (2017): Collaborative Web-based Tools for Multi-layer Text Annotation. In: N. Ide and J. Pustejovsky (Eds.): Handbook of Linguistic Annotation, Springer (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2017-biemannetal-hola-webbasedtools-preprint.pdf">pdf</a>)</li>
 </ol>
 </div>
 <div id="c32947">
@@ -40,6 +40,10 @@ author_profile: true
 </div>
 <ol>
 <li><strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Biemann, C., Majnaric, L., Šabanović, Š., Holzinger, A. (2016): An adaptive annotation approach for <g data-gr-id="98" id="98">biomedical</g> entity and relation recognition. Brain Informatics, (online first), 10.1007/s40708-016-0036-4 (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2016-yimametal-brin.pdf">pdf</a>)</li>
+
+  
+  <li><strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>,  Ayele, A.A.; Venkatesh, G.; Gashaw I.; Biemann C. Introducing Various Semantic Models for Amharic: Experimentation and Evaluation with Multiple Tasks and Datasets. Future Internet 2021, 13, 275. (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2021-yimametal-mdpi-amharicmodels.pdf">pdf</a>) https://doi.org/10.3390/fi13110275 </li>
+  
 </ol>
 </div>
 <div id="c32948">
