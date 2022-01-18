@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Get PDF version of my [CV](/files/Seid M CV.pdf)
+Get PDF version of my [CV](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/seid-muhie-yimam/yimam-cv.pdf)
 
 Education
 ======
