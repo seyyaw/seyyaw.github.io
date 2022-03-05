@@ -39,6 +39,7 @@ author_profile: true
 <h2>Journal Publications</h2>
 </div>
 <ol>
+<li> Jana, A., Venkatesh, G., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, and Biemann, C., Hypernymy Detection for Low-Resource Languages: A Study for Hindi, Bengali, and Amharic, ACM Transactions on Asian and Low-Resource Language Information Processing (2022). (<a href="https://dl.acm.org/doi/pdf/10.1145/3490389">pdf</a>)</li>
 <li><strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Biemann, C., Majnaric, L., Šabanović, Š., Holzinger, A. (2016): An adaptive annotation approach for <g data-gr-id="98" id="98">biomedical</g> entity and relation recognition. Brain Informatics, (online first), 10.1007/s40708-016-0036-4 (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2016-yimametal-brin.pdf">pdf</a>)</li>
 
   
