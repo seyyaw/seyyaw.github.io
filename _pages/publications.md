@@ -86,7 +86,7 @@ author_profile: true
 <h2>Workshop Proceedings</h2>
 <ol>
   <li>
-     Belay, T. D., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Ayele, A. A., and Biemann, C. (2022): Question Answering Classification for Amharic Social Media Community Based Questions, The 1st Annual Meeting of the ELRA/ISCA Special Interest Group on Under-Resourced Languages (SIGUL 2022), Marseille, France (pdf).
+     Belay, T. D., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Ayele, A. A., and Biemann, C. (2022): Question Answering Classification for Amharic Social Media Community Based Questions, The 1st Annual Meeting of the ELRA/ISCA Special Interest Group on Under-Resourced Languages (SIGUL 2022), Marseille, France (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2022-belayetal-sigullrec2022.pdf">pdf</a>).
   </li>
  <li> Destaw T., Ayele A.A. and <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong> (2021): The Development of Pre-processing Tools and Pre-trained Embedding Models for Amharic. Proceedings of The fifth WiNLP (“Widening NLP”) Workshop held in conjunction with EMNLP 2021, Punta Cana, Dominican Republic. (<a href="http://www.winlp.org/wp-content/uploads/2021/11/winlp2021_54_Paper.pdf">pdf</a>). </li>
  
