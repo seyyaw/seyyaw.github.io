@@ -52,7 +52,7 @@ author_profile: true
 <h2>Conference Proceedings</h2>
 </div>
 <ol>
-  <li>Remus S., Wiedemann G., Anwar S., Petersen-Frey F., Yimam S. M., Biemann C. (2022), More Like This: Semantic Retrieval with Linguistic Information, In Proceedings of the 18th Conference on Natural Language Processing (KONVENS 2022), pages 156–166, Potsdam, Germany (<a href="https://aclanthology.org/2022.konvens-1.19.pdf">pdf</a>).</li>
+<li>Remus S., Wiedemann G., Anwar S., Petersen-Frey F., <strong><span style="color: #0000ff;">Yimam S. M.</span></strong>, Biemann C. (2022), More Like This: Semantic Retrieval with Linguistic Information, In Proceedings of the 18th Conference on Natural Language Processing (KONVENS 2022), pages 156–166, Potsdam, Germany (<a href="https://aclanthology.org/2022.konvens-1.19.pdf">pdf</a>).</li>
   
   <li>Beloucif M., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Stahlhacke S. and Biemann C. (2022): Elvis vs. M. Jackson: Who has More Albums? Classification and Identification of Elements in Comparative Question. In the 2022 International Conference on Language Resources and Evaluation (LREC 2022), Marseille, France (<a href="../../../publications/2022-beloucifetal-lrec2022.pdf">pdf</a>).</li>
   
