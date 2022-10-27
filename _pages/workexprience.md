@@ -7,9 +7,10 @@ author_profile: true
 
 
 <h1 class="bodytext"><b>Research<a id="Software"></a></b></h1>
-<ul></ul>
 <ul>
 <li>Technical lead at the Hous of Computing and Data Science, Universitäte  Hamburg, Germany, 2022+</li>
+</ul>
+<ul>
 <li>Post doctoral researcher, Language Technology Group, Universitäte  Hamburg, Germany, 2019-2022</li>
 <li>Guest researcher, IIT Kharagpur, India, September 2019</li>
 <li>Guest researcher, City University of Hong Kong, Hong Kong, January 2019- April 2019</li>
