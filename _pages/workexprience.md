@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Work Expreince"
+title: "Work Experience"
 permalink: /workexprience/
 author_profile: true
 ---
@@ -27,5 +27,5 @@ author_profile: true
 <li> LT group, Universitäte  Hamburg, Germany, October 2016+ </li>
 <li>LT group, TU Darmstadt, Germany, October 2013- Sep 2016 </li>
 <li>Adama University, Ethiopia, December 2009 - October 2010 </li>
-<li>Haramaya University, Ethiopia, August 2004 - Dcember 2009 </li>
+<li>Haramaya University, Ethiopia, August 2004 - December 2009 </li>
 </ul>
