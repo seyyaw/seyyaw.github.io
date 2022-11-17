@@ -52,7 +52,8 @@ author_profile: true
 <h2>Conference Proceedings</h2>
 </div>
 <ol>
-  <li>Belay T.D., Tonja A.L., Kolesnikova O.,  <strong><span style="color: #0000ff;">Yimam S. M.</span></strong>, Ayele A.A., Haile S.B., Sidorov G., Gelbukh A. (2022): The Effect of Normalization for Bi-directional Amharic-English Neural Machine Translation, International Conference on Information and Communication Technology for Development for Africa (ICT4DA 2022), Bahir Dar, Ethiopia (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2022-belayetal-ict4d20222.pdf">pdf</a>)</li>
+  
+ <li>Belay T.D., Tonja A.L., Kolesnikova O.,  <strong><span style="color: #0000ff;">Yimam S. M.</span></strong>, Ayele A.A., Haile S.B., Sidorov G., Gelbukh A. (2022): The Effect of Normalization for Bi-directional Amharic-English Neural Machine Translation, International Conference on Information and Communication Technology for Development for Africa (ICT4DA 2022), Bahir Dar, Ethiopia (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2022-belayetal-ict4d20222.pdf">pdf</a>)</li>
 
 <li>Ayele A.A., Belay T.D., Asfaw, T.T., Dinter S.,  <strong><span style="color: #0000ff;">Yimam S. M.</span></strong> (2022): The 5Js in Ethiopia: Amharic Hate Speech Data Annotation Using Toloka Crowdsourcing Platform, International Conference on Information and Communication Technology for Development for Africa (ICT4DA 2022), Bahir Dar (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2022-ayeleetal-ict4d20222.pdf">pdf</a>)</li>
   
@@ -91,14 +92,13 @@ author_profile: true
 <div>
 <h2>Workshop Proceedings</h2>
 <ol>
-  <li>
     
     <li>Ayele A.A., Belay T.D.,  <strong><span style="color: #0000ff;">Yimam S. M.</span></strong>, Dinter S., Asfaw, T.T., Biemann C. (2022): The 5Js in Ethiopia: Amharic Hate Speech Data Annotation Using Toloka Crowdsourcing Platform, The Sixth Widening Natural Language Processing Workshop (WiNLP 2022) in conjunction with EMNLP 2022, Abu Dhabi, UAE (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2022-ayeleetal-winlp20222.pdf">pdf</a>)</li>
 
 
 <li>Belay T.D., Tonja A.L., Kolesnikova O.,  <strong><span style="color: #0000ff;">Yimam S. M.</span></strong>, Ayele A.A., Haile S.B., Sidorov G., Gelbukh A. (2022): The Effect of Normalization for Bi-directional Amharic-English Neural Machine Translation, The Sixth Widening Natural Language Processing Workshop (WiNLP 2022) in conjunction with EMNLP 2022, Abu Dhabi, UAE (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2022-belayetal-winlp20222.pdf">pdf</a>)</li>
   
-     Belay, T. D., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Ayele, A. A., and Biemann, C. (2022): Question Answering Classification for Amharic Social Media Community Based Questions, The 1st Annual Meeting of the ELRA/ISCA Special Interest Group on Under-Resourced Languages (SIGUL 2022), Marseille, France (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2022-belayetal-sigullrec2022.pdf">pdf</a>).
+ <li>Belay, T. D., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Ayele, A. A., and Biemann, C. (2022): Question Answering Classification for Amharic Social Media Community Based Questions, The 1st Annual Meeting of the ELRA/ISCA Special Interest Group on Under-Resourced Languages (SIGUL 2022), Marseille, France (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2022-belayetal-sigullrec2022.pdf">pdf</a>).
   </li>
  <li> Destaw T., Ayele A.A. and <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong> (2021): The Development of Pre-processing Tools and Pre-trained Embedding Models for Amharic. Proceedings of The fifth WiNLP (“Widening NLP”) Workshop held in conjunction with EMNLP 2021, Punta Cana, Dominican Republic. (<a href="http://www.winlp.org/wp-content/uploads/2021/11/winlp2021_54_Paper.pdf">pdf</a>). </li>
  
