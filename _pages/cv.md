@@ -16,6 +16,7 @@ Certefikates/Awards
 - Merit Award: GSCL Award for best Doctoral Thesis in the memory of Wolfgang Hoeppner, 2020 
 - Diaspora Expert mission 2022 to ICT4D research group, BiT, Bahir Dar, Ethiopia
 - Oracle for Research Grant for the project entitled **AfriHate: A Multilingual Hate and Offensive Corpus for Conflict-Affected African Countries**
+
 Education
 ======
 * B.S. in Computer Science, Addis Ababa University, Ethiopia, 2004
