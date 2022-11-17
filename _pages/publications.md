@@ -92,8 +92,7 @@ author_profile: true
 <div>
 <h2>Workshop Proceedings</h2>
 <ol>
-    
-    <li>Ayele A.A., Belay T.D.,  <strong><span style="color: #0000ff;">Yimam S. M.</span></strong>, Dinter S., Asfaw, T.T., Biemann C. (2022): The 5Js in Ethiopia: Amharic Hate Speech Data Annotation Using Toloka Crowdsourcing Platform, The Sixth Widening Natural Language Processing Workshop (WiNLP 2022) in conjunction with EMNLP 2022, Abu Dhabi, UAE (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2022-ayeleetal-winlp20222.pdf">pdf</a>)</li>
+<li>Ayele A.A., Belay T.D.,  <strong><span style="color: #0000ff;">Yimam S. M.</span></strong>, Dinter S., Asfaw, T.T., Biemann C. (2022): The 5Js in Ethiopia: Amharic Hate Speech Data Annotation Using Toloka Crowdsourcing Platform, The Sixth Widening Natural Language Processing Workshop (WiNLP 2022) in conjunction with EMNLP 2022, Abu Dhabi, UAE (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2022-ayeleetal-winlp20222.pdf">pdf</a>)</li>
 
 
 <li>Belay T.D., Tonja A.L., Kolesnikova O.,  <strong><span style="color: #0000ff;">Yimam S. M.</span></strong>, Ayele A.A., Haile S.B., Sidorov G., Gelbukh A. (2022): The Effect of Normalization for Bi-directional Amharic-English Neural Machine Translation, The Sixth Widening Natural Language Processing Workshop (WiNLP 2022) in conjunction with EMNLP 2022, Abu Dhabi, UAE (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2022-belayetal-winlp20222.pdf">pdf</a>)</li>
