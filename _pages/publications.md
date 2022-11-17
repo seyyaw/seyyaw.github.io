@@ -91,6 +91,7 @@ author_profile: true
 <div id="c32949">
 <div>
 <h2>Workshop Proceedings</h2>
+</div>
 <ol>
 <li>Ayele A.A., Belay T.D.,  <strong><span style="color: #0000ff;">Yimam S. M.</span></strong>, Dinter S., Asfaw, T.T., Biemann C. (2022): The 5Js in Ethiopia: Amharic Hate Speech Data Annotation Using Toloka Crowdsourcing Platform, The Sixth Widening Natural Language Processing Workshop (WiNLP 2022) in conjunction with EMNLP 2022, Abu Dhabi, UAE (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2022-ayeleetal-winlp20222.pdf">pdf</a>)</li>
 
@@ -107,9 +108,6 @@ author_profile: true
  
 <li><strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Ayele, A. A., Biemann C. (2019): Analysis of the Ethiopic Twitter Dataset for Abusive Speech in Amharic. In Proceedings of  International Conference On Language Technologies For All: Enabling Linguistic Diversity And Multilingualism Worldwide (LT4ALL 2019). Paris, France p. 210-214 (<a href="https://lt4all.elra.info/proceedings/lt4all2019/pdf/2019.lt4all-1.53.pdf">pdf</a>). </li>
 <li><strong><span style="color: #0000ff;">Yimam, S.M</span></strong>., Biemann, C., Malmasi, S., Paetzold, G.H., Speica, L., Štajner, S., Tack, A., Zampieri, M., (2018): A Report on the Complex Word Identification Shared Task 2018. Proceedings of the 13th Workshop on Innovative Use of NLP for Building Educational Applications, New Orleans, LA, USA (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2018-yimametal-bea-cwi-task.pdf">pdf</a>)</li>
-</ol>
-</div>
-<ol>
 <li><strong><span style="color: #0000ff;">Yimam S.M</span></strong>., Remus S., Panchenko A., Holzinger A., Biemann C. (2017): Entity-Centric Information Access with the Human-in-the-Loop for the Biomedical Domains. Biomedical NLP Workshop associated with RANLP 2017. Varna, Bulgaria (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2017-yimametal-bionlpatranlp.pdf">pdf</a>) </li>
 <li>Müller, M., Ballweg, K. von Landesberger, T., <strong><span style="color: #0000ff;">Yimam, S.M</span></strong>., Fahrer, U., Biemann, C., Rosenbach, M., Regneri, M., Ulrich, H. (2017). Guidance for Multi-Type Entity Graphs from Text Collections. EuroVis Workshop on Visual Analytics 2017, Barcelona, Spain (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2017-mueller-eurova-newsleak-guidance.pdf">pdf</a>)</li>
 <li>Nandi, T., Biemann, C., <strong><span style="color: #0000ff;">Yimam, SM</span></strong>., Gupta, Deepak., Kohail, S., Ekbal, A., Bhattacharyya, Pushpak. (2017): IT-UHH at SemEval-2017 Task 3: Exploring Multiple Features for Community Question Answering and Implicit Dialogue Identification, In Proceedings of the 11th International Workshop on Semantic Evaluation (SemEval 2017), Vancouver, Canada.(<a href="http://aclanthology.coli.uni-saarland.de/pdf/S/S17/S17-2009.pdf">pdf</a>)</li>
