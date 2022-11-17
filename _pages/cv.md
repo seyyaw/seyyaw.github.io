@@ -11,6 +11,9 @@ redirect_from:
 
 Get PDF version of my [CV](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/seid-muhie-yimam/yimam-cv.pdf)
 
+<object data="https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/seid-muhie-yimam/yimam-cv.pdf" type="application/pdf" width="100%">
+  </object>
+
 Certefikates/Awards
 ======
 - Merit Award: GSCL Award for best Doctoral Thesis in the memory of Wolfgang Hoeppner, 2020 
