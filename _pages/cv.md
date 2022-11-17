@@ -11,9 +11,7 @@ redirect_from:
 
 Get PDF version of my [CV](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/seid-muhie-yimam/yimam-cv.pdf)
 
-<object src="https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/seid-muhie-yimam/yimam-cv.pdf" type="application/pdf" title="CV" width="700" height="720">
-    <a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/seid-muhie-yimam/yimam-cv.pdf">CV</a> 
-</object>
+<iframe src="https://docs.google.com/gview?url=https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/seid-muhie-yimam/yimam-cv.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
 
 
 Certefikates/Awards
