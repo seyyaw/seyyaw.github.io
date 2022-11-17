@@ -11,7 +11,12 @@ redirect_from:
 
 Get PDF version of my [CV](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/seid-muhie-yimam/yimam-cv.pdf)
 
-<iframe width="100%" height="800" src="https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/seid-muhie-yimam/yimam-cv.pdf">
+<object data="https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/seid-muhie-yimam/yimam-cv.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/seid-muhie-yimam/yimam-cv.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
 
 Certefikates/Awards
 ======
