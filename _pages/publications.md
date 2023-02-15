@@ -54,7 +54,7 @@ author_profile: true
 <ol>
   
  <li>
-   Schneider, F., Yimam S.M., Petersen-Frey , F., Biemann, C., von Nordheim, G., Kleinen-von Königslöw, K., (2023): CodeAnno: Extending WebAnno with Hierarchical Document Level Annotation and Automation. The 17th Conference of the European Chapter
+   Schneider, F., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Petersen-Frey , F., Biemann, C., von Nordheim, G., Kleinen-von Königslöw, K., (2023): CodeAnno: Extending WebAnno with Hierarchical Document Level Annotation and Automation. The 17th Conference of the European Chapter
 of the Association for Computational Linguistics (EACL 2023), System Demonstrations Track, Dubrovnik, Croatia (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2023-schneider-et-al-codeanno.pdf">pdf</a>)
   </li>
  <li>Belay T.D., Tonja A.L., Kolesnikova O.,  <strong><span style="color: #0000ff;">Yimam S. M.</span></strong>, Ayele A.A., Haile S.B., Sidorov G., Gelbukh A. (2022): The Effect of Normalization for Bi-directional Amharic-English Neural Machine Translation, International Conference on Information and Communication Technology for Development for Africa (ICT4DA 2022), Bahir Dar, Ethiopia (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2022-belayetal-ict4d20222.pdf">pdf</a>)</li>
