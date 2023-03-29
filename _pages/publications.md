@@ -99,10 +99,10 @@ of the Association for Computational Linguistics (EACL 2023), System Demonstrati
 <ol>
   
   <li>
- Tonja A. L., Belay T. D., Azime I. A., Ayele A. A., Mehamed M. A., Kolesnikova O., <strong><span style="color: #0000ff;">Yimam S. M.</span></strong> (2023): Natural Language Processing in Ethiopian Languages: Current State, Challenges, and Opportunities, In the fourth workshop on Resources for African Indigenous Languages (RAIL) at EACL2023, Dubrovnik, Croatia (<a href="https://arxiv.org/pdf/2303.14406.pdf">preprint pdf</a>)    
+ Tonja A. L., Belay T. D., Azime I. A., Ayele A. A., Mehamed M. A., Kolesnikova O., <strong><span style="color: #0000ff;">Yimam S. M.</span></strong> (2023): Natural Language Processing in Ethiopian Languages: Current State, Challenges, and Opportunities, In the fourth workshop on Resources for African Indigenous Languages (RAIL) at EACL2023, Dubrovnik, Croatia (<a href="https://arxiv.org/pdf/2303.14406.pdf"> pdf</a>)    
   </li>
   <li>
-    Banerjee D.,  <strong><span style="color: #0000ff;">Yimam S. M.</span></strong>, Awale S. and Biemann C (2023), ARDIAS: AI-Enhanced Research Management, Discovery, and Advisory System, The AAAI-23 Workshop on Scientific Document Understanding at the Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI-23), Washington, DC, USA. (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2023-banerjeeetal-ardias-sdu-aaai2023.pdf">preprint pdf</a>)  
+    Banerjee D.,  <strong><span style="color: #0000ff;">Yimam S. M.</span></strong>, Awale S. and Biemann C (2023), ARDIAS: AI-Enhanced Research Management, Discovery, and Advisory System, The AAAI-23 Workshop on Scientific Document Understanding at the Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI-23), Washington, DC, USA. (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2023-banerjeeetal-ardias-sdu-aaai2023.pdf"> pdf</a>)  
   </li>
   
 <li>Ayele A.A., Belay T.D.,  <strong><span style="color: #0000ff;">Yimam S. M.</span></strong>, Dinter S., Asfaw, T.T., Biemann C. (2022): The 5Js in Ethiopia: Amharic Hate Speech Data Annotation Using Toloka Crowdsourcing Platform, The Sixth Widening Natural Language Processing Workshop (WiNLP 2022) in conjunction with EMNLP 2022, Abu Dhabi, UAE (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2022-ayeleetal-winlp20222.pdf">pdf</a>)</li>
