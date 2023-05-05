@@ -9,7 +9,7 @@ location: "Radisson Blu Hotel and Convention Center, Kigali, Rwanda, Africa"
 ---
 
 
-This is an invited talk at [AfricaNLP](https://github.com/seyyaw/seyyaw.github.io/) Collocated with ICLR 2023, Radisson Blu Hotel and Convention Center, Kigali, Rwanda, Africa
+This is an invited talk at [AfricaNLP](https://sites.google.com/view/africanlp2023/home) Collocated with ICLR 2023, Radisson Blu Hotel and Convention Center, Kigali, Rwanda, Africa
 
 Get the presentation [here](/files/AfricaNLP_2023_Keynote.pdf)
 
