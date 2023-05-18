@@ -2,13 +2,13 @@
 title: "Challenges of Low-Resource Natural Language Processing: A Focus on Sentiment Analysis and Hate Speech Detection in Amharic"
 collection: talks
 type: "Invited NLP Seminar talk"
-permalink: /talks/2023-05-19-cambridgeseminar
+permalink: /talks/2023-19-05-cambridgeseminar
 venue: "Cambridge NLP Seminar"
-date: 2023-05-19
+date: 2023-19-05
 location: "Online"
 ---
 
-This seminar is delivered online
+This seminar is delivered online, see more [here](https://talks.cam.ac.uk/talk/index/200029)
 
 ## Abstract 
 While high-resource languages such as English have made significant progress in various natural language processing (NLP) applications, low-resource languages are struggling to keep up. Drawing from our experience and expertise at the LT (Language Technology) group, this talk will shed light on the main challenges facing NLP in low-resource languages. After providing an overview of the basics, I will showcase hate speech detection and sentiment analysis as two use cases for the Amharic language. This presentation is an expansion of my keynote speech at AFricaNLP collocated with ICLR 2023 at Kigali, Rwanda.
