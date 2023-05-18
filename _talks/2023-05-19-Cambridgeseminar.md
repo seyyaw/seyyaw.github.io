@@ -1,7 +1,7 @@
 ---
 title: "Challenges of Low-Resource Natural Language Processing: A Focus on Sentiment Analysis and Hate Speech Detection in Amharic"
 collection: talks
-type: "Invited NLIP Seminar"
+type: "Invited NLP Seminar talk"
 permalink: /talks/2023-05-19-Cambridgeseminar
 venue: "Cambridge NLP Seminar"
 date: 2023-05-19
