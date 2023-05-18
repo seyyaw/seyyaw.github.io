@@ -8,6 +8,7 @@ date: 2023-05-19
 location: "Online"
 ---
 
+This seminar delivered online
 
 ## Abstract 
 While high-resource languages such as English have made significant progress in various natural language processing (NLP) applications, low-resource languages are struggling to keep up. Drawing from our experience and expertise at the LT (Language Technology) group, this talk will shed light on the main challenges facing NLP in low-resource languages. After providing an overview of the basics, I will showcase hate speech detection and sentiment analysis as two use cases for the Amharic language. This presentation is an expansion of my keynote speech at AFricaNLP collocated with ICLR 2023 at Kigali, Rwanda.
