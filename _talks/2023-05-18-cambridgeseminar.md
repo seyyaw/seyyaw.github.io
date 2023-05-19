@@ -10,7 +10,7 @@ location: "Online"
 
 This seminar is delivered at the [Cambridge NLP Seminar](https://talks.cam.ac.uk/talk/index/200029)
 
-You can finde my presentation [here](/files/Talk_Cambridge NLP Seminars.pdf).
+You can finde my presentation [here](/files/Talk_Cambridge NLP Seminars.pdf)
 
 ## Abstract 
 While high-resource languages such as English have made significant progress in various natural language processing (NLP) applications, low-resource languages are struggling to keep up. Drawing from our experience and expertise at the LT (Language Technology) group, this talk will shed light on the main challenges facing NLP in low-resource languages. After providing an overview of the basics, I will showcase hate speech detection and sentiment analysis as two use cases for the Amharic language. This presentation is an expansion of my keynote speech at AFricaNLP collocated with ICLR 2023 at Kigali, Rwanda.
