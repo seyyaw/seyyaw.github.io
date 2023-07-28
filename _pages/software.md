@@ -6,6 +6,16 @@ author_profile: true
 ---
 
 
+<h1 class="bodytext"><b>Projects<a id="Software"></a></b></h1>
+<ul></ul>
+<ul>
+<li><a href="https://www.hcds.uni-hamburg.de/en/news/20220721-project-funding-ideas-risk.html">ARDIAS</a>: AI-Enhanced Research Project Management Discovery and Advisory System</li>
+<li><a href="https://www.hcds.uni-hamburg.de/en/news/20230103-funding-leeds-haburg.html">SAINT</a>: SAINT - Sentiment Analysis INTerpretability</li>
+<li><a href="https://lacunafund.org/2021-african-language-awardees/">SAINT</a>: AfriHate - A Lacuna fund project in collaboration with ICT4D (BDU-Ethiopia and HausaNLP-Nigeria)</li>
+</ul>
+
+
+
 <h1 class="bodytext"><b>Software<a id="Software"></a></b></h1>
 <ul></ul>
 <ul>
@@ -25,6 +35,7 @@ author_profile: true
 <h1 class="bodytext"><b>Demo<a id="Software"></a></b></h1>
 <ul></ul>
 <ul>
+<li><a href="https://ardias.ltdemos.informatik.uni-hamburg.de/">ARDIAS</a>: AI-Enhanced Research Project Management Discovery and Advisory System</li>
 <li><a href="https://webanno.github.io/">WebAnno</a>: Web-based, distributive, and generic annotation tool</li>
 <li><a href="http://ltbev.informatik.uni-hamburg.de/nodstud/">Network of the day</a>: Interactive <span>visualization of time-dependent relationships of public agents</span></li>
 <li><a href="https://ltdemos.informatik.uni-hamburg.de/newsleak/">new/s/leak</a>: NetWork of Searchable Leaks</li> login with: user/password
