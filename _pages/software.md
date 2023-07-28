@@ -8,7 +8,7 @@ author_profile: true
 
 <h1 class="bodytext"><b>Projects<a id="Software"></a></b></h1>
 
-<img src="/files/ardias.png"></> - <a href="https://www.hcds.uni-hamburg.de/en/news/20220721-project-funding-ideas-risk.html">AI-Enhanced Research Project Management Discovery and Advisory System </a> <br>
+<img src="/files/ardias.png"</> - <a href="https://www.hcds.uni-hamburg.de/en/news/20220721-project-funding-ideas-risk.html">AI-Enhanced Research Project Management Discovery and Advisory System </a> <br>
 <a href="https://www.hcds.uni-hamburg.de/en/news/20230103-funding-leeds-haburg.html">SAINT - Sentiment Analysis INTerpretabilit</a><br>
 <a href="https://lacunafund.org/2021-african-language-awardees/"> AfriHate - A Lacuna fund project in collaboration with ICT4D (BDU-Ethiopia and HausaNLP-Nigeria)</a><br>
 
