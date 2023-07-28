@@ -9,6 +9,7 @@ author_profile: true
 <h1 class="bodytext"><b>Software<a id="Software"></a></b></h1>
 <ul></ul>
 <ul>
+<li><a href="https://github.com/uhh-lt/ethiopicmodels">SemanticModels</a>: Semantic Models for Ethiopic</li>
 <li><a href="https://github.com/tudarmstadt-lt/GermaNER">GermaNER</a>: German named entity recognition</li>
 <li><a href="https://webanno.github.io/">WebAnno</a>: Web-based, distributive, and generic annotation tool</li>
 <li><a href="https://uhh-lt.github.io/par4sem/">Par4Sem</a>: Semantic Writing aid</li>
