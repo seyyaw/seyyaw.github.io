@@ -9,7 +9,7 @@ author_profile: true
 <h1 class="bodytext"><b>Projects<a id="Software"></a></b></h1>
 <ul></ul>
 <ul>
-<li>a href="https://www.Youtube.com/"><img src="https://www.tutorialspoint.com/assets/questions/media/426142-1668760872.png" style="width:50px;height:50px;"></a> <a href="https://www.hcds.uni-hamburg.de/en/news/20220721-project-funding-ideas-risk.html">ARDIAS</a>: AI-Enhanced Research Project Management Discovery and Advisory System</li>
+<li><a href="https://www.Youtube.com/"><img src="https://www.tutorialspoint.com/assets/questions/media/426142-1668760872.png" style="width:50px;height:50px;"></a> <a href="https://www.hcds.uni-hamburg.de/en/news/20220721-project-funding-ideas-risk.html">ARDIAS</a>: AI-Enhanced Research Project Management Discovery and Advisory System</li>
 <li><a href="https://www.hcds.uni-hamburg.de/en/news/20230103-funding-leeds-haburg.html">SAINT</a>: SAINT - Sentiment Analysis INTerpretability</li>
 <li><a href="https://lacunafund.org/2021-african-language-awardees/">SAINT</a>: AfriHate - A Lacuna fund project in collaboration with ICT4D (BDU-Ethiopia and HausaNLP-Nigeria)</li>
 </ul>
