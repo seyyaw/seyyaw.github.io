@@ -102,8 +102,6 @@ of the Association for Computational Linguistics (EACL 2023), System Demonstrati
 
 <li>Shamsuddeen Hassan Muhammad, Idris Abdulmumin, Abinew Ali Ayele, Nedjma Ousidhoum, David Ifeoluwa Adelani, <strong>Seid Muhie Yimam</strong>, Ibrahim Sa'id Ahmad, Meriem BELOUCIF, Saif Mohammad, Sebastian Ruder, Oumaima Hourrane, Pavel Brazdil, Felermino Dário Mário António Ali, Davis Davis, Salomey Osei, Bello Shehu Bello, Falalu Ibrahim, Tajuddeen Gwadabe, Samuel Rutunda, Tadesse Belay, Wendimu Baye Messelle, Hailu Beshada Balcha, Sisay Adugna Chala, Hagos Tesfahun Gebremichael, Bernard Opoku, Steven Arthur. Afrisenti: A Twitter sentiment analysis benchmark for African languages: arXiv preprint arXiv:2302.08956. 2023. (<a href="https://arxiv.org/abs/2302.08956">pdf</a>)</li>
 
-<li>Tonja A. L., Belay T. D., Azime I. A., Ayele A. A., Mehamed M. A., Kolesnikova O., <strong>Yimam S. M</strong>. (2023): Natural Language Processing in Ethiopian Languages: Current State, Challenges, and Opportunities, In the fourth workshop on Resources for African Indigenous Languages (RAIL) at EACL2023, Dubrovnik, Croatia (<a href="https://arxiv.org/pdf/2303.14406.pdf">pdf</a>)</li>
-
   <li>
  Tonja A. L., Belay T. D., Azime I. A., Ayele A. A., Mehamed M. A., Kolesnikova O., <strong><span style="color: #0000ff;">Yimam S. M.</span></strong> (2023): Natural Language Processing in Ethiopian Languages: Current State, Challenges, and Opportunities, In the fourth workshop on Resources for African Indigenous Languages (RAIL) at EACL2023, Dubrovnik, Croatia (<a href="https://arxiv.org/pdf/2303.14406.pdf">pdf</a>)    
   </li>
