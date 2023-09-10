@@ -52,6 +52,8 @@ author_profile: true
 <h2>Conference Proceedings</h2>
 </div>
 <ol>
+<li>Ayele A.A., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Belay T.D., Asfaw T. and Biemann C. (2023): Exploring Amharic Hate Speech Data Collection and Classification Approaches, in the 14th Conference RECENT ADVANCES IN NATURAL LANGUAGE PROCESSING, Varna, Bulgaria (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2023-ayele-et-al-hate-ranlp.pdf">pdf</a>)</li>
+<li>Ayele A.A., Dinter S., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong> and Biemann C. (2023): Multilingual Racial Hate Speech Detection Using Transfer Learning, in the 14th Conference RECENT ADVANCES IN NATURAL LANGUAGE PROCESSING, Varna, Bulgaria (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2023-ayele-et-al-hate-ranlp-racial.pdf">pdf</a>)</li>
   
  <li>
    Schneider, F., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Petersen-Frey , F., Biemann, C., von Nordheim, G., Kleinen-von Königslöw, K., (2023): CodeAnno: Extending WebAnno with Hierarchical Document Level Annotation and Automation. The 17th Conference of the European Chapter
