@@ -8,6 +8,13 @@ author_profile: true
 
 <h1 class="bodytext"><b>Projects<a id="Software"></a></b></h1>
 <ul>
+<a href="https://www.hcds.uni-hamburg.de/en/news/20231012-explorecsr-google.html"><img src="https://assets.rrz.uni-hamburg.de/instance_assets/fakmin/35881274/uhh-google-9eb69f0214fd31d1a0dfca21da0ed8520f20a643.png"/></a> <br> <a href="https://www.hcds.uni-hamburg.de/en/news/20231012-explorecsr-google.html">Google exploreCSR Grant - Empowering Female Students in Ethiopian Computing</a> <br>
+  <br><hr>
+
+
+<a href="https://www.hcds.uni-hamburg.de/en/news/20231012-inclusiveai-google.html"><img src="https://assets.rrz.uni-hamburg.de/instance_assets/fakmin/35881274/uhh-google-9eb69f0214fd31d1a0dfca21da0ed8520f20a643.png"/></a> <br> <a href="https://www.hcds.uni-hamburg.de/en/news/20231012-inclusiveai-google.html">Google Award for Inclusive AI Research - AI-driven Monitoring of Attitude Polarization in Conflict-Affected Countries for Inclusive Peace Process and Women's Empowerment. </a> <br>
+  <br><hr>
+  
 <a href="https://www.hcds.uni-hamburg.de/en/news/20220721-project-funding-ideas-risk.html"><img src="/files/ardias.png"/></a> <br> <a href="https://www.hcds.uni-hamburg.de/en/news/20220721-project-funding-ideas-risk.html">AI-Enhanced Research Project Management Discovery and Advisory System </a> <br>
   <br><hr>
 <a href="https://www.hcds.uni-hamburg.de/en/news/20230103-funding-leeds-haburg.html"><img src="/files/saint.png"/></a> <br> <a href="https://www.hcds.uni-hamburg.de/en/news/20230103-funding-leeds-haburg.html">SAINT - Sentiment Analysis INTerpretabilit</a><br>
