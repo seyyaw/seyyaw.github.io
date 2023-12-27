@@ -22,5 +22,5 @@ From January 2020-March 2022, I have been working on multiple research topics in
 
 News
 =====
-* :tada: :tada:  :tada: December 2023 - **Seid Muhie Yimam** has been accepted as a member of the [CODATA International Data Policy Committee (IDPC)](https://codata.org/initiatives/data-policy/international-data-policy-committee/)
-* :tada: :tada:  :tada: October 2023 - **Seid Muhie Yimam** has been granted a Google Research [explorCSR and TensorFlow exploreCSR](https://www.hcds.uni-hamburg.de/en/research/current-projects/google-explore-funding.html) addon grant.
+* 🎉 🎉 🎉 December 2023 - **Seid Muhie Yimam** has been accepted as a member of the [CODATA International Data Policy Committee (IDPC)](https://codata.org/initiatives/data-policy/international-data-policy-committee/)
+* 🎉 🎉 🎉 October 2023 - **Seid Muhie Yimam** has been granted a Google Research [explorCSR and TensorFlow exploreCSR](https://www.hcds.uni-hamburg.de/en/research/current-projects/google-explore-funding.html) addon grant.
