@@ -20,3 +20,7 @@ At HCDS, I will mostly work on leading and consulting research on digital humani
 I have been working as a postdoctoral researcher at [Language Technology Group](https://www.inf.uni-hamburg.de/en/inst/ab/lt/home.html), UHH, since January 2020. I have received my Ph.D. degree from Universität Hamburg, with a specialization in the integration of adaptive machine learning models into annotation tools and NLP applications.
 From January 2020-March 2022, I have been working on multiple research topics including social media NLP (hate speech detection, fake news identification, and sentiment analysis) and low-resource language NLP research, mostly for the Ethiopian language of Amharic that include named entity recognition, semantic models, hate speech detection, and sentiment analysis. He has been teaching NLP courses and supervising Master's projects and thesis in the group.
 
+News
+=====
+* :tada: :tada:  :tada: December 2023 - **Seid Muhie Yimam** has been accepted as a member of the [CODATA International Data Policy Committee (IDPC)](https://codata.org/initiatives/data-policy/international-data-policy-committee/)
+* :tada: :tada:  :tada: October 2023 - **Seid Muhie Yimam** has been granted a Google Research [explorCSR and TensorFlow exploreCSR](https://www.hcds.uni-hamburg.de/en/research/current-projects/google-explore-funding.html) addon grant.
