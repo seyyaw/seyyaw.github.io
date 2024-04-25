@@ -54,7 +54,7 @@ author_profile: true
 <ol>
 <li>
   Atnafu Lambebo Tonja, Israel Abebe Azime, Tadesse Destaw Belay, Mesay Gemeda Yigezu, Moges Ahmed Mehamed, Abinew Ali Ayele, Ebrahim Chekol Jibril, Michael Melese Woldeyohannis, Olga Kolesnikova, Philipp Slusallek, Dietrich Klakow and <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong> (2024): EthioLLM: Multilingual Large Language Models for Ethiopian Languages with Task Evaluation
-</li>
+(<a href="https://arxiv.org/abs/2403.13737>pdf</a>)</li>
 <li>Ayele A.A., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, Belay T.D., Asfaw T. and Biemann C. (2023): Exploring Amharic Hate Speech Data Collection and Classification Approaches, in the 14th Conference RECENT ADVANCES IN NATURAL LANGUAGE PROCESSING, Varna, Bulgaria (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2023-ayele-et-al-hate-ranlp.pdf">pdf</a>)</li>
 <li>Ayele A.A., Dinter S., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong> and Biemann C. (2023): Multilingual Racial Hate Speech Detection Using Transfer Learning, in the 14th Conference RECENT ADVANCES IN NATURAL LANGUAGE PROCESSING, Varna, Bulgaria (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2023-ayele-et-al-hate-ranlp-racial.pdf">pdf</a>)</li>
   
