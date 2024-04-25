@@ -54,7 +54,7 @@ author_profile: true
 </div>
 <ol>
 <li>
-  Atnafu Lambebo Tonja, Israel Abebe Azime, Tadesse Destaw Belay, Mesay Gemeda Yigezu, Moges Ahmed Mehamed, Abinew Ali Ayele, Ebrahim Chekol Jibril, Michael Melese Woldeyohannis, Olga Kolesnikova, Philipp Slusallek, Dietrich Klakow and <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong> (2024): EthioLLM: Multilingual Large Language Models for Ethiopian Languages with Task Evaluation
+  Atnafu Lambebo Tonja, Israel Abebe Azime, Tadesse Destaw Belay, Mesay Gemeda Yigezu, Moges Ahmed Mehamed, Abinew Ali Ayele, Ebrahim Chekol Jibril, Michael Melese Woldeyohannis, Olga Kolesnikova, Philipp Slusallek, Dietrich Klakow and <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong> (2024): EthioLLM: Multilingual Large Language Models for Ethiopian Languages with Task Evaluation, The 2024 Joint International Conference on Computational Linguistics, Language and Evaluation (LREC-COLING 2024, Torino, Italy)
 (<a href="https://arxiv.org/abs/2403.13737">pdf</a>)
 
 </li>
