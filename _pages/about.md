@@ -24,3 +24,4 @@ News
 =====
 * 🎉 🎉 🎉 December 2023 - **Seid Muhie Yimam** has been accepted as a member of the [CODATA International Data Policy Committee (IDPC)](https://codata.org/initiatives/data-policy/international-data-policy-committee/)
 * 🎉 🎉 🎉 October 2023 - **Seid Muhie Yimam** has been granted a Google Research [explorCSR and TensorFlow exploreCSR](https://www.hcds.uni-hamburg.de/en/research/current-projects/google-explore-funding.html) addon grant.
+* 🎉 🎉 🎉 April - May 2022 - **Seid Muhie Yimam** has successfully conducted the **Summer School for Women in AI and Data Sceince" at AASTU: [Summer School for Women in AI and Data Science](https://medium.com/@seidymam/summer-school-for-women-in-ai-and-data-science-a56e847156d9) .
