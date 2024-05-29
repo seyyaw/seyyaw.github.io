@@ -39,7 +39,7 @@ author_profile: true
 <h2>Journal Publications</h2>
 </div>
 <ol>
-<li>Ayalew Kassahun  and <strong><span style="color: #0000ff;">Seid Muhie Yimam</span></strong>and Yonas Seifu Muanenda and  Beshir Melkaw Ali and Seleshi Getahun Yalew(2024): Uncovering the priorities of scientific research on sustainable development goals: A case study in Ethiopia, Sustainable Development, published by ERP Environment and John Wiley &amp; Sons Ltd. 2024;1–26 , DOI: <a href="https://doi.org/10.1002/sd.3020">10.1002/sd.3020</a> (<a href="https://doi.org/10.1002/sd.3020">pdf</a>)</li>
+<li>Ayalew Kassahun  and <strong><span style="color: #0000ff;">Seid Muhie Yimam</span></strong> and Yonas Seifu Muanenda and  Beshir Melkaw Ali and Seleshi Getahun Yalew(2024): Uncovering the priorities of scientific research on sustainable development goals: A case study in Ethiopia, Sustainable Development, published by ERP Environment and John Wiley &amp; Sons Ltd. 2024;1–26 , DOI: <a href="https://doi.org/10.1002/sd.3020">10.1002/sd.3020</a> (<a href="https://doi.org/10.1002/sd.3020">pdf</a>)</li>
   
 <li> Jana, A., Venkatesh, G., <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong>, and Biemann, C., Hypernymy Detection for Low-Resource Languages: A Study for Hindi, Bengali, and Amharic, ACM Transactions on Asian and Low-Resource Language Information Processing (2022). (<a href="https://dl.acm.org/doi/pdf/10.1145/3490389">pdf</a>)</li>
   
