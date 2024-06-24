@@ -55,6 +55,9 @@ author_profile: true
 <h2>Conference Proceedings</h2>
 </div>
 <ol>
+<li>Nedjma Ousidhoum, Shamsuddeen Hassan Muhammad, Mohamed Abdalla, Idris Abdulmumin, Ibrahim Said Ahmad, Sanchit Ahuja, Alham Fikri Aji, Vladimir Araujo, Abinew Ali Ayele, Pavan Baswani, Meriem Beloucif, Chris Biemann, Sofia Bourhim, Christine de Kock, Genet Shanko Dekebo, Oumaima Hourrane, Gopichand Kanumolu, Lokesh Madasu, Samuel Rutunda, Manish Shrivastava, Thamar Solorio, Nirmal Surange, Hailegnaw Getaneh Tilaye, Krishnapriya Vishnubhotla, Genta Indra Winata,  <strong><span style="color: #0000ff;">Seid Muhie Yimam</span></strong>, Saif M. Mohammad (2024): SemRel2024: A Collection of Semantic Textual Relatedness Datasets for 13 Languages. Findings of the Association for Computational Linguistics (ACL 2024), Bangkok Thailand. (<a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2024-ousidhoum-et-al-acl.pdf">pdf</a>)</li>
+
+  
 <li>
   Atnafu Lambebo Tonja, Israel Abebe Azime, Tadesse Destaw Belay, Mesay Gemeda Yigezu, Moges Ahmed Mehamed, Abinew Ali Ayele, Ebrahim Chekol Jibril, Michael Melese Woldeyohannis, Olga Kolesnikova, Philipp Slusallek, Dietrich Klakow and <strong><span style="color: #0000ff;">Yimam, S.M.</span></strong> (2024): EthioLLM: Multilingual Large Language Models for Ethiopian Languages with Task Evaluation, The 2024 Joint International Conference on Computational Linguistics, Language and Evaluation (LREC-COLING 2024, Torino, Italy)
 (<a href="https://arxiv.org/pdf/2403.13737.pdf">pdf</a>)
