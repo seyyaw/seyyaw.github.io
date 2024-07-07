@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Seid Muhie Yimam - ሰይድ ሙሄ ይማም"
 title_separator          : "-"
 name                     : &name "Seid Muhie Yimam"
-description              : &description " Teachnical Lead at the House of Computing and Data Science (HCDS) and Research Associate at Language Technology Research Group, Universität Hamburg"
+description              : &description " Teachnical Lead at the Hub of Computing and Data Science (HCDS) and Research Associate at Language Technology Research Group, Universität Hamburg"
 url                      : https://seyyaw.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "seyyaw.github.io"
@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "Seid Muhie Yimam"
   avatar           : "profile.jpeg"
-  bio              : "Teachnical Lead at the House of Computing and Data Science (HCDS) and Research Associate at Language Technology Research Group, Universität Hamburg"
+  bio              : "Teachnical Lead at the Hub of Computing and Data Science (HCDS) and Research Associate at Language Technology Research Group, Universität Hamburg"
   location         : "Vogt-Kölln-Straße 30 <br> 22527 Hamburg"
   employer         :
   googlescholar    : "https://scholar.google.de/citations?user=rDKEGNgAAAAJ&hl=en"
