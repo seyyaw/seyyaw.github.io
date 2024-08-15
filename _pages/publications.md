@@ -158,5 +158,17 @@ of the Association for Computational Linguistics (EACL 2023), System Demonstrati
   <li>
     <strong><span style="color: #0000ff;">Yimam, S.M</span></strong>, Biemann C.,. (2019): Current Status, Issues, and Future Directions for Ethiopian Natural Language Processing (NLP) Research. International Conference Language Technologies for All (LT4All), Paris, France (<a href="https://seyyaw.github.io/files/Yimametal_2019_lt4all.pdf">pdf</a>)
   </li>
+  <li>
+    <strong><span style="color: #0000ff;">Indaba 2024 -  African Datasets Poster</span></strong> - Sentiment and Hate Speech datasets for more than 14 African languages
+ (<a href="https://seyyaw.github.io/files/DataSet-AfriSenti-AfriHate-Indaba.pdf">pdf</a>)
+  </li>
+    <li>
+    <strong><span style="color: #0000ff;">Indaba 2024 - Publications Poster</span></strong> - AM-DETOX: Analyzing Amharic Text Detoxification Using Pre-trained Large Language Models (<a href="https://seyyaw.github.io/files/Deep_Learning_Indaba_Poster2024.pdf">pdf</a>)
+  </li>
+<li>
+    <strong><span style="color: #0000ff;">Indaba 2024- General Poster</span></strong> - AI4Democracy: Dynamic Dashboard for 
+Analyzing Polarization and Extremism in Online Media (<a href="https://seyyaw.github.io/files/AI4Demo-Indaba-1.pdf">pdf</a>)
+  </li>
+  
   </ol>
 </div>
