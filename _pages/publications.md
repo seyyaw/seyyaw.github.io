@@ -166,9 +166,11 @@ of the Association for Computational Linguistics (EACL 2023), System Demonstrati
     <strong><span style="color: #0000ff;">Indaba 2024 - Publications Poster</span></strong> - AM-DETOX: Analyzing Amharic Text Detoxification Using Pre-trained Large Language Models (<a href="https://seyyaw.github.io/files/Deep_Learning_Indaba_Poster2024.pdf">pdf</a>)
   </li>
 <li>
-    <strong><span style="color: #0000ff;">Indaba 2024- General Poster</span></strong> - AI4Democracy: Dynamic Dashboard for 
+    <strong><span style="color: #0000ff;">Indaba 2024- General Poster-1</span></strong> - AI4Democracy: Dynamic Dashboard for 
 Analyzing Polarization and Extremism in Online Media (<a href="https://seyyaw.github.io/files/AI4Demo-Indaba-1.pdf">pdf</a>)
   </li>
-  
+<li>
+    <strong><span style="color: #0000ff;">Indaba 2024- General Poster-2</span></strong> - SEMEVAL-2025: Bridging the Gap in Text-Based Emotion Detection (<a href="https://seyyaw.github.io/files/Emotion_Shared_Task_poster_Indaba.pdf">pdf</a>)
+  </li>
   </ol>
 </div>
