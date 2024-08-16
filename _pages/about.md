@@ -22,7 +22,7 @@ From January 2020-March 2022, I have been working on multiple research topics in
 
 News
 =====
-* 🎉 🎉 Sep 1 - 7 2024 - **Seid Muhie Yimam** Will attend the [Deep Learning Indaba (DLI)](https://deeplearningindaba.com/2024/) event, iDakar, Senegal from Septe,ber 1-7, 2024. He will present the following works:
+* 🎉 🎉 Sep 1 - 7 2024 - **Seid Muhie Yimam** will attend the [Deep Learning Indaba (DLI)](https://deeplearningindaba.com/2024/) event, in Dakar, Senegal from September 1-7, 2024. He will present the following works:
    1. <a href="https://seyyaw.github.io/files/Deep_Learning_Indaba_Poster2024.pdf">AM-DETOX: Analyzing Amharic Text Detoxification Using Pre-trained Large Language Models</a>,
    1.  <a href="https://seyyaw.github.io/files/DataSet-AfriSenti-AfriHate-Indaba.pdf">Sentiment and Hate Speech datasets for more than 14 African languages</a>,
    1. <a href="https://seyyaw.github.io/files/AI4Demo-Indaba-1.pdf">AI4Democracy: Dynamic Dashboard for 
