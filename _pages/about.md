@@ -23,11 +23,11 @@ From January 2020-March 2022, I have been working on multiple research topics in
 News
 =====
 * 🫱🏼‍🫲🏻 🫱🏼‍🫲🏻 Sep 1 - 7 2024 - **Seid Muhie Yimam** will attend the [Deep Learning Indaba (DLI)](https://deeplearningindaba.com/2024/) event, in Dakar, Senegal from September 1-7, 2024. He will present the following works:
-   1. 🧑‍🏫 🧑‍🏫 <a href="https://seyyaw.github.io/files/Deep_Learning_Indaba_Poster2024.pdf">AM-DETOX: Analyzing Amharic Text Detoxification Using Pre-trained Large Language Models</a>,
-   1.  🧑‍🏫 🧑‍🏫 <a href="https://seyyaw.github.io/files/DataSet-AfriSenti-AfriHate-Indaba.pdf">Sentiment and Hate Speech datasets for more than 14 African languages</a>,
-   1. 🧑‍🏫 🧑‍🏫 <a href="https://seyyaw.github.io/files/AI4Demo-Indaba-1.pdf">AI4Democracy: Dynamic Dashboard for 
+   1. 🧑‍🏫 <a href="https://seyyaw.github.io/files/Deep_Learning_Indaba_Poster2024.pdf">AM-DETOX: Analyzing Amharic Text Detoxification Using Pre-trained Large Language Models</a>,
+   1.  🧑‍🏫 <a href="https://seyyaw.github.io/files/DataSet-AfriSenti-AfriHate-Indaba.pdf">Sentiment and Hate Speech datasets for more than 14 African languages</a>,
+   1. 🧑‍🏫 <a href="https://seyyaw.github.io/files/AI4Demo-Indaba-1.pdf">AI4Democracy: Dynamic Dashboard for 
 Analyzing Polarization and Extremism in Online Media</a>,
-   1. 🧑‍🏫 🧑‍🏫 and <a href="https://seyyaw.github.io/files/Emotion_Shared_Task_poster_Indaba.pdf">SEMEVAL-2025: Bridging the Gap in Text-Based Emotion Detection </a>
+   1. 🧑‍🏫 and <a href="https://seyyaw.github.io/files/Emotion_Shared_Task_poster_Indaba.pdf">SEMEVAL-2025: Bridging the Gap in Text-Based Emotion Detection </a>
 * 🎉 🎉 🎉 April - May 2024 - **Seid Muhie Yimam** has successfully conducted the **Summer School for Women in AI and Data Sceince** at AASTU: [Summer School for Women in AI and Data Science](https://medium.com/@seidymam/summer-school-for-women-in-ai-and-data-science-a56e847156d9).
 * 🎉 🎉 🎉 December 2023 - **Seid Muhie Yimam** has been accepted as a member of the [CODATA International Data Policy Committee (IDPC)](https://codata.org/initiatives/data-policy/international-data-policy-committee/)
 * 🎉 🎉 🎉 October 2023 - **Seid Muhie Yimam** has been granted a Google Research [explorCSR and TensorFlow exploreCSR](https://www.hcds.uni-hamburg.de/en/research/current-projects/google-explore-funding.html) addon grant.
