@@ -8,7 +8,7 @@ date: 2024-12-26
 location: "Wollo University, Kombolcha"
 ---
 
-# Seminar content
+Seminar content
 
  * Kickstart Your Journey: Introduction to Open-Source Software
  * Expand Your Horizon: Explore Open Source Data, Code, Models, and More
