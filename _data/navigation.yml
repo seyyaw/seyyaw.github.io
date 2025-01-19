@@ -13,8 +13,8 @@ main:
     url: /teaching/
 
 
-  - title: "Supervision"
-    url: /X_supervision/
+#  - title: "Supervision"
+#    url: /supervision/
     
   - title: "Work Exprience"
     url: /workexprience/       
