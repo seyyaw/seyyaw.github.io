@@ -17,7 +17,7 @@ author_profile: true
   </ol>
   
   <div>
-    <h2>MA Thesis Supervision and Review</h2>
+    <h2>MA Thesis Supervision</h2>
   </div>
   <ol>
     <li><strong>Hina Samreen</strong>, 2025: <span style="color: #0000ff;">Comprehensive Overview of Sentiment Analysis for German Language Texts: Data Collection, Model Development, Interpretability, and Evaluation</span></li>
@@ -42,7 +42,7 @@ author_profile: true
   </div>
   <ol>
     <li><strong>Sebastian Rühmann</strong>, 2024: <span style="color: #0000ff;">Working towards shared-bike availability: an interpretable bikesharing demand prediction with Temporal Fusion Transformer</span></li>
-    <li><strong>Status Values</strong>, 2024: <span style="color: #0000ff;">Detection of Charge Operation Patterns through Clustering of Open Charge Operation Protocol</span></li>
+    <li><strong>Valentin Strauß</strong>, 2024: <span style="color: #0000ff;">Detection of Charge Operation Patterns through Clustering of Open Charge Operation Protocol</span></li>
     <li><strong>Dmitrii Milovanov</strong>, 2023: <span style="color: #0000ff;">Intelligent Acquisition and Analysis of Urban Actors' Data for the Promotion of Urban Mobility on the Example of Hamburg's District Assemblies</span></li>
     <li><strong>Jelle Prins</strong>, 2022: <span style="color: #0000ff;">Using Natural Language Processing Techniques to Simplify Software User Interfaces of Farm Management Information Systems The case of Poultry Connect</span></li>
   </ol>
