@@ -12,6 +12,10 @@ main:
   - title: "Teaching"
     url: /teaching/
 
+
+  - title: "Supervision"
+    url: /supervision/
+    
   - title: "Work Exprience"
     url: /workexprience/       
 
