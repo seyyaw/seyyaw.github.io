@@ -17,7 +17,7 @@ author_profile: true
   </ol>
   
   <div>
-    <h2>MA Thesis Supervision</h2>
+    <h2>MA Thesis Supervision and Review</h2>
   </div>
   <ol>
     <li><strong>Hina Samreen</strong>, 2025: <span style="color: #0000ff;">Comprehensive Overview of Sentiment Analysis for German Language Texts: Data Collection, Model Development, Interpretability, and Evaluation</span></li>
