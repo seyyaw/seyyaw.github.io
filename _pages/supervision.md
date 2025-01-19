@@ -30,6 +30,7 @@ author_profile: true
     <li><strong>Skadi Jule Dinter</strong>, 2022: <span style="color: #0000ff;">Report on the master thesis: Multilingual Racial Hate Speech Detection: Annotation and Experimentation</span></li>
     <li><strong>Soniya Vijayakumar</strong>, 2022: <span style="color: #0000ff;">Fake News Detection with Journalists-in-the-Loop</span></li>
     <li><strong>Hizkiel Bekele</strong>, 2021: <span style="color: #0000ff;">Sentiment Analysis Research for Amharic using Twitter Dataset</span></li>
+    <li><strong>Tadese Destaw Belay</strong>, 2020: <span style="color: #0000ff;">Impacts of Text Normalization on Semantic Models for Languages Written in Fidel Script</span></li>
     <li><strong>Steffen Stahlhacke</strong>, 2020: <span style="color: #0000ff;">Study and Creation of Datasets for Comparative Question Classification</span></li>
     <li><strong>Valentin Strauß</strong>, 2020: <span style="color: #0000ff;">Using data augmentation to improve speech recognition for low resourced languages - Amharic</span></li>
     <li><strong>Karaoguz, Ethem Can</strong>, 2018: <span style="color: #0000ff;">Adaptive Learning Strategies for Neural Paraphrase Generation</span></li>
