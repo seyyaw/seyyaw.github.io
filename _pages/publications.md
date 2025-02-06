@@ -55,6 +55,16 @@ author_profile: true
 <h2>Conference Proceedings</h2>
 </div>
 <ol>
+  <li>
+    T. D. Belay, I. A. Azime, A. A. Ayele, G. Sidorov, D. Klakow, P. Slusallek, O. Kolesnikova, <strong><span style="color: #0000ff;">Yimam, S. M.</span></strong> (2025): Evaluating the Capabilities of Large Language Models for Multi-label Emotion Understanding. In Proceedings of the 31st International Conference on Computational Linguistics: 3523-3540, 18 S., Abu Dhabi, UAE: Association for Computational Linguistics.
+</li>
+<li>
+    D. Dementieva, N. Babakov, A. Ronen, A. A. Ayele, N. Rizwan, F. Schneider, X. Wang, <strong><span style="color: #0000ff;">Yimam, S. M.</span></strong>, D. A. Moskovskiy, E. Stakovskii, E. Kaufman, A. Elnagar, A. Mukherjee, A. Panchenko (2025): Multilingual and Explainable Text Detoxification with Parallel Corpora. In Proceedings of the 31st International Conference on Computational Linguistics: 7998-8025, 28 S., Abu Dhabi, UAE: Association for Computational Linguistics.
+</li>
+  <li>
+    Junho Myung, Nayeon Lee, Yi Zhou, Jiho Jin, Rifki Afina Putri, Dimosthenis Antypas, Hsuvas Borkakoty, Eunsu Kim, Carla Perez-Almendros, Abinew Ali Ayele, Victor Gutierrez Basulto, Yazmin Ibanez-Garcia, Hwaran Lee, Shamsuddeen Hassan Muhammad, Kiwoong Park, Anar Sabuhi Rzayev, Nina White, <strong><span style="color: #0000ff;">Seid Muhie Yimam</span></strong>, Mohammad Taher Pilehvar, Nedjma Ousidhoum, et al. (2 additional authors not shown) (2024): BLEnD: A Benchmark for LLMs on Everyday Knowledge in Diverse Cultures and Languages. NeurIPS 2024 Track Datasets and Benchmarks Poster. (Published: 26 Sept 2024, Last Modified: 16 Jan 2025). [<a href="your-link-here">Download PDF</a>]
+</li>
+  
     <li>
         Sewunetie, W., Beza, A., Abebe, H., Abuhay, T. M., Admass, W., Hassen, H., Haile, T., Hailemariam, H., Debebe, L., Moges, N., Bekele, N., Tilahun, S. L., Berta, M., Mammo, M., <strong><span style="color: #0000ff;">Yimam, S. M.</span></strong>, and Laszlo, K. (2024): Large Language Models for Sexual, Reproductive, and Maternal Health Rights. 2024 IEEE 12th International Conference on Healthcare Informatics (ICHI). (<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=10628707&amp;tag=1">pdf</a>)
     </li>
