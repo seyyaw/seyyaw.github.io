@@ -14,7 +14,7 @@ author_profile: true
     INNOVETH: Innovative Health Intervention for Ethiopian Migrant Domestic Workers in the Middle East
   </a>
   <br>
-  <small><b>2025–2029 &nbsp;|&nbsp; 1.5 million € &nbsp;|&nbsp; Role: Collaborator, representing House of Computing and Data Science (HCDS), Universität Hamburg.</b></small>
+  <small><b>2025–2029 &nbsp;|&nbsp; 1.5 million € &nbsp;|&nbsp; Role: Collaborator, representing Hub of Computing and Data Science (HCDS), Universität Hamburg.</b></small>
   <br>
   <em>
     International, multi-partner project dedicated to improving the mental, sexual, and reproductive health of Ethiopian migrant domestic workers in the Middle East. Utilizes mobile tech, data analytics, and participatory approaches for impactful, evidence-based health interventions.
