@@ -9,7 +9,7 @@ author_profile: true
 <h1 class="bodytext"><b>Projects<a id="Software"></a></b></h1>
 <ul>
 
- <a href="https://innoveth.org/"><img src="/files/innoveth-logo.png" alt="INNOVETH logo" style="max-width:120px;"/></a> <br>
+ <a href="https://innoveth.org/"><img src="https://innoveth.org/wp-content/uploads/2025/09/cropped-logo_innoveth-removebg-preview.png" alt="INNOVETH logo" style="max-width:120px;"/></a> <br>
   <a href="https://innoveth.org/">
     INNOVETH: Innovative Health Intervention for Ethiopian Migrant Domestic Workers in the Middle East
   </a>
