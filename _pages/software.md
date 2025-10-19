@@ -8,6 +8,22 @@ author_profile: true
 
 <h1 class="bodytext"><b>Projects<a id="Software"></a></b></h1>
 <ul>
+
+ <a href="https://innoveth.org/"><img src="/files/innoveth-logo.png" alt="INNOVETH logo" style="max-width:120px;"/></a> <br>
+  <a href="https://innoveth.org/">
+    INNOVETH: Innovative Health Intervention for Ethiopian Migrant Domestic Workers in the Middle East
+  </a>
+  <br>
+  <small><b>2025–2029 &nbsp;|&nbsp; 1.5 million € &nbsp;|&nbsp; Role: Collaborator, representing House of Computing and Data Science (HCDS), Universität Hamburg.</b></small>
+  <br>
+  <em>
+    International, multi-partner project dedicated to improving the mental, sexual, and reproductive health of Ethiopian migrant domestic workers in the Middle East. Utilizes mobile tech, data analytics, and participatory approaches for impactful, evidence-based health interventions.
+  </em>
+  <br>
+  <hr>
+
+  
+  
 <a href="https://www.hcds.uni-hamburg.de/en/news/20231012-explorecsr-google.html"><img src="https://assets.rrz.uni-hamburg.de/instance_assets/fakmin/35881274/uhh-google-9eb69f0214fd31d1a0dfca21da0ed8520f20a643.png"/></a> <br> <a href="https://www.hcds.uni-hamburg.de/en/news/20231012-explorecsr-google.html">Google exploreCSR Grant - Empowering Female Students in Ethiopian Computing</a> <br>
   <br><hr>
 
