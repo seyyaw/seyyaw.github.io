@@ -2,7 +2,6 @@
 title: "Open Data Collection Playbook and Annotation for African Languages"
 collection: invited
 type: "Birds-of-a-Feather Session"
-permalink: /talks/AfricaNLP_BoF.pdf
 venue: "EACL 2026 – Birds-of-a-Feather Program"
 date: 2026-03-26
 location: "Rabat, Morocco"
