@@ -2,7 +2,6 @@
 title: "Lessons from African Low-Resource NLP for Humanities Research"
 collection: invited
 type: "Keynote"
-permalink: /talks/BIFOLD.pdf
 venue: "BIFOLD: AI-based Methods for the Humanities"
 date: 2025-09-24
 location: "Einstein Center Digital Future (ECDF), Wilhelmstraße 67, 10117 Berlin"
