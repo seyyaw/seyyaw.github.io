@@ -10,6 +10,7 @@ author_profile: true
 
 <div class="listing-projects">
 
+{% comment %} Hidden for now; remove the comment tags to list these again.
   <div class="listing-project">
     <div class="listing-project-body">
       <h3 class="listing-project-title">
@@ -42,6 +43,7 @@ author_profile: true
       </p>
     </div>
   </div>
+{% endcomment %}
 
   <div class="listing-project">
     <div class="listing-project-logo">

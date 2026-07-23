@@ -279,7 +279,7 @@ $listing-line: #e3e8ee;
   list-style: none;
   margin: 0;
   padding: 0 0 0 1.4em;
-  border-left: 2px solid $listing-line;
+  border-left: 1px solid $listing-line;
 }
 
 .listing-timeline > li {
@@ -302,7 +302,7 @@ $listing-line: #e3e8ee;
     margin-left: -5.5px;
     border-radius: 50%;
     background: #fff;
-    border: 2px solid $listing-accent;
+    border: 1px solid $listing-accent;
   }
 }
 

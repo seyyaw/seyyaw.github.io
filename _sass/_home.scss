@@ -162,7 +162,7 @@ $home-line: #e3e8ee;
     padding: 1.2em 1.35em 1.25em;
     background: #f6f9fc;
     border: 1px solid $home-line;
-    border-top: 3px solid $home-accent;
+    border-top: 2px solid $home-accent;
     border-radius: 0;
   }
 
@@ -171,22 +171,22 @@ $home-line: #e3e8ee;
      Order follows the cards in about.md. */
   .home-card:nth-child(1) {
     background: #f1f7fd;
-    border-top-color: #2a78d6;
+    border-top-color: #7fb0e8;
   }
 
   .home-card:nth-child(2) {
     background: #eefaf5;
-    border-top-color: #1baf7a;
+    border-top-color: #74cfae;
   }
 
   .home-card:nth-child(3) {
     background: #f4f2fc;
-    border-top-color: #4a3aa7;
+    border-top-color: #9a8fe0;
   }
 
   .home-card:nth-child(4) {
     background: #fdf5f0;
-    border-top-color: #d95926;
+    border-top-color: #eaa07c;
   }
 
   .home-card__title {
@@ -224,7 +224,7 @@ $home-line: #e3e8ee;
     margin-bottom: 0.6em;
     background: #f4f9f6;
     border: 1px solid $home-line;
-    border-left: 3px solid #199e70;
+    border-left: 2px solid #199e70;
   }
 
   .home-announce__icon {
@@ -278,7 +278,7 @@ $home-line: #e3e8ee;
     list-style: none;
     margin: 0;
     padding: 0 0 0 1.6em;
-    border-left: 2px solid $home-line;
+    border-left: 1px solid $home-line;
   }
 
   .home-news__item {
