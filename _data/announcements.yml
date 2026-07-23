@@ -1,0 +1,34 @@
+# Upcoming events shown in the "Announcements" block on the homepage.
+#
+# Each entry moves into the News list by itself once `end_date` has passed --
+# there is nothing to edit on the day. Note that the move happens the next time
+# the site is BUILT, so a scheduled rebuild (or any push) is what makes it
+# appear; see .github/workflows/rebuild.yml.
+#
+#   date      : first day of the event (used for ordering)
+#   end_date  : last day; after this the entry is treated as past
+#   icon      : single emoji shown as the marker
+#   past_text : optional wording used once it has moved to News
+
+- title: "Data, Culture, and Community — Interactive Exhibition of the AfricaNLP Playbook and Annotation Tool"
+  url: "https://inworkshops.github.io/afriplaybookntool/"
+  event: "Deep Learning Indaba 2026"
+  location: "Pan-Atlantic University, Lagos, Nigeria"
+  date: 2026-08-02
+  end_date: 2026-08-07
+  icon: "🧑‍🏫"
+  description: >-
+    An interactive exhibition of the AfricaNLP Playbook and the AfriAnnotate
+    annotation tool, covering how African-language datasets are designed,
+    annotated and released by and with the community.
+
+- title: "AfriPolar — Reflective Talk on Polarization Research"
+  url: "https://inworkshops.github.io/afripolar/"
+  event: "Deep Learning Indaba 2026"
+  location: "Pan-Atlantic University, Lagos, Nigeria"
+  date: 2026-08-02
+  end_date: 2026-08-07
+  icon: "🌍"
+  description: >-
+    A reflective talk on polarization research for African languages, drawing on
+    the POLAR benchmark and the AI Map project.

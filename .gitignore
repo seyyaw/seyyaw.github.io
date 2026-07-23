@@ -1,2 +1,8 @@
 _site/
-
+vendor/
+.bundle/
+Gemfile.lock
+node_modules/
+.claude/
+__pycache__/
+*.pyc

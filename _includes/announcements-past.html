@@ -1,0 +1,28 @@
+{%- comment -%}
+Announcements whose end_date has passed, rendered as News items so they slot
+into the top of the existing hand-written News list. Newest first.
+{%- endcomment -%}
+
+{%- assign now = site.time | date: '%s' | plus: 0 -%}
+{%- assign past = '' | split: '' -%}
+{%- for a in site.data.announcements -%}
+  {%- assign ends = a.end_date | default: a.date | date: '%s' | plus: 86399 -%}
+  {%- if ends < now -%}
+    {%- assign past = past | push: a -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign sorted = past | sort: 'date' | reverse -%}
+{%- for a in sorted %}
+  <li class="home-news__item">
+    <span class="home-news__icon">{{ a.icon | default: '📣' }}</span>
+    <span class="home-news__date">{{ a.date | date: '%B %Y' }}</span>
+    <span class="home-news__body">
+      <strong>Seid Muhie Yimam</strong> {{ a.past_text | default: 'took part in' }}
+      <a href="{{ a.url }}">{{ a.title }}</a>
+      {%- if a.event %} at {{ a.event }}{% endif %}
+      {%- if a.location %}, {{ a.location }}{% endif -%}.
+      {%- if a.description %} {{ a.description }}{% endif -%}
+    </span>
+  </li>
+{%- endfor -%}

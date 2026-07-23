@@ -1,0 +1,361 @@
+/* ==========================================================================
+   Listing pages (Talks, Teaching, Projects/Software, Work Experience)
+   Prefix: .listing-
+   NOTE: authored for Ruby Sass 3.4 — no @use / @forward / math.div.
+   ========================================================================== */
+
+$listing-accent: #0b5fa5;
+$listing-accent-soft: #e8f1fa;
+$listing-ink: #1f2933;
+$listing-muted: #6b7684;
+$listing-line: #e3e8ee;
+
+/* ---------- shared ---------- */
+
+.listing-section {
+  margin: 0 0 2.5em;
+}
+
+.listing-section-title {
+  font-size: 1.15em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $listing-ink;
+  margin: 0 0 0.9em;
+  padding-bottom: 0.35em;
+  border-bottom: 1px solid $listing-line;
+}
+
+.listing-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.listing-list > li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.listing-badge {
+  display: inline-block;
+  font-size: 0.68em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 1.4;
+  padding: 0.25em 0.7em;
+  border-radius: 999px;
+  color: $listing-accent;
+  background: $listing-accent-soft;
+  border: 1px solid rgba(11, 95, 165, 0.15);
+  white-space: nowrap;
+}
+
+.listing-badge--alt {
+  color: $listing-muted;
+  background: #f4f6f8;
+  border-color: $listing-line;
+}
+
+.listing-meta {
+  font-size: 0.82em;
+  color: $listing-muted;
+  line-height: 1.6;
+  margin: 0.35em 0 0;
+}
+
+.listing-meta-sep {
+  color: $listing-line;
+  padding: 0 0.35em;
+}
+
+/* ---------- year grouping (talks) ---------- */
+
+.listing-year {
+  display: flex;
+  align-items: baseline;
+  font-size: 1.05em;
+  font-weight: 700;
+  color: $listing-accent;
+  letter-spacing: 0.06em;
+  margin: 2em 0 1em;
+
+  &:first-child {
+    margin-top: 0.5em;
+  }
+
+  &:after {
+    content: "";
+    flex: 1 1 auto;
+    height: 1px;
+    background: $listing-line;
+    margin-left: 0.8em;
+  }
+}
+
+/* ---------- card ---------- */
+
+/* Entries are separated by a hairline rule rather than boxed individually. */
+.listing-card {
+  position: relative;
+  padding: 0.9em 0;
+  margin: 0;
+  border-bottom: 1px solid $listing-line;
+
+  &:last-child { border-bottom: 0; }
+}
+
+.listing-card-title {
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1.45;
+  color: $listing-ink;
+  margin: 0.35em 0 0;
+
+  a {
+    color: $listing-ink;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+
+    &:hover,
+    &:focus {
+      color: $listing-accent;
+      border-bottom-color: rgba(11, 95, 165, 0.4);
+    }
+  }
+}
+
+.listing-card-desc {
+  font-size: 0.88em;
+  line-height: 1.65;
+  color: $listing-ink;
+  margin: 0.5em 0 0;
+}
+
+.listing-card-links {
+  margin: 0.6em 0 0;
+  font-size: 0.85em;
+
+  a {
+    color: $listing-accent;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* ---------- compact row (teaching, software, demos) ---------- */
+
+.listing-row {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  padding: 0.7em 0.1em;
+  border-bottom: 1px solid $listing-line;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  &:hover .listing-row-title a {
+    color: $listing-accent;
+  }
+}
+
+.listing-row-term {
+  flex: 0 0 7.5em;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: $listing-accent;
+  text-transform: uppercase;
+  padding-top: 0.15em;
+}
+
+.listing-row-body {
+  flex: 1 1 16em;
+  min-width: 0;
+}
+
+.listing-row-title {
+  font-size: 0.98em;
+  line-height: 1.5;
+  color: $listing-ink;
+
+  a {
+    color: $listing-ink;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(11, 95, 165, 0.25);
+
+    &:hover,
+    &:focus {
+      color: $listing-accent;
+      border-bottom-color: $listing-accent;
+    }
+  }
+}
+
+.listing-row-role {
+  display: block;
+  font-size: 0.8em;
+  color: $listing-muted;
+  margin-top: 0.15em;
+}
+
+/* ---------- project cards (software.md) ---------- */
+
+.listing-projects {
+  display: block;
+}
+
+.listing-project {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.3em;
+  padding: 1.35em 0;
+  margin: 0;
+  border-bottom: 1px solid $listing-line;
+
+  &:last-child { border-bottom: 0; }
+}
+
+.listing-project-logo {
+  flex: 0 0 110px;
+  max-width: 110px;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 70px;
+    object-fit: contain;
+  }
+}
+
+.listing-project-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.listing-project-title {
+  font-size: 1.02em;
+  font-weight: 600;
+  line-height: 1.45;
+  margin: 0;
+
+  a {
+    color: $listing-ink;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: $listing-accent;
+    }
+  }
+}
+
+.listing-project-meta {
+  font-size: 0.8em;
+  color: $listing-muted;
+  margin: 0.4em 0 0;
+  line-height: 1.6;
+}
+
+.listing-project-desc {
+  font-size: 0.88em;
+  line-height: 1.65;
+  color: $listing-ink;
+  margin: 0.55em 0 0;
+}
+
+/* ---------- timeline (work experience) ---------- */
+
+.listing-timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 1.4em;
+  border-left: 2px solid $listing-line;
+}
+
+.listing-timeline > li {
+  list-style: none;
+  position: relative;
+  margin: 0 0 1.35em;
+  padding: 0;
+
+  &:last-child {
+    margin-bottom: 0.4em;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: -1.4em;
+    top: 0.45em;
+    width: 9px;
+    height: 9px;
+    margin-left: -5.5px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid $listing-accent;
+  }
+}
+
+.listing-timeline-role {
+  display: block;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1.45;
+  color: $listing-ink;
+}
+
+.listing-timeline-org {
+  display: block;
+  font-size: 0.88em;
+  color: $listing-muted;
+  margin-top: 0.1em;
+}
+
+.listing-timeline-when {
+  display: inline-block;
+  font-size: 0.74em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $listing-accent;
+  background: $listing-accent-soft;
+  border-radius: 999px;
+  padding: 0.2em 0.65em;
+  margin-top: 0.4em;
+}
+
+/* ---------- responsive ---------- */
+
+@media screen and (max-width: 600px) {
+  .listing-project {
+    display: block;
+  }
+
+  .listing-project-logo {
+    max-width: 96px;
+    margin: 0 0 0.75em;
+  }
+
+  .listing-row {
+    display: block;
+  }
+
+  .listing-row-term {
+    display: block;
+    margin-bottom: 0.15em;
+  }
+
+  .listing-card {
+    padding: 0.9em;
+  }
+}

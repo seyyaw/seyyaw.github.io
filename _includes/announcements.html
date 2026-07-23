@@ -1,0 +1,41 @@
+{%- comment -%}
+Upcoming events, read from _data/announcements.yml.
+
+An entry stays here until its `end_date` has passed, after which the same data
+renders in the News list instead (see _includes/announcements-past.html). The
+comparison uses epoch seconds because Liquid has no date comparison operator.
+{%- endcomment -%}
+
+{%- assign now = site.time | date: '%s' | plus: 0 -%}
+{%- assign upcoming = '' | split: '' -%}
+{%- for a in site.data.announcements -%}
+  {%- assign ends = a.end_date | default: a.date | date: '%s' | plus: 86399 -%}
+  {%- if ends >= now -%}
+    {%- assign upcoming = upcoming | push: a -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if upcoming.size > 0 -%}
+<div class="home-announce-wrap">
+  <ul class="home-announce">
+    {%- assign sorted = upcoming | sort: 'date' -%}
+    {%- for a in sorted %}
+    <li class="home-announce__item">
+      <span class="home-announce__icon">{{ a.icon | default: '📣' }}</span>
+      <span class="home-announce__date">
+        {%- if a.end_date and a.end_date != a.date -%}
+          {{ a.date | date: '%-d' }}–{{ a.end_date | date: '%-d %b %Y' }}
+        {%- else -%}
+          {{ a.date | date: '%-d %b %Y' }}
+        {%- endif -%}
+      </span>
+      <span class="home-announce__body">
+        <a class="home-announce__title" href="{{ a.url }}">{{ a.title }}</a>
+        {%- if a.event %}<span class="home-announce__event">{{ a.event }}{% if a.location %} · {{ a.location }}{% endif %}</span>{% endif -%}
+        {%- if a.description %}<span class="home-announce__desc">{{ a.description }}</span>{% endif -%}
+      </span>
+    </li>
+    {%- endfor %}
+  </ul>
+</div>
+{%- endif -%}

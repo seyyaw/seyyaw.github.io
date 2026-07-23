@@ -10,9 +10,22 @@ layout: compress
     {% include head.html %}
     {% include head/custom.html %}
     {% seo %}
+    <script>
+      /* Apply the saved colour scheme before first paint so the page never
+         flashes light before switching to dark. Light is the default: dark is
+         used only when explicitly chosen. */
+      (function () {
+        try {
+          var t = localStorage.getItem('theme');
+          if (t === 'dark' || t === 'light') {
+            document.documentElement.setAttribute('data-theme', t);
+          }
+        } catch (e) {}
+      })();
+    </script>
   </head>
 
-  <body>
+  <body class="{% if page.permalink == '/' %}is-home{% endif %}">
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}

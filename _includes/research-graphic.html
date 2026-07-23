@@ -1,0 +1,398 @@
+{%- comment -%}
+Research-topic network for the homepage.
+
+Reads _data/publications.yml and renders a radial graph: a central hub, an inner
+ring of broad themes, and an outer ring of specific topics linked to their theme.
+Link thickness encodes the number of publications on that branch; counts are not
+printed. Selecting a theme or topic lists the matching papers below the graph.
+{%- endcomment -%}
+
+<section class="viz" id="research-viz" aria-labelledby="viz-title">
+  <h2 class="viz-title" id="viz-title">Research at a glance</h2>
+  <p class="viz-sub">
+    If you would like to explore all my
+    <a href="/publications/">{{ site.data.publications | size }} publications</a>
+    clustered by topic, click any of the topics in the diagram below.
+  </p>
+
+  <div class="viz-panel viz-panel--wide">
+    <div class="viz-tree" id="viz-tree"></div>
+  </div>
+
+  <div class="viz-results" id="viz-results" hidden>
+    <div class="viz-results__head">
+      <h3 class="viz-results__title" id="viz-results-title"></h3>
+      <button type="button" class="viz-close" id="viz-close" aria-label="Close list">Close</button>
+    </div>
+    <ul class="viz-results__list" id="viz-results-list"></ul>
+  </div>
+</section>
+
+<script id="viz-data" type="application/json">{{ site.data.publications | jsonify }}</script>
+
+<script>
+(function () {
+  var node = document.getElementById('viz-data');
+  if (!node) return;
+
+  var pubs;
+  try { pubs = JSON.parse(node.textContent); } catch (e) { return; }
+  if (!pubs || !pubs.length) return;
+
+  // Two levels: broad themes (the limbs) and the specific topics that fork off
+  // them (the branches). Matching is keyword-based, so a paper can sit on more
+  // than one branch.
+  var THEMES = [
+    ['Languages & translation', [
+      ['Amharic NLP',             /amharic/i],
+      ['Ethiopian languages',     /ethiop|tigrinya|oromo|ge.?ez|afaan|walia|ethiollm/i],
+      ['African NLP',             /african|afri(?!annot)|masakha|swahili|hausa|yoruba|igbo|kinyarwanda/i],
+      ['Machine translation',     /translation|\bmt\b/i],
+      ['Language identification', /language identification|\blid\b|commonlid/i]
+    ]],
+    ['Harmful content', [
+      ['Hate speech',             /hate|hatexplain|afrihate/i],
+      ['Offensive language',      /offensive|abusive|aggress|cyberbull/i],
+      ['Text detoxification',     /detox|toxic/i],
+      ['Online polarization',     /polariz|polar\b|extremis/i],
+      ['Fact checking',           /fact.check|averitec|claim/i]
+    ]],
+    ['Meaning & affect', [
+      ['Sentiment analysis',      /sentiment|afrisenti/i],
+      ['Emotion detection',       /emotion|culemo/i],
+      ['Semantic models',         /semantic|embedding|word sense|hypernym|sense clust/i],
+      ['Text simplification',     /simplif|complex word|readability|paraphras/i],
+      ['Question answering',      /question answering|\bqa\b|factoid/i]
+    ]],
+    ['Resources & tools', [
+      ['Annotation tools',        /annotat|webanno|activeanno|codeanno|inception/i],
+      ['Datasets & benchmarks',   /dataset|benchmark|corpus|collection|resource/i],
+      ['Shared tasks',            /semeval|shared task|task \d|overview of/i],
+      ['Information extraction',  /information extraction|new\/?s\/?leak|entity|named entity|\bner\b/i]
+    ]],
+    ['Models & applications', [
+      ['Large language models',   /\bllm|large language model|llama|gpt|instruct/i],
+      ['Speech & multimodal',     /speech recognition|\basr\b|multimodal|multi-modal|meme|vision/i],
+      ['Explainability',          /explain|interpretab|saint|pruning literals/i],
+      ['Health & medical NLP',    /health|medical|biomedical|maternal|radiolog|clinical/i]
+    ]]
+  ];
+
+  var MATCH = {};
+  THEMES.forEach(function (th) {
+    th[1].forEach(function (leaf) { MATCH[leaf[0]] = leaf[1]; });
+  });
+
+  function topicsOf(p) {
+    var t = p.title || '', out = [];
+    for (var k in MATCH) { if (MATCH[k].test(t)) out.push(k); }
+    return out;
+  }
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  var THEME_TOPICS = {};
+  var counts = {};
+  pubs.forEach(function (p) {
+    topicsOf(p).forEach(function (t) { counts[t] = (counts[t] || 0) + 1; });
+  });
+
+  /* ---- radial network ----
+     NLP sits at the hub; themes form an inner ring and the specific topics an
+     outer one. Laid out on an ellipse rather than a circle so the wide labels
+     have somewhere to go. Link thickness scales with the amount of work. */
+  function renderNetwork(el) {
+    var W = 1900, H = 1180;
+    var cx = W / 2, cy = H / 2;
+    var R1X = 252, R1Y = 205;   // theme ring
+    var R2X = 470, R2Y = 410;   // topic ring
+    var LABEL_GAP = 48;         // scales with the label font size
+
+    // One hue per theme, inherited by all of its topics. Validated as a
+    // categorical set (CVD-safe, >=3:1 on white); every node is also text
+    // labelled, so colour never carries meaning on its own.
+    // [light, light-hover, dark, dark-hover] per theme. The dark set is the
+    // validated dark-surface stepping, ordered magenta-first; both orderings
+    // pass the categorical checks (lightness band, chroma, CVD separation,
+    // >=3:1 on their own surface).
+    var HUES = [
+      ['#2a78d6', '#1c5cab', '#d55181', '#e87ba4'],
+      ['#c9403f', '#9e2c2b', '#3987e5', '#6da7ec'],
+      ['#199e70', '#127954', '#d95926', '#eb6834'],
+      ['#5b4bc4', '#3f3391', '#199e70', '#1baf7a'],
+      ['#d95926', '#ab431c', '#9085e9', '#b3a9f0']
+    ];
+
+    function pt(a, rx, ry) {
+      return [cx + rx * Math.sin(a), cy - ry * Math.cos(a)];
+    }
+
+    var themes = THEMES.map(function (th) {
+      var leaves = th[1].map(function (l) {
+        return { name: l[0], n: counts[l[0]] || 0 };
+      }).filter(function (l) { return l.n > 0; });
+      return {
+        name: th[0],
+        leaves: leaves,
+        total: leaves.reduce(function (s, l) { return s + l.n; }, 0)
+      };
+    }).filter(function (t) { return t.leaves.length; });
+
+    if (!themes.length) return;
+
+    var totalLeaves = themes.reduce(function (s, t) { return s + t.leaves.length; }, 0);
+    var allLeaf = themes.reduce(function (a, t) { return a.concat(t.leaves); }, []);
+    var maxN = Math.max.apply(null, allLeaf.map(function (l) { return l.n; }));
+    var minN = Math.min.apply(null, allLeaf.map(function (l) { return l.n; }));
+
+    function thick(n, lo, hi) {
+      if (maxN === minN) return (lo + hi) / 2;
+      var t = (Math.sqrt(n) - Math.sqrt(minN)) / (Math.sqrt(maxN) - Math.sqrt(minN));
+      return lo + t * (hi - lo);
+    }
+
+    // Topic names per theme, so a theme can list everything beneath it.
+    themes.forEach(function (t) {
+      THEME_TOPICS[t.name] = t.leaves.map(function (l) { return l.name; });
+    });
+
+    var TWO_PI = Math.PI * 2;
+    var links = [], nodes = [], labels = [];
+
+    // Every topic gets an equal slice of the circle, so themes occupy an arc
+    // proportional to how many topics they hold.
+    var cursor = 0;
+    themes.forEach(function (theme, themeIdx) {
+      var hue = HUES[themeIdx % HUES.length];
+      var tint = ' style="--c:' + hue[0] + ';--c2:' + hue[1] +
+                 ';--cd:' + hue[2] + ';--cd2:' + hue[3] + ';';
+      var span = (theme.leaves.length / totalLeaves) * TWO_PI;
+      var a0 = cursor, a1 = cursor + span;
+      cursor = a1;
+      var mid = (a0 + a1) / 2;
+
+      var tNode = pt(mid, R1X, R1Y);
+      links.push({ cls: 'viz-limb', from: [cx, cy], to: tNode, w: thick(theme.total, 8, 22), tint: tint, theme: theme.name });
+      labels.push({ cls: 'viz-theme__label', x: tNode[0], y: tNode[1] - 24, anchor: 'middle', text: theme.name, tint: tint });
+      nodes.push({ cls: 'viz-theme__node', x: tNode[0], y: tNode[1], r: 11, theme: theme.name });
+
+      var m = theme.leaves.length;
+      var pad = span * 0.14;
+      theme.leaves.forEach(function (leaf, i) {
+        var a = m === 1 ? mid : (a0 + pad) + ((span - 2 * pad) * i) / (m - 1);
+        var p = pt(a, R2X, R2Y);
+        var right = Math.sin(a) >= 0;
+        links.push({
+          cls: 'viz-branch__line', from: tNode, to: p,
+          w: thick(leaf.n, 2, 13), key: leaf.name, tint: tint,
+          anchor: right ? 'start' : 'end',
+          lx: p[0] + (right ? 15 : -15),
+          ly: p[1] + 6,
+          r: 4 + thick(leaf.n, 2, 13) / 4
+        });
+      });
+    });
+
+    var topics = links.filter(function (l) { return l.key; });
+
+    // Nudge apart labels that would overlap. Only same-side labels can collide,
+    // so each side is resolved on its own.
+    ['start', 'end'].forEach(function (side) {
+      var group = topics.filter(function (l) { return l.anchor === side; })
+                        .sort(function (p, q) { return p.ly - q.ly; });
+      for (var i = 1; i < group.length; i++) {
+        if (group[i].ly - group[i - 1].ly < LABEL_GAP) {
+          group[i].ly = group[i - 1].ly + LABEL_GAP;
+        }
+      }
+      // Keep the run centred on the hub rather than drifting downwards.
+      if (group.length) {
+        var shift = ((group[0].ly + group[group.length - 1].ly) / 2) - cy;
+        group.forEach(function (g) { g.ly -= shift; });
+      }
+    });
+
+    // Theme captions can also overlap where two rings sit at similar heights.
+    labels.sort(function (p, q) { return p.y - q.y; });
+    for (var li = 1; li < labels.length; li++) {
+      var prev = labels[li - 1], cur = labels[li];
+      var halfPrev = prev.text.length * 8.5, halfCur = cur.text.length * 8.5;
+      if (Math.abs(prev.x - cur.x) < halfPrev + halfCur && cur.y - prev.y < 36) {
+        cur.y = prev.y + 36;
+      }
+    }
+
+    var parts = [];
+
+    // Hub-to-theme links first, so they sit behind everything else.
+    links.filter(function (l) { return !l.key; }).forEach(function (l) {
+      parts.push(
+        '<g class="viz-theme" data-theme="' + esc(l.theme) + '"' + l.tint + '"' +
+          ' role="button" tabindex="0" aria-label="' + esc(l.theme) + ', all topics">' +
+          '<line class="viz-theme__hit" x1="' + l.from[0].toFixed(1) + '" y1="' + l.from[1].toFixed(1) +
+            '" x2="' + l.to[0].toFixed(1) + '" y2="' + l.to[1].toFixed(1) + '"/>' +
+          '<line class="' + l.cls + '" x1="' + l.from[0].toFixed(1) + '" y1="' + l.from[1].toFixed(1) +
+            '" x2="' + l.to[0].toFixed(1) + '" y2="' + l.to[1].toFixed(1) +
+            '" style="stroke-width:' + l.w.toFixed(1) + '"/>' +
+        '</g>');
+    });
+
+    topics.forEach(function (l) {
+      // A gentle bow keeps parallel spokes from reading as a starburst.
+      var mx = (l.from[0] + l.to[0]) / 2, my = (l.from[1] + l.to[1]) / 2;
+      var bow = 'M' + l.from[0].toFixed(1) + ',' + l.from[1].toFixed(1) +
+                ' Q' + (mx + (my - cy) * 0.07).toFixed(1) + ',' + (my - (mx - cx) * 0.07).toFixed(1) +
+                ' ' + l.to[0].toFixed(1) + ',' + l.to[1].toFixed(1);
+      var moved = Math.abs(l.ly - (l.to[1] + 6)) > 11;
+
+      parts.push(
+        '<g class="viz-branch" data-key="' + esc(l.key) + '"' + l.tint + '"' +
+          ' role="button" tabindex="0" aria-label="' + esc(l.key) + '">' +
+          '<path class="viz-branch__hit" d="' + bow + '"/>' +
+          '<path class="viz-branch__line" d="' + bow + '" style="stroke-width:' + l.w.toFixed(1) + '"/>' +
+          (moved
+            ? '<line class="viz-branch__tie" x1="' + l.to[0].toFixed(1) + '" y1="' + l.to[1].toFixed(1) +
+              '" x2="' + l.lx.toFixed(1) + '" y2="' + (l.ly - 5).toFixed(1) + '"/>'
+            : '') +
+          '<circle class="viz-branch__leaf" cx="' + l.to[0].toFixed(1) + '" cy="' + l.to[1].toFixed(1) +
+            '" r="' + l.r.toFixed(1) + '"/>' +
+          '<text class="viz-branch__label" x="' + l.lx.toFixed(1) + '" y="' + l.ly.toFixed(1) +
+            '" text-anchor="' + l.anchor + '">' + esc(l.key) + '</text>' +
+        '</g>'
+      );
+    });
+
+    // Theme node and caption travel together as one target.
+    labels.forEach(function (l) {
+      var n = nodes.filter(function (x) { return x.theme === l.text; })[0];
+      parts.push(
+        '<g class="viz-theme" data-theme="' + esc(l.text) + '"' + l.tint + '"' +
+          ' role="button" tabindex="0" aria-label="' + esc(l.text) + ', all topics">' +
+          (n ? '<circle class="' + n.cls + '" cx="' + n.x.toFixed(1) + '" cy="' + n.y.toFixed(1) +
+               '" r="' + n.r + '"/>' : '') +
+          '<text class="' + l.cls + '" x="' + l.x.toFixed(1) + '" y="' + l.y.toFixed(1) +
+            '" text-anchor="' + l.anchor + '">' + esc(l.text) + '</text>' +
+        '</g>');
+    });
+
+    // The hub, drawn last so it sits on top of the spokes.
+    parts.push('<circle class="viz-hub" cx="' + cx + '" cy="' + cy + '" r="58"/>');
+    parts.push('<text class="viz-hub__label" x="' + cx + '" y="' + (cy + 12) +
+               '" text-anchor="middle">Pub</text>');
+
+    el.innerHTML =
+      '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" ' +
+        'aria-label="Research topics as a radial network around all publications: ' + themes.length +
+        ' themes, each connected to its topics. Thicker links carry more publications.">' +
+        parts.join('') +
+      '</svg>';
+  }
+
+  renderNetwork(document.getElementById('viz-tree'));
+
+  /* ---- result list ---- */
+  var results = document.getElementById('viz-results');
+  var resultsList = document.getElementById('viz-results-list');
+  var resultsTitle = document.getElementById('viz-results-title');
+
+  function linksFor(p) {
+    var out = [];
+    if (p.pdf) out.push('<a href="' + esc(p.pdf) + '">PDF</a>');
+    if (p.anthology) out.push('<a href="' + esc(p.anthology) + '">ACL Anthology</a>');
+    if (p.doi_url) out.push('<a href="' + esc(p.doi_url) + '">DOI</a>');
+    if (p.arxiv) out.push('<a href="https://arxiv.org/abs/' + esc(p.arxiv) + '">arXiv</a>');
+    return out.length ? '<span class="viz-item__links">' + out.join('') + '</span>' : '';
+  }
+
+  function show(key, isTheme) {
+    // A theme lists the union of everything on its topics; a paper matching
+    // two topics in the same theme is still listed once.
+    var wanted = isTheme ? (THEME_TOPICS[key] || []) : [key];
+    var list = pubs.filter(function (p) {
+      var ts = topicsOf(p);
+      for (var i = 0; i < wanted.length; i++) {
+        if (ts.indexOf(wanted[i]) !== -1) return true;
+      }
+      return false;
+    }).sort(function (a, b) { return (b.year || 0) - (a.year || 0); });
+
+    resultsTitle.textContent = key + ' — ' + list.length +
+      (list.length === 1 ? ' publication' : ' publications');
+
+    resultsList.innerHTML = list.map(function (p) {
+      var authors = (p.authors || []).map(function (a) {
+        return /Yimam/.test(a) ? '<strong>' + esc(a) + '</strong>' : esc(a);
+      }).join(', ');
+      return '<li class="viz-item">' +
+               '<span class="viz-item__year">' + esc(p.year || '—') + '</span>' +
+               '<span class="viz-item__body">' +
+                 '<span class="viz-item__title">' + esc(p.title) + '</span>' +
+                 (authors ? '<span class="viz-item__authors">' + authors + '</span>' : '') +
+                 (p.venue ? '<span class="viz-item__venue">' + esc(p.venue) + '</span>' : '') +
+                 (p.award ? '<span class="viz-item__award">🏆 ' + esc(p.award) + '</span>' : '') +
+                 linksFor(p) +
+               '</span>' +
+             '</li>';
+    }).join('');
+
+    results.hidden = false;
+  }
+
+  function clearActive() {
+    Array.prototype.forEach.call(
+      document.querySelectorAll('.viz-branch.is-active, .viz-theme.is-active'),
+      function (b) { b.classList.remove('is-active'); }
+    );
+  }
+
+  function activate(btn) {
+    var theme = btn.getAttribute('data-theme');
+    var key = theme || btn.getAttribute('data-key');
+    if (!key) return;
+
+    if (btn.classList.contains('is-active')) {
+      clearActive();
+      results.hidden = true;
+      return;
+    }
+    clearActive();
+    // A theme is drawn as two groups (spoke, and node + caption); light both.
+    if (theme) {
+      Array.prototype.forEach.call(
+        document.querySelectorAll('.viz-theme'),
+        function (g) {
+          if (g.getAttribute('data-theme') === theme) g.classList.add('is-active');
+        }
+      );
+    } else {
+      btn.classList.add('is-active');
+    }
+    show(key, !!theme);
+  }
+
+  var root = document.getElementById('research-viz');
+
+  root.addEventListener('click', function (e) {
+    var btn = e.target.closest ? e.target.closest('.viz-branch, .viz-theme') : null;
+    if (btn) activate(btn);
+  });
+
+  // SVG groups are not real buttons, so Enter/Space have to be wired up.
+  root.addEventListener('keydown', function (e) {
+    if (e.key !== 'Enter' && e.key !== ' ' && e.key !== 'Spacebar') return;
+    var btn = e.target.closest ? e.target.closest('.viz-branch, .viz-theme') : null;
+    if (!btn) return;
+    e.preventDefault();
+    activate(btn);
+  });
+
+  document.getElementById('viz-close').addEventListener('click', function () {
+    results.hidden = true;
+    clearActive();
+  });
+})();
+</script>

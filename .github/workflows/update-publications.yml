@@ -1,0 +1,63 @@
+name: Update publications
+
+# Refresh _data/publications.yml from OpenAlex, Semantic Scholar and DBLP.
+# Runs on the 1st of every month and opens a pull request with any changes,
+# so new entries are reviewed before they appear on the site.
+
+on:
+  schedule:
+    - cron: "0 4 1 * *"
+  workflow_dispatch: # allow a manual run from the Actions tab
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Fetch publications
+        run: python3 scripts/fetch_publications.py
+
+      - name: Summarise changes
+        id: diff
+        run: |
+          if git diff --quiet -- _data/publications.yml; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No publication changes."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "count=$(grep -c '^- title:' _data/publications.yml)" >> "$GITHUB_OUTPUT"
+            git diff --stat -- _data/publications.yml
+          fi
+
+      - name: Open pull request
+        if: steps.diff.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Update publications from OpenAlex, Semantic Scholar and DBLP"
+          branch: auto/update-publications
+          delete-branch: true
+          title: "Monthly publication sync"
+          body: |
+            Automated refresh of `_data/publications.yml`.
+
+            Total publications: **${{ steps.diff.outputs.count }}**
+
+            Sources: OpenAlex (ORCID `0000-0002-8289-388X`), Semantic Scholar, DBLP.
+
+            Review the diff before merging — occasionally a namesake or an
+            indexing artefact slips through. To drop an entry permanently, add
+            its title to `exclude:` in `_data/publications_manual.yml`; to
+            correct or enrich one, add an entry under `overrides:`.
+          labels: automated

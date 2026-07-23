@@ -1,0 +1,265 @@
+/* ==========================================================================
+   Dark appearance.
+
+   Applies when data-theme="dark" is set on <html> by _includes/theme-toggle.html.
+   Light is the default: prefers-color-scheme is intentionally not used, so the
+   scheme changes only on an explicit toggle.
+
+   Imported last so these rules win without !important. Ruby Sass 3.4 safe.
+   ========================================================================== */
+
+$d-bg:        #14181d;   // page canvas
+$d-surface:   #1b2027;   // cards, panels
+$d-surface-2: #222933;   // inputs, raised chips
+$d-line:      #2e3742;   // borders
+$d-ink:       #e6eaef;   // primary text
+$d-muted:     #9aa6b4;   // secondary text
+/* Contrast against the dark canvas (#14181d): #f48fb1 = 7.99:1,
+   #ff9ec4 = 9.29:1. Both meet WCAG AA (4.5:1) for body text. */
+$d-accent:    #f48fb1;
+$d-accent-2:  #ff9ec4;
+
+/* --- The switch itself ---------------------------------------------------- */
+
+/* Anchored in the masthead, vertically centred against the nav. .masthead__menu
+   reserves right-hand padding so greedy-nav links never overlap the button. */
+.masthead__inner-wrap { position: relative; }
+
+.masthead__menu { padding-right: 7.5em; }
+
+.theme-toggle {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 60;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.45em 0.85em;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #1f2933;
+  background: #fff;
+  border: 1px solid #e3e8ee;
+  border-radius: 999px;
+  box-shadow: 0 2px 10px rgba(31, 41, 51, 0.14);
+  cursor: pointer;
+
+  &:hover { border-color: #0b5fa5; color: #0b5fa5; }
+}
+
+.theme-toggle__icon { font-size: 1.05em; line-height: 1; }
+
+@media print {
+  .theme-toggle { display: none; }
+}
+
+@media (max-width: 37.5em) {
+  .masthead__menu { padding-right: 6em; }
+  .theme-toggle { font-size: 0.68rem; padding: 0.35em 0.6em; }
+}
+
+/* --- Dark overrides ------------------------------------------------------- */
+
+[data-theme="dark"] {
+
+  .theme-toggle {
+    color: $d-ink;
+    background: $d-surface;
+    border-color: $d-line;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+
+    &:hover { border-color: $d-accent; color: $d-accent; }
+  }
+
+  /* Canvas and text */
+  body,
+  .page__content,
+  .initial-content { background-color: $d-bg; color: $d-ink; }
+
+  h1, h2, h3, h4, h5, h6,
+  .page__title, .archive__item-title { color: $d-ink; }
+
+  p, li, dd, dt, td, th, figcaption, label { color: $d-ink; }
+
+  a { color: $d-accent; }
+  a:visited { color: $d-accent; }
+  a:hover { color: $d-accent-2; }
+
+  .page__content a { border-bottom-color: rgba(244, 143, 177, 0.45); }
+
+  /* Chrome */
+  .masthead { background-color: $d-surface; border-bottom-color: $d-line; }
+  .greedy-nav { background: transparent; }
+  .greedy-nav a { color: $d-muted; }
+  .greedy-nav a:hover { color: $d-accent; }
+  .greedy-nav .visible-links a:before { background: $d-accent; }
+  .greedy-nav button { background: transparent; color: $d-ink; }
+  .greedy-nav .hidden-links {
+    background: $d-surface;
+    border-color: $d-line;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+
+    a { color: $d-ink; }
+    &:before { border-bottom-color: $d-line; }
+    &:after { border-bottom-color: $d-surface; }
+  }
+
+  .sidebar, .author__urls-wrapper { color: $d-ink; }
+  .author__name { color: $d-ink; }
+  .author__bio, .author__urls a, .author__urls li { color: $d-muted; }
+  .author__urls a:hover { color: $d-accent; }
+  .author__urls { border-color: $d-line; }
+  .author__avatar img { border-color: $d-line; background: $d-surface; }
+  .btn--inverse { background: $d-surface-2; border-color: $d-line; color: $d-ink; }
+
+  .page__footer { background: $d-surface; border-top-color: $d-line; color: $d-muted; }
+  .page__footer a, .page__footer-copyright { color: $d-muted; }
+  .page__footer a:hover { color: $d-accent; }
+
+  /* Generic content blocks */
+  .page__content table { color: $d-ink; }
+  .page__content th, .page__content td { border-color: $d-line; }
+  .page__content blockquote { border-left-color: $d-line; color: $d-muted; }
+  .page__content code { background: $d-surface-2; border-color: $d-line; color: $d-ink; }
+  .page__content pre { background: $d-surface-2; color: $d-ink; }
+  hr { border-color: $d-line; }
+
+  /* --- Homepage --------------------------------------------------------- */
+
+  .home-hero { border-bottom-color: $d-line; }
+  .home-hero__name, .home-hero__name a { color: $d-ink; }
+  .home-hero__name a:hover { color: $d-accent; }
+  .home-hero__eyebrow { color: $d-accent; }
+  .home-hero__native, .home-hero__role { color: $d-muted; }
+  .home-hero__role strong { color: $d-ink; }
+
+  .home-heading { color: $d-ink; border-bottom-color: $d-line; }
+
+  .home-card {
+    background: $d-surface;
+    border-color: $d-line;
+  }
+  .home-card__title { color: $d-ink; }
+  .home-card__text { color: $d-muted; }
+  .home-card__text strong { color: $d-ink; }
+  /* One hue per domain on the dark surface, in the same order as the topic
+     network. Steps are chosen for >=3:1 contrast against #1b2027. */
+  .home-card:nth-child(1) { background: #251722; border-top-color: #d55181; }
+  .home-card:nth-child(2) { background: #16202b; border-top-color: #3987e5; }
+  .home-card:nth-child(3) { background: #271d18; border-top-color: #d95926; }
+  .home-card:nth-child(4) { background: #142520; border-top-color: #199e70; }
+
+  .home-announce__item { background: #251722; border-color: $d-line; border-left-color: $d-accent; }
+  .home-announce__date, .home-announce__event { color: $d-accent; }
+  .home-announce__title { color: $d-ink; }
+  .home-announce__desc { color: $d-muted; }
+
+  .home-news { border-left-color: $d-line; }
+  .home-news__icon { background: $d-surface-2; border-color: $d-line; }
+  .home-news__date { background: rgba(244, 143, 177, 0.16); color: $d-accent; }
+  .home-news__body { color: $d-ink; }
+  .home-news__body a { border-bottom-color: rgba(244, 143, 177, 0.45); }
+
+  /* --- Publications ------------------------------------------------------ */
+
+  .pub-intro { color: $d-muted; border-left-color: $d-accent; }
+  .pub-search {
+    background: $d-surface-2;
+    border-color: $d-line;
+    color: $d-ink;
+
+    &:focus { border-color: $d-accent; box-shadow: 0 0 0 3px rgba(244, 143, 177, 0.2); }
+  }
+  .pub-filter {
+    background: $d-surface;
+    border-color: $d-line;
+    color: $d-muted;
+
+    &:hover { border-color: $d-accent; color: $d-accent; }
+    &.is-active { background: $d-accent; border-color: $d-accent; color: #10161c; }
+  }
+  .pub-count { color: $d-muted; }
+  .pub-year { color: $d-ink; border-bottom-color: $d-line; }
+  .pub-item { border-bottom-color: $d-line; }
+  .pub-title { color: $d-ink; }
+  .pub-meta, .pub-authors, .pub-venue { color: $d-muted; }
+  .pub-authors strong { color: $d-ink; }
+  .pub-authors__toggle { color: $d-accent; }
+  .pub-links a { color: $d-accent; }
+  .pub-award { background: #3a2f12; color: #f0cd76; }
+
+  /* Type badges: darker fills, lighter ink. */
+  .pub-type { background: rgba(244, 143, 177, 0.18); color: $d-accent; }
+  .pub-type--journal      { background: #122a1c; color: #6fce93; }
+  .pub-type--conference   { background: #14263a; color: #79b4ec; }
+  .pub-type--workshop     { background: #322313; color: #e2a557; }
+  .pub-type--preprint     { background: #241f38; color: #ab97ee; }
+  .pub-type--thesis       { background: #331722; color: #eb8aa3; }
+  .pub-type--poster       { background: #123037; color: #63c2d3; }
+  .pub-type--book-chapter { background: #2a2720; color: #c3b795; }
+  .pub-type--other        { background: $d-surface-2; color: $d-muted; }
+
+  /* --- Talks / teaching / projects --------------------------------------- */
+
+  .listing-section-title, .listing-year { color: $d-ink; border-bottom-color: $d-line; }
+  .listing-card, .listing-row, .listing-project { border-bottom-color: $d-line; }
+  .listing-card-title, .listing-row-title, .listing-project-title { color: $d-ink; }
+  .listing-card-title a, .listing-row-title a, .listing-project-title a { color: $d-accent; }
+  .listing-meta, .listing-card-desc, .listing-row-role,
+  .listing-project-meta, .listing-project-desc { color: $d-muted; }
+  .listing-badge { background: rgba(244, 143, 177, 0.18); color: $d-accent; }
+  .listing-badge--alt { background: $d-surface-2; color: $d-muted; }
+  .listing-row-term { color: $d-muted; }
+  .listing-timeline { border-left-color: $d-line; }
+  .listing-timeline-role { color: $d-ink; }
+  .listing-timeline-org, .listing-timeline-when { color: $d-muted; }
+  .listing-project-logo img { background: #fff; border-radius: 2px; }
+
+  /* --- Research-at-a-glance ---------------------------------------------- */
+
+  .viz-title { color: $d-ink; border-bottom-color: $d-line; }
+  .viz-sub { color: $d-muted; }
+  .viz-panel { background: $d-surface; border-color: $d-line; }
+
+  .viz-hub { fill: #33405088; }
+  .viz-hub, .viz-theme__node { fill: #4a5b70; }
+  .viz-hub__label { fill: $d-ink; }
+  .viz-limb { stroke: #4a5b70; }
+  .viz-branch__label { fill: $d-ink; stroke: $d-bg; }
+  .viz-theme__label { fill: var(--cd2, $d-accent-2); stroke: $d-bg; }
+
+  /* Each theme carries its own dark hue in --cd / --cd2. */
+  .viz-limb { stroke: var(--cd, #4a5b70); }
+  .viz-theme__node { fill: var(--cd, #4a5b70); }
+  .viz-branch__line { stroke: var(--cd, $d-accent); }
+  .viz-branch__leaf { fill: var(--cd, $d-accent); }
+
+  .viz-branch:hover .viz-branch__line,
+  .viz-branch.is-active .viz-branch__line { stroke: var(--cd2, $d-accent-2); }
+  .viz-branch:hover .viz-branch__leaf,
+  .viz-branch.is-active .viz-branch__leaf { fill: var(--cd2, $d-accent-2); }
+  .viz-branch:hover .viz-branch__label,
+  .viz-branch.is-active .viz-branch__label { fill: var(--cd2, $d-accent-2); }
+
+  .viz-theme:hover .viz-limb,
+  .viz-theme.is-active .viz-limb { stroke: var(--cd2, $d-accent-2); }
+  .viz-theme:hover .viz-theme__node,
+  .viz-theme.is-active .viz-theme__node { fill: var(--cd2, $d-accent-2); }
+  .viz-branch__tie { stroke: $d-line; }
+
+  .viz-results { background: $d-surface; border-color: $d-line; border-top-color: $d-accent; }
+  .viz-results__title { color: $d-ink; }
+  .viz-close { border-color: $d-line; color: $d-muted; }
+  .viz-close:hover { border-color: $d-accent; color: $d-accent; }
+  .viz-item { border-bottom-color: $d-line; }
+  .viz-item__year { color: $d-accent; }
+  .viz-item__title { color: $d-ink; }
+  .viz-item__authors, .viz-item__venue { color: $d-muted; }
+  .viz-item__authors strong { color: $d-ink; }
+  .viz-item__award { background: #3a2f12; color: #f0cd76; }
+  .viz-item__links a { color: $d-accent; border-color: rgba(244, 143, 177, 0.45); }
+  .viz-item__links a:hover { background: $d-accent; color: #10161c; }
+}

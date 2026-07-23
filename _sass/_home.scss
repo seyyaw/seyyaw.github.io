@@ -1,0 +1,376 @@
+/* Homepage body text. Root is 16px, 18px from the medium breakpoint up, so
+   1.22em resolves to ~22px (1.1em / ~17.6px below 600px). */
+.is-home .page__content {
+  font-size: 1.22em;
+}
+
+@media (max-width: 37.5em) {
+  .is-home .page__content { font-size: 1.1em; }
+}
+
+/* ==========================================================================
+   Homepage (about.md) polish.
+   Class prefix: `home-`. Imported after "custom" so it can supersede it.
+   Ruby Sass 3.4 safe: variables, nesting, darken/lighten/rgba, @media only.
+   ========================================================================== */
+
+$home-accent: #0b5fa5;
+$home-accent-soft: #e8f1fa;
+$home-ink: #1f2933;
+$home-muted: #6b7684;
+$home-line: #e3e8ee;
+
+.page__content {
+
+  /* --- Section headings --------------------------------------------------- */
+
+  h1.home-heading,
+  h2.home-heading,
+  .home-heading {
+    font-size: 1.25em;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: $home-ink;
+    margin: 2.6em 0 0.9em;
+    padding-bottom: 0.4em;
+    border-bottom: 1px solid $home-line;
+  }
+
+  p {
+    line-height: 1.75;
+  }
+
+  /* --- Hero --------------------------------------------------------------- */
+
+  .home-hero {
+    margin: 0 0 2.2em;
+    padding: 0 0 1.6em;
+    border-bottom: 1px solid $home-line;
+  }
+
+  .home-hero__eyebrow {
+    margin: 0 0 0.35em;
+    font-size: 0.68em;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: $home-accent;
+  }
+
+  .home-hero__name {
+    margin: 0 0 0.15em;
+    font-size: 1.9em;
+    line-height: 1.2;
+    font-weight: 700;
+    color: $home-ink;
+
+    a {
+      color: $home-ink;
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+
+      &:hover {
+        color: $home-accent;
+        border-bottom-color: rgba(11, 95, 165, 0.4);
+      }
+    }
+  }
+
+  .home-hero__native {
+    margin: 0 0 0.85em;
+    font-size: 1em;
+    color: $home-muted;
+    line-height: 1.9;
+
+    a.button {
+      cursor: pointer;
+      color: $home-accent;
+      margin: 0 0.5em 0 0.15em;
+      text-decoration: none;
+    }
+  }
+
+  .home-hero__role {
+    margin: 0 0 1.1em;
+    font-size: 0.92em;
+    line-height: 1.85;
+    color: $home-muted;
+
+    strong {
+      color: $home-ink;
+      font-weight: 600;
+    }
+
+    a {
+      text-decoration: none;
+      border-bottom: 1px solid rgba(11, 95, 165, 0.28);
+
+      &:hover { border-bottom-color: $home-accent; }
+    }
+  }
+
+  /* --- Profile link row --------------------------------------------------- */
+
+  .home-hero__links {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    font-size: 1em;
+  }
+
+  .home-link {
+    display: inline-block;
+    margin: 0 0.5em 0.5em 0;
+    padding: 0.36em 0.85em;
+    border: 1px solid $home-line;
+    border-radius: 999px;
+    background: #fff;
+    color: $home-muted;
+    font-size: 0.74em;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+    text-decoration: none;
+
+    i {
+      margin-right: 0.4em;
+      color: $home-accent;
+    }
+
+    &:hover,
+    &:focus {
+      background: $home-accent-soft;
+      border-color: rgba(11, 95, 165, 0.45);
+      color: $home-accent;
+      text-decoration: none;
+
+      i { color: $home-accent; }
+    }
+  }
+
+  /* --- Research interest cards -------------------------------------------- */
+
+  .home-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -0.5em 1.2em;
+  }
+
+  .home-card {
+    flex: 1 1 260px;
+    margin: 0 0.5em 1em;
+    padding: 1.2em 1.35em 1.25em;
+    background: #f6f9fc;
+    border: 1px solid $home-line;
+    border-top: 3px solid $home-accent;
+    border-radius: 0;
+  }
+
+  /* One tint per research domain. The hue is decoration only — each card is
+     named by its own heading, so nothing depends on telling the colours apart.
+     Order follows the cards in about.md. */
+  .home-card:nth-child(1) {
+    background: #f1f7fd;
+    border-top-color: #2a78d6;
+  }
+
+  .home-card:nth-child(2) {
+    background: #eefaf5;
+    border-top-color: #1baf7a;
+  }
+
+  .home-card:nth-child(3) {
+    background: #f4f2fc;
+    border-top-color: #4a3aa7;
+  }
+
+  .home-card:nth-child(4) {
+    background: #fdf5f0;
+    border-top-color: #d95926;
+  }
+
+  .home-card__title {
+    margin: 0 0 0.5em;
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 1.35;
+    color: $home-ink;
+  }
+
+  .home-card__text {
+    margin: 0;
+    font-size: 0.95em;
+    line-height: 1.7;
+    color: #4a5561;
+
+    strong { color: $home-ink; font-weight: 600; }
+  }
+
+  /* --- Announcements ------------------------------------------------------
+     Upcoming events. Entries move to the News list on their own once the
+     end date has passed (see _includes/announcements.html). */
+
+  .home-announce {
+    list-style: none;
+    margin: 0 0 1.2em;
+    padding: 0;
+  }
+
+  .home-announce__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.7em;
+    padding: 0.85em 1em;
+    margin-bottom: 0.6em;
+    background: #f4f9f6;
+    border: 1px solid $home-line;
+    border-left: 3px solid #199e70;
+  }
+
+  .home-announce__icon {
+    flex: 0 0 auto;
+    font-size: 1.05em;
+    line-height: 1.4;
+  }
+
+  .home-announce__date {
+    flex: 0 0 9.5em;
+    font-size: 0.78em;
+    font-weight: 700;
+    color: #127954;
+    padding-top: 0.15em;
+  }
+
+  .home-announce__body { flex: 1 1 auto; min-width: 0; }
+
+  .home-announce__title {
+    display: block;
+    font-size: 0.95em;
+    font-weight: 600;
+    line-height: 1.45;
+    color: $home-ink;
+  }
+
+  .home-announce__event {
+    display: block;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #127954;
+    margin-top: 0.1em;
+  }
+
+  .home-announce__desc {
+    display: block;
+    font-size: 0.85em;
+    line-height: 1.6;
+    color: #4a5561;
+    margin-top: 0.25em;
+  }
+
+  @media (max-width: 37.5em) {
+    .home-announce__item { flex-wrap: wrap; }
+    .home-announce__date { flex: 1 1 100%; }
+  }
+
+  /* --- News timeline ------------------------------------------------------ */
+
+  .home-news {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 1.6em;
+    border-left: 2px solid $home-line;
+  }
+
+  .home-news__item {
+    position: relative;
+    margin: 0;
+    padding: 0 0 1.4em 0;
+    list-style: none;
+
+    &:last-child { padding-bottom: 0.2em; }
+  }
+
+  .home-news__icon {
+    position: absolute;
+    left: -2.42em;
+    top: 0.05em;
+    width: 1.65em;
+    height: 1.65em;
+    border-radius: 50%;
+    background: $home-accent-soft;
+    border: 1px solid $home-line;
+    text-align: center;
+    line-height: 1.55em;
+    font-size: 0.8em;
+    overflow: hidden;
+  }
+
+  .home-news__date {
+    display: inline-block;
+    margin: 0 0 0.3em;
+    padding: 0.16em 0.6em;
+    border-radius: 4px;
+    background: $home-accent-soft;
+    color: $home-accent;
+    font-size: 0.68em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .home-news__body {
+    display: block;
+    font-size: 0.85em;
+    line-height: 1.7;
+    color: $home-ink;
+
+    strong { font-weight: 600; }
+
+    a {
+      text-decoration: none;
+      border-bottom: 1px solid rgba(11, 95, 165, 0.3);
+
+      &:hover { border-bottom-color: $home-accent; }
+    }
+  }
+
+  .home-news__sublist {
+    margin: 0.55em 0 0;
+    padding: 0 0 0 1.2em;
+    list-style: none;
+
+    > li {
+      margin: 0 0 0.35em;
+      line-height: 1.6;
+      color: $home-muted;
+    }
+  }
+
+  /* --- Responsive --------------------------------------------------------- */
+
+  @media (max-width: 37.5em) {
+    .home-hero__name { font-size: 1.5em; }
+    .home-hero__role { font-size: 0.88em; }
+
+    .home-link {
+      font-size: 0.7em;
+      padding: 0.32em 0.7em;
+    }
+
+    .home-cards { margin-left: 0; margin-right: 0; }
+    .home-card { flex: 1 1 100%; margin-left: 0; margin-right: 0; }
+
+    .home-news {
+      padding-left: 1.25em;
+    }
+
+    .home-news__icon {
+      left: -2.1em;
+      width: 1.5em;
+      height: 1.5em;
+      line-height: 1.4em;
+      font-size: 0.7em;
+    }
+  }
+}

@@ -1,0 +1,429 @@
+# Hand-curated publication data. Read, never written, by
+# scripts/fetch_publications.py, so entries here survive each sync.
+#
+#   extra:      publications the source APIs do not index (theses, posters)
+#   overrides:  corrections applied to a fetched record, matched on doi
+#               (preferred) or title. Any field is allowed: venue, type, pdf,
+#               award, year, url. A `type` set here is authoritative.
+#   exclude:    titles dropped from the output entirely
+#
+# Venue strings use the full proceedings title. `type` is `preprint` only when
+# the record has no peer-reviewed venue.
+
+extra:
+- title: Adaptive Approaches to Natural Language Processing in Annotation and Application
+  authors:
+  - Seid Muhie Yimam
+  year: 2019
+  venue: Ph.D. Thesis, University of Hamburg
+  type: thesis
+  pdf: https://ediss.sub.uni-hamburg.de/volltexte/2019/9914/pdf/Dissertation.pdf
+  award: GSCL Award for Best Doctoral Thesis
+- title: 'TETEYEQ (ተጠየቅ): Amharic Question Answering System for Factoid Questions'
+  authors:
+  - Seid Muhie Yimam
+  year: 2009
+  venue: M.Sc. Thesis, Addis Ababa University
+  type: thesis
+  pdf: /files/Seid Muhie_MSC.pdf
+- title: Collaborative Web-based Tools for Multi-layer Text Annotation
+  authors:
+  - Chris Biemann
+  - Kalina Bontcheva
+  - Richard Eckart de Castilho
+  - Iryna Gurevych
+  - Seid Muhie Yimam
+  year: 2017
+  venue: Handbook of Linguistic Annotation, Springer
+  type: book-chapter
+  pdf: https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2017-biemannetal-hola-webbasedtools-preprint.pdf
+- title: Current Status, Issues, and Future Directions for Ethiopian Natural Language Processing (NLP)
+    Research
+  authors:
+  - Seid Muhie Yimam
+  - Chris Biemann
+  year: 2019
+  venue: Language Technologies for All (LT4All), Paris
+  type: poster
+  pdf: /files/Yimametal_2019_lt4all.pdf
+- title: Sentiment and Hate Speech Datasets for More Than 14 African Languages
+  authors:
+  - Seid Muhie Yimam
+  year: 2024
+  venue: Deep Learning Indaba 2024, Dakar, Senegal
+  type: poster
+  pdf: /files/DataSet-AfriSenti-AfriHate-Indaba.pdf
+- title: 'AM-DETOX: Analyzing Amharic Text Detoxification Using Pre-trained Large Language Models (Poster)'
+  authors:
+  - Seid Muhie Yimam
+  year: 2024
+  venue: Deep Learning Indaba 2024, Dakar, Senegal
+  type: poster
+  pdf: /files/Deep_Learning_Indaba_Poster2024.pdf
+- title: 'AI4Democracy: Dynamic Dashboard for Analyzing Polarization and Extremism in Online Media'
+  authors:
+  - Seid Muhie Yimam
+  year: 2024
+  venue: Deep Learning Indaba 2024, Dakar, Senegal
+  type: poster
+  pdf: /files/AI4Demo-Indaba-1.pdf
+- title: 'SemEval-2025: Bridging the Gap in Text-Based Emotion Detection (Poster)'
+  authors:
+  - Seid Muhie Yimam
+  year: 2024
+  venue: Deep Learning Indaba 2024, Dakar, Senegal
+  type: poster
+  pdf: /files/Emotion_Shared_Task_poster_Indaba.pdf
+overrides:
+- title: 'POLAR: A Benchmark for Multilingual, Multicultural, and Multi-Event Online Polarization'
+  award: Best Paper Award, EEUCA 2026 @ ACL 2026
+  pdf: /files/POLAR-EEUCA-2026.pdf
+  venue: 'Findings of the Association for Computational Linguistics: ACL 2026'
+- title: 'HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection'
+  pdf: https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2021-mathewetal-aaai-hatexplain.pdf
+  venue: Proceedings of the 35th AAAI Conference on Artificial Intelligence (AAAI 2021)
+- title: 'MasakhaNER: Named Entity Recognition for African Languages'
+  pdf: https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl_a_00416/1966201/tacl_a_00416.pdf
+- title: Can I Read My X-Ray Report? Towards Accessible Radiology Report in Low-Resource African Context
+  year: 2026
+  venue: AfricaNLP Workshop @ EACL 2026
+- title: 'LexiMCH: A Bilingual Medical Knowledge Lexicon for Maternal and Child Healthcare in Low-Resource
+    Languages and Healthcare Environments'
+  year: 2026
+  venue: AfricaNLP Workshop @ EACL 2026
+- title: 'Media Framing Analysis of Ethiopian Conflict: An Approach Combining MAXQDA and NLP for Low-resource
+    Languages'
+  year: 2026
+  venue: AfricaNLP Workshop @ EACL 2026
+- title: 'Trust but Check: LLM-Assisted Review of Human Translations in African Languages'
+  year: 2026
+  venue: AfricaNLP Workshop @ EACL 2026
+- title: 'Enhancing Amharic-LLaMA: Integrating Task Specific and Generative Datasets'
+  year: 2024
+  venue: AfricaNLP Workshop 2024
+- title: 'Investigating Hate Speech Beyond Detection and Classification: Uncovering Complex Intensities
+    and Targets'
+  year: 2024
+  venue: WiNLP Workshop 2024
+- title: Adaption and Evaluation of Generative Large Language Models for German Medical Information Extraction
+  year: 2025
+  venue: KONVENS 2025
+- title: 'MasakhaNER: Named Entity Recognition for African Languages'
+  venue: Transactions of the Association for Computational Linguistics (TACL)
+  type: journal
+- title: 'GermaNER: Free Open German Named Entity Recognition Tool'
+  venue: Proceedings of GSCL 2015, Essen, Germany
+  type: conference
+- title: new/s/leak – A Tool for Visual Exploration of Large Text Document Collections in the Journalistic
+    Doman
+  venue: Baltimore, MD, USA
+  type: workshop
+- title: 'Network of the Day: Aggregating and Visualizing Entity Networks from Online Sources'
+  venue: 'KONVENS 2014 Workshop: NLP4CMC, Hildesheim, Germany'
+  type: workshop
+- title: Guidance for Multi-Type Entity Graphs from Text Collections
+  venue: EuroVis Workshop on Visual Analytics 2017, Barcelona, Spain
+  type: workshop
+- title: 'WebAnno: A Flexible, Web-based and Visually Supported System for Distributed Annotations'
+  venue: ACL 2013, Demo Session, Sofia, Bulgaria
+  type: conference
+- title: 'WebAnno: a flexible, web-based annotation tool for CLARIN'
+  venue: CLARIN Annual Conference 2014, Soesterberg, The Netherlands
+  type: conference
+- title: Learning Paraphrasing for Multi-word Expressions
+  venue: 12th Workshop on Multiword Expressions (MWE 2016), co-located with ACL 2016, Berlin
+  type: workshop
+- title: 'TETEYEQ: Amharic Question Answering For Factoid Questions'
+  venue: SEPLN 2009, SALTMIL Workshop
+  type: workshop
+- title: 'A Brief Analysis Of Amharic Nlp: From Pos Tagging To Question Answering'
+  venue: Invited talk / presentation slides deposited on Zenodo (September 2016)
+  type: other
+- title: 'A Case Against Implicit Standards: Homophone Normalization in Machine Translation for Languages
+    that use the Ge''ez Script'
+  venue: Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing
+- title: A Multilingual Information Extraction Pipeline for Investigative\n Journalism
+  venue: 'Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing: System
+    Demonstrations'
+- title: A Report on the Complex Word Identification Shared Task 2018
+  venue: Proceedings of the Thirteenth Workshop on Innovative Use of NLP for Building Educational Applications
+- title: A Web-based Tool for the Integrated Annotation of Semantic and Syntactic Structures
+  venue: Proceedings of the Workshop on Language Technology Resources and Tools for Digital Humanities
+    (LT4DH)
+  type: workshop
+  anthology: https://aclanthology.org/W16-4011/
+- title: 'ActiveAnno: Flexible and E cient Document Annotation Tool with Active Learning Integration'
+  venue: M.Sc. Thesis, Universität Hamburg, Language Technology Group
+- title: 'ActiveAnno: General-Purpose Document-Level Annotation Tool with Active Learning Integration'
+  venue: 'Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational
+    Linguistics: Human Language Technologies: Demonstrations'
+- title: 'AfriHate: A Multilingual Collection of Hate Speech and Abusive Language Datasets for African
+    Languages'
+  venue: 'Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association
+    for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)'
+- title: 'AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages'
+  venue: Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
+  type: conference
+  anthology: https://aclanthology.org/2023.emnlp-main.862/
+- title: 'AfroXLMR-Social: Adapting Pre-trained Language Models for African Languages Social Media Text'
+  venue: 'Findings of the Association for Computational Linguistics: EMNLP 2025'
+- title: 'AM-DETOX: Analyzing Amharic Text Detoxification Using Large Language Models'
+  venue: 2025 International Conference on Information and Communication Technology for Development for
+    Africa (ICT4DA)
+  type: conference
+- title: Analysis of the Ethiopic Twitter Dataset for Abusive Speech in Amharic
+  venue: Proceedings of the 1st International Conference on Language Technologies for All
+  type: conference
+- title: 'ARDIAS: AI-Enhanced Research Management, Discovery, and Advisory System'
+  venue: Proceedings of the Workshop on Scientific Document Understanding co-located with the 37th AAAI
+    Conference on Artificial Intelligence (SDU@AAAI-23), CEUR Workshop Proceedings Vol-3656
+  type: workshop
+- title: Automatic Annotation Suggestions and Custom Annotation Layers in WebAnno
+  venue: 'Proceedings of 52nd Annual Meeting of the Association for Computational Linguistics: System
+    Demonstrations'
+  anthology: https://aclanthology.org/P14-5016/
+- title: Automatic Compilation of Resources for Academic Writing and Evaluating with Informal Word Identification
+    and Paraphrasing System
+  venue: Proceedings of the Twelfth Language Resources and Evaluation Conference
+  type: conference
+  anthology: https://aclanthology.org/2020.lrec-1.722/
+- title: 'BLEnD: A Benchmark for LLMs on Everyday Knowledge in Diverse Cultures and Languages'
+  venue: Advances in Neural Information Processing Systems 37 (NeurIPS 2024) Datasets and Benchmarks Track
+  type: conference
+- title: Challenges of Amharic Hate Speech Data Annotation Using Yandex Toloka Crowdsourcing Platform
+  venue: Proceedings of the Sixth Widening NLP Workshop (WiNLP), Abu Dhabi, United Arab Emirates
+  type: workshop
+- title: 'CodeAnno: Extending WebAnno with Hierarchical Document Level Annotation and Automation'
+  venue: 'Proceedings of the 17th Conference of the European Chapter of the Association for Computational
+    Linguistics: System Demonstrations'
+- title: 'CommonLID: Re-evaluating State-of-the-Art Language Identification Performance on Web Data'
+  venue: 'Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume
+    1: Long Papers)'
+  type: conference
+  anthology: https://aclanthology.org/2026.acl-long.1527/
+- title: 'CULEMO: Cultural Lenses on Emotion -- Benchmarking LLMs for Cross-Cultural Emotion Understanding'
+  venue: 'Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume
+    1: Long Papers)'
+- title: CWIG3G2 - Complex Word Identification Task across Three Text Genres and Two User Groups
+  venue: 'Proceedings of the Eighth International Joint Conference on Natural Language Processing (Volume
+    2: Short Papers)'
+  anthology: https://aclanthology.org/I17-2068/
+- title: Detecting Hate Speech in Amharic Using Multimodal Analysis of Social Media Memes
+  venue: Proceedings of the Fourth Workshop on Threat, Aggression & Cyberbullying @ LREC-COLING-2024
+  anthology: https://aclanthology.org/2024.trac-1.10/
+- title: 'Elvis vs. M. Jackson: Who has More Albums? Classification and Identification of Elements in
+    Comparative Questions'
+  venue: Proceedings of the Thirteenth Language Resources and Evaluation Conference (LREC 2022)
+  anthology: https://aclanthology.org/2022.lrec-1.402/
+- title: Enhancing Multi-Label Emotion Analysis and Corresponding Intensities for Ethiopian Languages
+  venue: Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)
+  type: conference
+- title: Entity-Centric Information Access with the Human-in-the-Loop for the Biomedical Domains
+  venue: Proceedings of the Biomedical NLP Workshop associated with RANLP 2017
+  type: workshop
+- title: 'EthioLLM: Multilingual Large Language Models for Ethiopian Languages with Task Evaluation'
+  venue: Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language
+    Resources and Evaluation (LREC-COLING 2024)
+  type: conference
+  anthology: https://aclanthology.org/2024.lrec-main.561/
+- title: 'Evaluating Deep Learning Models for African Wildlife Image Classification: From DenseNet to
+    Vision Transformers'
+  venue: Proceedings of the Deep Learning Indaba 2025 Research Track, Proceedings of Machine Learning
+    Research, Volume 302, pages 1–14
+  type: conference
+  url: https://proceedings.mlr.press/v302/aliyu26a.html
+  pdf: https://raw.githubusercontent.com/mlresearch/v302/main/assets/aliyu26a/aliyu26a.pdf
+- title: Evaluating the Capabilities of Large Language Models for Multi-label Emotion Understanding
+  venue: Proceedings of the 31st International Conference on Computational Linguistics
+  type: conference
+  year: 2025
+  anthology: https://aclanthology.org/2025.coling-main.237/
+- title: Exploring Amharic Hate Speech Data Collection and Classification Approaches
+  venue: Proceedings of the 14th International Conference on Recent Advances in Natural Language Processing
+    (RANLP 2023)
+  anthology: https://aclanthology.org/2023.ranlp-1.6/
+- title: 'Exploring Amharic Sentiment Analysis from Social Media Texts: Building Annotation Tools and
+    Classification Models'
+  venue: Proceedings of the 28th International Conference on Computational Linguistics
+- title: 'Exploring Boundaries and Intensities in Offensive and Hate Speech: Unveiling the Complex Spectrum
+    of Social Media Discourse'
+  venue: Proceedings of the Fourth Workshop on Threat, Aggression & Cyberbullying @ LREC-COLING-2024
+  type: workshop
+  anthology: https://aclanthology.org/2024.trac-1.17/
+- title: 'FASCIST-O-METER: Classifier for Neo-fascist Discourse Online'
+  venue: 'Proceedings of the 21st Conference on Natural Language Processing (KONVENS 2025): Long and Short
+    Papers'
+  type: conference
+  anthology: https://aclanthology.org/2025.konvens-1.13/
+- title: 'HatePRISM: Policies, Platforms, and Research Integration. Advancing NLP for Hate Speech Proactive
+    Mitigation'
+  venue: 'Findings of the Association for Computational Linguistics: ACL 2025'
+- title: How Hateful are Movies? A Study and Prediction on Movie Subtitles
+  venue: Proceedings of the 17th Conference on Natural Language Processing (KONVENS 2021)
+  type: conference
+  anthology: https://aclanthology.org/2021.konvens-1.4/
+- title: 'IIT-UHH at SemEval-2017 Task 3: Exploring Multiple Features for Community Question Answering
+    and Implicit Dialogue Identification'
+  venue: Proceedings of the 11th International Workshop on Semantic Evaluation (SemEval-2017)
+- title: Impacts of Homophone Normalization on Semantic Models for Amharic
+  venue: 2021 International Conference on Information and Communication Technology for Development for
+    Africa (ICT4DA)
+- title: Interactive and Iterative Annotation for Biomedical Entity Recognition
+  venue: Brain Informatics and Health (BIH 2015), Lecture Notes in Computer Science, vol. 9250
+- title: Large Language Models for Sexual, Reproductive, and Maternal Health Rights*
+  venue: 2024 IEEE 12th International Conference on Healthcare Informatics (ICHI)
+- title: Learning Paraphrasing for Multiword Expressions
+  venue: Proceedings of the 12th Workshop on Multiword Expressions
+- title: 'LECTURE4ALL: A Lightweight Approach to Precise Timestamp Detection in Online Lecture Videos'
+  venue: 'Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume
+    3: System Demonstrations)'
+- title: Multi-Modal Learning Application – Support Language Learners with NLP Techniques and Eye-Tracking
+  venue: Proceedings of the 1st Workshop on Linguistic Insights from and for Multimodal Language Processing
+  type: workshop
+  anthology: https://aclanthology.org/2023.limo-1.2/
+- title: Multilingual and Cross-Lingual ComplexWord Identification
+  venue: Proceedings of the International Conference Recent Advances in Natural Language Processing, RANLP
+    2017
+- title: Multilingual and Explainable Text Detoxification with Parallel Corpora
+  venue: Proceedings of the 31st International Conference on Computational Linguistics
+  type: conference
+  year: 2025
+  anthology: https://aclanthology.org/2025.coling-main.535/
+- title: Multilingual Racial Hate Speech Detection Using Transfer Learning
+  venue: Proceedings of the 14th International Conference on Recent Advances in Natural Language Processing
+  anthology: https://aclanthology.org/2023.ranlp-1.5/
+- title: 'Narrowing the Loop: Integration of Resources and Linguistic Dataset Development with Interactive
+    Machine Learning'
+  venue: 'Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational
+    Linguistics: Student Research Workshop'
+  anthology: https://aclanthology.org/N15-2012/
+- title: 'Natural Language Processing in Ethiopian Languages: Current State, Challenges, and Opportunities'
+  venue: Proceedings of the Fourth Workshop on Resources for African Indigenous Languages (RAIL 2023)
+- title: New/s/leak 2.0 - Multilingual Information Extraction and Visualization\n for Investigative Journalism
+  venue: 'Social Informatics: 10th International Conference, SocInfo 2018, St. Petersburg, Russia, Proceedings,
+    Part II (Lecture Notes in Computer Science, vol. 11186)'
+  type: book-chapter
+- title: new/s/leak – Information Extraction and Visualization for Investigative Data Journalists
+  venue: Proceedings of ACL-2016 System Demonstrations
+- title: Overview of the Multilingual Text Detoxification Task at PAN 2024
+  venue: Working Notes of the Conference and Labs of the Evaluation Forum (CLEF 2024)
+  type: workshop
+- title: 'Overview of PAN 2024: Multi-author Writing Style Analysis, Multilingual Text Detoxification,
+    Oppositional Thinking Analysis, and Generative AI Authorship Verification Condensed Lab Overview'
+  venue: 'Experimental IR Meets Multilinguality, Multimodality, and Interaction: Proceedings of the 15th
+    International Conference of the CLEF Association (CLEF 2024), Lecture Notes in Computer Science'
+- title: Par4Sim -- Adaptive Paraphrasing for Text Simplification
+  venue: Proceedings of the 27th International Conference on Computational Linguistics
+  type: conference
+- title: Question Answering Classification for Amharic Social Media Community Based Questions
+  venue: Proceedings of the 1st Annual Meeting of the ELRA/ISCA Special Interest Group on Under-Resourced
+    Languages (SIGUL 2022)
+  type: workshop
+  anthology: https://aclanthology.org/2022.sigul-1.18/
+- title: 'Revisiting German Complex Word Identification: Contextualized LLMs and Feature Injection'
+  venue: Proceedings of the Joint Workshop on Readability and Text Simplification (READIxTSAR) @ LREC
+    2026
+  type: workshop
+- title: 'SAINT: Multilingual Span-Level Interpretability for Sentiment Analysis'
+  venue: 'Proceedings of the SIGUL 2026 Joint Workshop with ELE, EURALI, and DCLRL "Towards Inclusivity
+    and Equality: Language Resources and Technologies for Under-Resourced and Endangered Languages" @
+    LREC 2026'
+  type: workshop
+- title: 'SCoT: Sense Clustering over Time: a tool for the analysis of lexical change'
+  venue: 'Proceedings of the 16th Conference of the European Chapter of the Association for Computational
+    Linguistics: System Demonstrations'
+- title: 'SemEval Task 1: Semantic Textual Relatedness for African and Asian Languages'
+  venue: Proceedings of the 18th International Workshop on Semantic Evaluation (SemEval-2024)
+- title: 'SemEval-2023 Task 12: Sentiment Analysis for African Languages (AfriSenti-SemEval)'
+  venue: Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)
+- title: 'SemEval-2024 Task 1: Semantic Textual Relatedness for African and Asian Languages'
+  venue: Proceedings of the 18th International Workshop on Semantic Evaluation (SemEval-2024)
+  type: workshop
+- title: 'SemEval-2025 Task 11: Bridging the Gap in Text-Based Emotion Detection'
+  venue: Proceedings of the 19th International Workshop on Semantic Evaluation (SemEval-2025)
+  type: workshop
+  award: Best Task Award, SemEval 2025
+  anthology: https://aclanthology.org/2025.semeval-1.327/
+- title: 'SemEval-2026 Task 9: Detecting Multilingual, Multicultural and Multievent Online Polarization'
+  type: workshop
+  award: Best Paper Runner-Up Award, SemEval 2026
+  anthology: https://aclanthology.org/2026.semeval-1.453/
+- title: 'SemRel2024: A Collection of Semantic Textual Relatedness Datasets for 13 Languages'
+  venue: 'Findings of the Association for Computational Linguistics: ACL 2024'
+- title: 'Silenced voices: social media polarization and women''s marginalization in peacebuilding during
+    the Northern Ethiopia War'
+  venue: 'i-com: Journal of Interactive Media'
+- title: 'The 5Js in Ethiopia: Amharic Hate Speech Data Annotation Using Toloka Crowdsourcing Platform'
+  venue: 2022 International Conference on Information and Communication Technology for Development for
+    Africa (ICT4DA)
+- title: The Development of Pre-processing Tools and Pre-trained Embedding Models for Amharic
+  venue: Proceedings of the Fifth Workshop on Widening Natural Language Processing
+  anthology: https://aclanthology.org/2021.winlp-1.5/
+- title: The Effect of Normalization for Bi-directional Amharic-English Neural Machine Translation
+  venue: 2022 International Conference on Information and Communication Technology for Development for
+    Africa (ICT4DA)
+- title: 'UHH at AVeriTeC: RAG for Fact-Checking with Real-World Claims'
+  venue: Proceedings of the Seventh Fact Extraction and VERification Workshop (FEVER)
+- title: 'UHH-LT & LT2 at SemEval-2020 Task 12: Fine-Tuning of Pre-Trained Transformer Networks for Offensive
+    Language Detection'
+  venue: Proceedings of the Fourteenth Workshop on Semantic Evaluation
+  type: workshop
+  anthology: https://aclanthology.org/2020.semeval-1.213/
+- title: 'Walia-LLM: Enhancing Amharic-LLaMA by Integrating Task-Specific and Generative Datasets'
+  venue: 'Findings of the Association for Computational Linguistics: EMNLP 2024'
+- title: Word Complexity is in the Eye of the Beholder
+  venue: 'Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational
+    Linguistics: Human Language Technologies'
+- title: 'More Like This: Semantic Retrieval with Linguistic Information'
+  venue: Proceedings of the 18th Conference on Natural Language Processing (KONVENS 2022)
+  anthology: https://aclanthology.org/2022.konvens-1.19/
+- title: 'UHH-LT at SemEval-2020 Task 12: Fine-Tuning of Pre-Trained Transformer Networks for Offensive
+    Language Detection'
+  venue: Proceedings of the Fourteenth Workshop on Semantic Evaluation (SemEval-2020)
+  type: workshop
+- title: Demonstrating PAR4SEM - A Semantic Writing Aid with Adaptive Paraphrasing
+  venue: 'Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing: System
+    Demonstrations'
+- title: Entity-Centric Information Access with Human in the Loop for the Biomedical Domain
+  venue: Proceedings of the Biomedical NLP Workshop associated with RANLP 2017
+  type: workshop
+  anthology: https://aclanthology.org/W17-8006/
+- title: Multilingual and Cross-Lingual Complex Word Identification
+  venue: Proceedings of the International Conference on Recent Advances in Natural Language Processing
+    (RANLP 2017)
+  anthology: https://aclanthology.org/R17-1104/
+- title: 'Silenced Voices: Exploring Social Media Polarization and Women''s Participation in Peacebuilding
+    in Ethiopia'
+  venue: 'i-com: Journal of Interactive Media'
+  type: journal
+- title: 'The State of Large Language Models for African Languages: Progress and Challenges'
+  award: Best Paper Award, Deep Learning Indaba 2025
+  type: conference
+  venue: Proceedings of the Deep Learning Indaba 2025 Research Track, Proceedings of Machine Learning
+    Research, Volume 302, pages 1–27
+  url: https://proceedings.mlr.press/v302/hussen26a.html
+  pdf: https://raw.githubusercontent.com/mlresearch/v302/main/assets/hussen26a/hussen26a.pdf
+- title: Par4Sim - Adaptive Paraphrasing for Text Simplification
+  anthology: https://aclanthology.org/C18-1028/
+
+# Titles below are removed from the generated list. Matching is on a
+# normalised substring, so a distinctive prefix is sufficient.
+exclude:
+  # Metadata artefacts indexed as publications: another author's publication
+  # list, a proceedings table of contents, and a thesis cover page.
+  - "ANDREAS HOLZINGER – FIVE PUBLICATIONS AND WHY THEY ARE RELEVANT The interactive Machine Learning"
+  - "Table of Contents Learning Paraphrasing for Multiword Expressions Lexical Variability"
+  - "Using Neural Language Models to Detect Spoilers vorgelegt"
+  # Agricultural and public-economics papers by a different author of the
+  # same name.
+  - "Are smallholder farmers credit constrained"
+  - "The Diffusion of Small-Scale Irrigation Technologies in Ethiopia"
+  - "Women in Ethiopian Tax Administration"
+  - "Hate Speech and Counter Speech Detection: Context Does Matter"
+  - "Sentiment Analysis Hate Speech Detection On Twitter Using NLP"
+  # Indexed with its bibliography parsed as the author list.
+  - "HateModerate: Grounding and Benchmarking Hate Speech Detection"
+  # Duplicate record of arXiv 2509.25477, indexed under a second title.
+  - "The Rise of AfricaNLP: A Survey of Contributions, Contributors, Community Impact, and Bibliometric Analysis"
+  # Presentation slides deposited on Zenodo, not a publication.
+  - "A Brief Analysis Of Amharic Nlp: From Pos Tagging To Question Answering"

@@ -37,3 +37,12 @@
 @import "vendor/font-awesome/font-awesome";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Local polish layer. Global chrome first, then component styles so the
+   component rules win where the two overlap. */
+@import "theme-polish";
+@import "custom";
+@import "home";
+@import "listings";
+@import "viz";
+@import "theme-dark";

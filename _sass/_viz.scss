@@ -1,0 +1,313 @@
+/* ==========================================================================
+   "Research at a glance" topic network, built from _data/publications.yml.
+   Link thickness encodes publication count; selecting a node lists its papers.
+   Font sizes inside the SVG are in viewBox units and render at roughly half
+   that size once the canvas is scaled to the column width.
+   Ruby Sass 3.4 safe.
+   ========================================================================== */
+
+$viz-accent: #0b5fa5;
+$viz-accent-dark: #084a80;
+$viz-track: #e7eef6;
+$viz-ink: #1f2933;
+$viz-muted: #6b7684;
+$viz-line: #e3e8ee;
+$viz-surface: #f7fafd;
+
+.page__content .viz {
+  margin: 2.4em 0 2.6em;
+}
+
+.viz-title {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: $viz-ink;
+  margin: 0 0 0.3em;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid $viz-line;
+}
+
+.viz-sub {
+  font-size: 0.9em;
+  color: $viz-muted;
+  margin: 0 0 1.2em;
+}
+
+/* --- panels --------------------------------------------------------------- */
+
+.viz-panel {
+  flex: 1 1 320px;
+  margin: 0 0.5em 1.1em;
+  padding: 1.05em 1.15em 1.15em;
+  background: #fff;
+  border: 1px solid $viz-line;
+}
+
+/* --- topic tree ----------------------------------------------------------- */
+
+/* The SVG scales to its container, so panel width sets the rendered label
+   size. On wide screens the panel extends past the text column. */
+.viz-panel--wide {
+  margin-bottom: 1.1em;
+}
+
+/* Right-hand margin only: the author profile occupies the left sidebar, so a
+   negative left margin would place the diagram underneath it. */
+@media (min-width: 64em) {
+  .viz-panel--wide { margin-right: -4%; }
+}
+
+@media (min-width: 90em) {
+  .viz-panel--wide { margin-right: -8%; }
+}
+
+.viz-tree {
+  margin-top: 0.4em;
+
+  svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+}
+
+/* Hub-to-theme spokes, drawn in a darker step of the theme hue. */
+/* Each theme sets --c / --c2 inline; the hub keeps the neutral ink colour. */
+.viz-limb {
+  stroke: var(--c, #17436d);
+  stroke-linecap: round;
+  opacity: 0.9;
+}
+
+.viz-hub {
+  fill: #17436d;
+}
+
+.viz-hub__label {
+  font-size: 40px;
+  font-weight: 700;
+  fill: #fff;
+  letter-spacing: 0.04em;
+}
+
+.viz-theme__node {
+  fill: var(--c, #17436d);
+}
+
+.viz-theme__label {
+  font-size: 34px;
+  font-weight: 700;
+  fill: var(--c2, #17436d);
+  letter-spacing: 0.02em;
+  paint-order: stroke;
+  stroke: #fff;
+  stroke-width: 7px;
+  stroke-linejoin: round;
+}
+
+.viz-branch {
+  cursor: pointer;
+
+  &:focus { outline: none; }
+
+  &:focus-visible .viz-branch__line,
+  &:hover .viz-branch__line,
+  &.is-active .viz-branch__line { stroke: var(--c2, $viz-accent-dark); }
+
+  &:hover .viz-branch__leaf,
+  &.is-active .viz-branch__leaf,
+  &:focus-visible .viz-branch__leaf { fill: var(--c2, $viz-accent-dark); }
+
+  &:hover .viz-branch__label,
+  &.is-active .viz-branch__label { fill: var(--c2, $viz-accent-dark); }
+
+  &:focus-visible .viz-branch__label { text-decoration: underline; }
+
+  &.is-active .viz-branch__label { font-weight: 700; }
+}
+
+/* Themes are clickable too: the spoke, the node and the caption all target the
+   same group. */
+.viz-theme {
+  cursor: pointer;
+
+  &:focus { outline: none; }
+
+  &:hover .viz-limb,
+  &.is-active .viz-limb { stroke: var(--c2, #17436d); }
+
+  &:hover .viz-theme__node,
+  &.is-active .viz-theme__node { fill: var(--c2, #17436d); }
+
+  &:hover .viz-theme__label,
+  &.is-active .viz-theme__label { fill: var(--c2, #17436d); }
+
+  &:focus-visible .viz-theme__label { text-decoration: underline; }
+
+  &.is-active .viz-theme__label { font-weight: 800; }
+}
+
+.viz-theme__hit {
+  stroke: transparent;
+  stroke-width: 40;
+}
+
+/* Invisible wide stroke so the branch is easy to hit with a pointer. */
+.viz-branch__hit {
+  fill: none;
+  stroke: transparent;
+  stroke-width: 34;
+}
+
+.viz-branch__line {
+  fill: none;
+  stroke: var(--c, $viz-accent);
+  stroke-linecap: round;
+  transition: stroke 0.15s ease;
+}
+
+.viz-branch__leaf {
+  fill: var(--c, $viz-accent);
+  transition: fill 0.15s ease;
+}
+
+/* Hairline tying a nudged label back to its leaf. */
+.viz-branch__tie {
+  stroke: $viz-line;
+  stroke-width: 1.5;
+}
+
+/* A white halo keeps labels readable where a branch passes behind them. */
+.viz-branch__label {
+  font-size: 29px;
+  font-weight: 600;
+  fill: $viz-ink;
+  paint-order: stroke;
+  stroke: #fff;
+  stroke-width: 5px;
+  stroke-linejoin: round;
+  transition: fill 0.15s ease;
+}
+
+/* --- results list --------------------------------------------------------- */
+
+.viz-results {
+  margin-top: 0.6em;
+  padding: 1.05em 1.2em 1.2em;
+  background: $viz-surface;
+  border: 1px solid $viz-line;
+  border-top: 3px solid $viz-accent;
+
+  &[hidden] { display: none; }
+}
+
+.viz-results__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 0.7em;
+}
+
+.viz-results__title {
+  margin: 0;
+  font-size: 0.98em;
+  font-weight: 700;
+  color: $viz-ink;
+}
+
+.viz-close {
+  background: none;
+  border: 1px solid $viz-line;
+  color: $viz-muted;
+  font-size: 0.72em;
+  padding: 0.25em 0.7em;
+  cursor: pointer;
+
+  &:hover { border-color: $viz-accent; color: $viz-accent; }
+}
+
+.viz-results__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 30em;
+  overflow-y: auto;
+}
+
+.viz-item {
+  display: flex;
+  padding: 0.6em 0;
+  border-bottom: 1px solid $viz-line;
+
+  &:last-child { border-bottom: 0; }
+}
+
+.viz-item__year {
+  flex: 0 0 3.2em;
+  font-size: 0.76em;
+  font-weight: 700;
+  color: $viz-accent;
+  padding-top: 0.15em;
+}
+
+.viz-item__body { flex: 1 1 auto; }
+
+.viz-item__title {
+  display: block;
+  font-size: 0.86em;
+  font-weight: 600;
+  line-height: 1.45;
+  color: $viz-ink;
+}
+
+.viz-item__authors,
+.viz-item__venue {
+  display: block;
+  font-size: 0.75em;
+  line-height: 1.5;
+  color: $viz-muted;
+
+  strong { color: $viz-ink; }
+}
+
+.viz-item__venue { font-style: italic; }
+
+.viz-item__award {
+  display: inline-block;
+  margin-top: 0.25em;
+  font-size: 0.7em;
+  font-weight: 600;
+  padding: 0.15em 0.5em;
+  background: #fff6d8;
+  color: #8a6100;
+}
+
+.viz-item__links {
+  display: block;
+  margin-top: 0.3em;
+
+  a {
+    display: inline-block;
+    margin-right: 0.35em;
+    font-size: 0.68em;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+    text-decoration: none;
+    color: $viz-accent;
+    border: 1px solid rgba(11, 95, 165, 0.35);
+    padding: 0.1em 0.45em;
+
+    &:hover { background: $viz-accent; color: #fff; }
+  }
+}
+
+/* --- small screens -------------------------------------------------------- */
+
+@media (max-width: 600px) {
+  .viz-panel { flex: 1 1 100%; padding: 0.8em 0.6em; }
+  .viz-branch__label { font-size: 34px; }
+  .viz-theme__label { font-size: 38px; }
+  .viz-hub__label { font-size: 46px; }
+}

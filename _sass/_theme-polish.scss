@@ -1,0 +1,799 @@
+/* ==========================================================================
+   Theme polish — global chrome (typography, masthead, sidebar, footer, links)
+   Imported LAST. Layers on top of Minimal Mistakes / academicpages.
+   Shares the design tokens used by _custom.scss.
+   ========================================================================== */
+
+$accent: #0b5fa5;
+$accent-soft: #e8f1fa;
+$ink: #1f2933;
+$muted: #6b7684;
+$line: #e3e8ee;
+
+$tp-bg: #ffffff;
+$tp-bg-soft: #f7f9fb;
+$tp-focus: rgba(11, 95, 165, 0.35);
+
+/* Site typeface. Loaded in _includes/head/custom.html. The theme bakes
+   $sans-serif into rules before this file is imported, so the family is
+   re-applied here rather than by changing the variable. */
+$font-stack: "Exo 2", -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+html,
+body,
+h1, h2, h3, h4, h5, h6,
+p, li, dt, dd, td, th, blockquote, figcaption, label,
+input, select, textarea, button,
+.page__title, .page__content, .archive__item-title,
+.masthead, .greedy-nav, .greedy-nav a,
+.author__name, .author__bio, .author__urls,
+.page__footer, .breadcrumbs, .pagination {
+  font-family: $font-stack;
+}
+
+/* Breakpoints mirror the theme's (ems, 16px base):
+   600px = 37.5em | 768px = 48em | 925px = 57.8125em | 1280px = 80em */
+
+
+/* --- Page width ----------------------------------------------------------
+   The theme caps #main at $x-large (1280px). Use at least 90% of the viewport
+   instead, from the medium breakpoint up; below that the theme's own padding
+   already gives a sensible full-width layout. */
+
+#main {
+  @media (min-width: 48em) {
+    max-width: 90%;
+    width: 90%;
+  }
+
+  @media (min-width: 100em) {
+    max-width: 92%;
+    width: 92%;
+  }
+}
+
+
+/* --- Page canvas & base typography ---------------------------------------- */
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: $tp-bg;
+  color: $ink;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* No element may push the page sideways. */
+img,
+svg,
+video,
+iframe,
+embed,
+object {
+  max-width: 100%;
+}
+
+img,
+svg,
+video {
+  height: auto;
+}
+
+p,
+li,
+dd,
+blockquote,
+figcaption,
+.page__content {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+
+/* --- Heading scale & rhythm ------------------------------------------------ */
+
+h1, h2, h3, h4, h5, h6 {
+  color: $ink;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  margin: 1.9em 0 0.55em;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 1.9em;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+h2 { font-size: 1.4em; }
+h3 { font-size: 1.12em; }
+h4 { font-size: 1em; }
+
+h5,
+h6 {
+  font-size: 0.82em;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: $muted;
+}
+
+/* first heading in a block shouldn't add a big gap */
+.page__content > *:first-child,
+.archive > *:first-child {
+  margin-top: 0;
+}
+
+.page__title {
+  font-size: 1.9em;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: $ink;
+  margin-bottom: 0.6em;
+
+  a { color: inherit; }
+}
+
+.page__lead,
+.archive__subtitle {
+  color: $muted;
+  font-weight: 400;
+}
+
+.page__meta,
+.archive__item-excerpt .page__meta {
+  color: $muted;
+}
+
+.page__content {
+  font-size: 1em;
+  line-height: 1.7;
+
+  /* comfortable reading measure without touching the grid */
+  > p,
+  > ul,
+  > ol,
+  > dl,
+  > blockquote,
+  > h1,
+  > h2,
+  > h3,
+  > h4,
+  > h5,
+  > h6 {
+    max-width: none;
+  }
+
+  h2 {
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid $line;
+  }
+
+  h3 {
+    color: $ink;
+  }
+
+  p {
+    margin: 0 0 1.15em;
+  }
+
+  ul,
+  ol {
+    margin-bottom: 1.15em;
+
+    li {
+      margin-bottom: 0.3em;
+    }
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid $line;
+    margin: 2.2em 0;
+  }
+}
+
+
+/* --- Links & focus states -------------------------------------------------- */
+
+a {
+  color: $accent;
+  text-decoration: none;
+
+  &:visited { color: $accent; }
+
+  &:hover,
+  &:focus {
+    color: darken($accent, 12%);
+    text-decoration: underline;
+  }
+}
+
+.page__content a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(11, 95, 165, 0.28);
+  transition: border-color 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    text-decoration: none;
+    border-bottom-color: $accent;
+    color: darken($accent, 12%);
+  }
+
+  &.btn,
+  &.pub-link {
+    border-bottom: 0;
+  }
+}
+
+.page__content .pub-links a,
+.page__content .btn {
+  border-bottom: 0;
+}
+
+/* Keyboard-visible focus ring everywhere. */
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus,
+[tabindex]:focus {
+  outline: 2px solid $tp-focus;
+  outline-offset: 2px;
+}
+
+a:focus:not(:focus-visible),
+button:focus:not(:focus-visible),
+[tabindex]:focus:not(:focus-visible) {
+  outline: none;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid $accent;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+
+/* --- Masthead / greedy nav ------------------------------------------------- */
+
+.masthead {
+  background-color: $tp-bg;
+  border-bottom: 1px solid $line;
+
+  &__inner-wrap {
+    padding-top: 0.55em;
+    padding-bottom: 0.55em;
+  }
+}
+
+.greedy-nav {
+  background: transparent;
+
+  a {
+    color: $muted;
+    font-size: 1.08em;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    padding: 0.65rem 0;
+    transition: color 0.15s ease;
+
+    &:hover,
+    &:focus {
+      color: $accent;
+      text-decoration: none;
+    }
+  }
+
+  .visible-links {
+    a:before {
+      height: 2px;
+      background: $accent;
+    }
+
+    li:first-child a {
+      color: $ink;
+      font-size: 1.3em;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+
+      &:hover { color: $accent; }
+      &:before { display: none; }
+    }
+  }
+
+  button {
+    background-color: transparent;
+    color: $ink;
+    border-radius: 4px;
+
+    &:hover { color: $accent; }
+
+    .navicon,
+    .navicon:before,
+    .navicon:after {
+      background: currentColor;
+    }
+  }
+
+  .hidden-links {
+    border: 1px solid $line;
+    border-radius: 6px;
+    box-shadow: 0 6px 20px rgba(31, 41, 51, 0.12);
+    max-width: calc(100vw - 2em);
+
+    a {
+      font-size: 1.02em;
+      color: $ink;
+      white-space: nowrap;
+
+      &:hover {
+        color: $accent;
+        background: $accent-soft;
+      }
+    }
+
+    li { border-bottom: 1px solid $line; }
+
+    &:before { border-color: $line transparent; }
+  }
+}
+
+.masthead__menu-item--lg {
+  padding-right: 1.5em;
+}
+
+
+/* --- Breadcrumbs ----------------------------------------------------------- */
+
+.breadcrumbs {
+  ol { color: $muted; }
+
+  a { color: $muted; }
+  a:hover { color: $accent; }
+
+  .current { color: $ink; }
+}
+
+
+/* --- Author profile sidebar ------------------------------------------------ */
+
+.sidebar {
+  /* the theme dims the sidebar until hover — keep it legible at all times */
+  opacity: 1;
+
+  &:hover { opacity: 1; }
+
+  p,
+  li {
+    font-size: 0.8em;
+    line-height: 1.55;
+  }
+
+  h2, h3, h4, h5, h6 {
+    color: $ink;
+    text-transform: none;
+    letter-spacing: -0.01em;
+  }
+}
+
+.author__avatar {
+  img {
+    max-width: 150px;
+    border-radius: 50%;
+    padding: 0;
+    border: 0;
+    box-shadow: 0 0 0 1px $line, 0 6px 18px rgba(31, 41, 51, 0.10);
+  }
+}
+
+.author__name {
+  color: $ink;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+
+.sidebar .author__name {
+  font-size: 1.05em;
+}
+
+.author__bio {
+  color: $muted;
+  font-size: 0.82em;
+  line-height: 1.55;
+}
+
+.author__urls-wrapper {
+  button {
+    border: 1px solid $line;
+    background: $tp-bg;
+    color: $ink;
+    border-radius: 4px;
+    font-size: 0.72em;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    &:hover {
+      border-color: $accent;
+      color: $accent;
+      background: $accent-soft;
+    }
+  }
+}
+
+.author__urls {
+  border-radius: 6px;
+  box-shadow: 0 6px 20px rgba(31, 41, 51, 0.14);
+  max-width: calc(100vw - 2em);
+
+  li {
+    white-space: normal;
+    padding: 0.05em 0;
+  }
+
+  a {
+    display: block;
+    color: $muted;
+    font-size: 0.82em;
+    line-height: 1.5;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    border-radius: 3px;
+    transition: color 0.15s ease;
+
+    &:hover {
+      color: $accent;
+      text-decoration: none;
+    }
+  }
+
+  .fa {
+    color: $muted;
+    margin-right: 0.15em;
+  }
+
+  a:hover .fa { color: $accent; }
+}
+
+@media (min-width: 57.8125em) {
+  .author__urls {
+    border-top: 1px solid $line;
+    margin-top: 0.8em;
+    padding-top: 0.6em;
+    box-shadow: none;
+  }
+}
+
+
+/* --- Tables ---------------------------------------------------------------- */
+
+.page__content table,
+.archive table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 0;
+  border-top: 1px solid $line;
+  border-bottom: 1px solid $line;
+  font-size: 0.82em;
+}
+
+table {
+  thead {
+    background-color: $tp-bg-soft;
+    border-bottom: 1px solid $line;
+  }
+
+  th {
+    color: $ink;
+    font-weight: 600;
+    border-right: 0;
+    border-bottom: 1px solid $line;
+    padding: 0.6em 0.75em;
+    white-space: nowrap;
+  }
+
+  td {
+    border-right: 0;
+    border-bottom: 1px solid $line;
+    padding: 0.6em 0.75em;
+    vertical-align: top;
+  }
+
+  tbody tr:last-child td { border-bottom: 0; }
+}
+
+
+/* --- Blockquotes, code, figures -------------------------------------------- */
+
+blockquote {
+  margin: 1.8em 0;
+  padding: 0.15em 0 0.15em 1.1em;
+  color: $muted;
+  font-style: normal;
+  border-left: 3px solid $line;
+
+  p:last-child { margin-bottom: 0; }
+
+  cite { color: $muted; }
+}
+
+.page__content {
+  blockquote {
+    max-width: none;
+  }
+
+  pre {
+    max-width: 100%;
+    overflow-x: auto;
+    border-radius: 6px;
+  }
+
+  code,
+  tt {
+    border-radius: 3px;
+  }
+
+  p > code,
+  a > code,
+  li > code,
+  td > code,
+  figcaption > code {
+    background: $tp-bg-soft;
+    border: 1px solid $line;
+    padding: 0.08em 0.35em;
+    font-size: 0.85em;
+    word-break: break-word;
+  }
+
+  a > code { color: inherit; }
+
+  figure,
+  img {
+    margin-left: 0;
+  }
+
+  figcaption {
+    color: $muted;
+    font-size: 0.78em;
+    line-height: 1.5;
+  }
+
+  img {
+    border-radius: 4px;
+  }
+
+  a:hover img {
+    box-shadow: 0 4px 14px rgba(31, 41, 51, 0.15);
+  }
+}
+
+.notice,
+.notice--info,
+.notice--warning,
+.notice--success,
+.notice--danger,
+.notice--primary {
+  border-radius: 6px;
+}
+
+
+/* --- Archive / list items -------------------------------------------------- */
+
+.archive__item-title {
+  font-size: 1.05em;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-top: 0.9em;
+  border-bottom: 0;
+
+  a { color: $ink; }
+  a:hover { color: $accent; }
+}
+
+.archive__item-excerpt {
+  color: $muted;
+  font-size: 0.85em;
+  line-height: 1.6;
+}
+
+.taxonomy__section .archive__item-title { margin-top: 0.5em; }
+
+
+/* --- Pagination ------------------------------------------------------------ */
+
+.pagination li a {
+  color: $muted;
+  border-color: $line;
+  font-weight: 500;
+
+  &:hover {
+    color: $accent;
+    border-color: $accent;
+  }
+
+  &.current,
+  &.current:hover {
+    background: $accent;
+    border-color: $accent;
+    color: #fff;
+  }
+}
+
+
+/* --- Footer ---------------------------------------------------------------- */
+
+.page__footer {
+  margin-top: 4em;
+  background-color: $tp-bg-soft;
+  border-top: 1px solid $line;
+  color: $muted;
+
+  footer {
+    margin-top: 1.6em;
+    padding-bottom: 2em;
+  }
+
+  a {
+    color: $muted;
+
+    &:hover {
+      color: $accent;
+      text-decoration: none;
+    }
+  }
+
+  .fa { color: $muted; }
+  a:hover .fa { color: $accent; }
+}
+
+.page__footer-follow {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.15em 0.6em;
+  }
+
+  li {
+    font-size: 0.7em;
+    letter-spacing: 0.05em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  a {
+    font-weight: 600;
+    padding-right: 0;
+  }
+}
+
+.page__footer-copyright {
+  margin-top: 0.8em;
+  color: $muted;
+  font-size: 0.72em;
+  line-height: 1.6;
+}
+
+
+/* --- Misc chrome ----------------------------------------------------------- */
+
+.toc {
+  border-color: $line;
+  box-shadow: none;
+  border-radius: 6px;
+
+  .nav__title {
+    background: $accent;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+}
+
+.toc__menu a {
+  color: $muted;
+  border-bottom-color: $line;
+  font-weight: 500;
+
+  &:hover {
+    color: $accent;
+    background: $accent-soft;
+  }
+}
+
+.nav__list .active {
+  background: $accent;
+}
+
+.btn,
+.btn--inverse {
+  border-radius: 4px;
+}
+
+::selection {
+  background: $accent-soft;
+  color: $ink;
+}
+
+
+/* --- Small screens --------------------------------------------------------- */
+
+@media (max-width: 37.5em) {
+  body { font-size: 15px; }
+
+  #main {
+    padding-left: 0.9em;
+    padding-right: 0.9em;
+  }
+
+  .masthead__inner-wrap {
+    padding-left: 0.9em;
+    padding-right: 0.9em;
+  }
+
+  h1,
+  .page__title { font-size: 1.6em; }
+
+  h2 { font-size: 1.25em; }
+
+  .greedy-nav {
+    min-width: 0;
+
+    .visible-links li:first-child a { font-size: 1.1em; }
+  }
+
+  .author__avatar img { max-width: 110px; }
+
+  .page__content pre,
+  .page__content table { font-size: 0.78em; }
+}
+
+
+/* --- Print ----------------------------------------------------------------- */
+
+@media print {
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .page__content > p,
+  .page__content > ul,
+  .page__content > ol,
+  .page__content > blockquote,
+  .page__content > h1,
+  .page__content > h2,
+  .page__content > h3 {
+    max-width: none;
+  }
+
+  .page__content a {
+    border-bottom: 0;
+    color: #000;
+  }
+
+  .page__content table {
+    display: table;
+    overflow: visible;
+  }
+
+  .masthead,
+  .page__footer,
+  .author__urls-wrapper button {
+    display: none;
+  }
+}

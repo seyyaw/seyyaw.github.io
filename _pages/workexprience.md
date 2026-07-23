@@ -5,28 +5,86 @@ permalink: /workexprience/
 author_profile: true
 ---
 
-<ul>
-<li>Technical lead at the Hous of Computing and Data Science, Universitäte  Hamburg, Germany, 2022+</li>
+<div class="listing-section">
+<h2 class="listing-section-title" id="Current">Current</h2>
+<ul class="listing-timeline">
+  <li>
+    <span class="listing-timeline-role">Technical lead</span>
+    <span class="listing-timeline-org">Hous of Computing and Data Science, Universitäte Hamburg, Germany</span>
+    <span class="listing-timeline-when">2022+</span>
+  </li>
 </ul>
-<h1 class="bodytext"><b>Research<a id="Software"></a></b></h1>
-<ul>
-<li>Post doctoral researcher, Language Technology Group, Universitäte  Hamburg, Germany, 2019-2022</li>
-<li>Guest researcher, IIT Kharagpur, India, September 2019</li>
-<li>Guest researcher, City University of Hong Kong, Hong Kong, January 2019- April 2019</li>
-<li>Doctoral researcher, Language Technology Group, Universitäte  Hamburg, Germany, October 2016- Jan 2019 </li>
-<li>Doctoral researcher, Language Technology Group, TU-Darmstadt, Germany, April 2014- Sep 2016 </li>
+</div>
+
+<div class="listing-section">
+<h2 class="listing-section-title" id="Research">Research</h2>
+<ul class="listing-timeline">
+  <li>
+    <span class="listing-timeline-role">Post doctoral researcher</span>
+    <span class="listing-timeline-org">Language Technology Group, Universitäte Hamburg, Germany</span>
+    <span class="listing-timeline-when">2019&ndash;2022</span>
+  </li>
+  <li>
+    <span class="listing-timeline-role">Guest researcher</span>
+    <span class="listing-timeline-org">IIT Kharagpur, India</span>
+    <span class="listing-timeline-when">September 2019</span>
+  </li>
+  <li>
+    <span class="listing-timeline-role">Guest researcher</span>
+    <span class="listing-timeline-org">City University of Hong Kong, Hong Kong</span>
+    <span class="listing-timeline-when">January 2019 &ndash; April 2019</span>
+  </li>
+  <li>
+    <span class="listing-timeline-role">Doctoral researcher</span>
+    <span class="listing-timeline-org">Language Technology Group, Universitäte Hamburg, Germany</span>
+    <span class="listing-timeline-when">October 2016 &ndash; Jan 2019</span>
+  </li>
+  <li>
+    <span class="listing-timeline-role">Doctoral researcher</span>
+    <span class="listing-timeline-org">Language Technology Group, TU-Darmstadt, Germany</span>
+    <span class="listing-timeline-when">April 2014 &ndash; Sep 2016</span>
+  </li>
 </ul>
-<h1 class="bodytext"><b>Software Developer<a id="Software"></a></b></h1>
-<ul></ul>
-<ul>
-<li>Scientific Software developer, TU-Darmstadt, Germany, Sep 2012- Sep 2016 </li>
-<li>Software developer, Okkam Srl, Trento, Italy, Sep 2011- Sep 2012 </li>
+</div>
+
+<div class="listing-section">
+<h2 class="listing-section-title" id="SoftwareDeveloper">Software Developer</h2>
+<ul class="listing-timeline">
+  <li>
+    <span class="listing-timeline-role">Scientific Software developer</span>
+    <span class="listing-timeline-org">TU-Darmstadt, Germany</span>
+    <span class="listing-timeline-when">Sep 2012 &ndash; Sep 2016</span>
+  </li>
+  <li>
+    <span class="listing-timeline-role">Software developer</span>
+    <span class="listing-timeline-org">Okkam Srl, Trento, Italy</span>
+    <span class="listing-timeline-when">Sep 2011 &ndash; Sep 2012</span>
+  </li>
 </ul>
-<h1 class="bodytext"><b>Teaching and Administration<a id="Software"></a></b></h1>
-<ul></ul>
-<ul>
-<li> LT group, Universitäte  Hamburg, Germany, October 2016+ </li>
-<li>LT group, TU Darmstadt, Germany, October 2013- Sep 2016 </li>
-<li>Adama University, Ethiopia, December 2009 - October 2010 </li>
-<li>Haramaya University, Ethiopia, August 2004 - December 2009 </li>
+</div>
+
+<div class="listing-section">
+<h2 class="listing-section-title" id="TeachingAndAdministration">Teaching and Administration</h2>
+<ul class="listing-timeline">
+  <li>
+    <span class="listing-timeline-role">LT group</span>
+    <span class="listing-timeline-org">Universitäte Hamburg, Germany</span>
+    <span class="listing-timeline-when">October 2016+</span>
+  </li>
+  <li>
+    <span class="listing-timeline-role">LT group</span>
+    <span class="listing-timeline-org">TU Darmstadt, Germany</span>
+    <span class="listing-timeline-when">October 2013 &ndash; Sep 2016</span>
+  </li>
+  <li>
+    <span class="listing-timeline-role">Adama University</span>
+    <span class="listing-timeline-org">Ethiopia</span>
+    <span class="listing-timeline-when">December 2009 &ndash; October 2010</span>
+  </li>
+  <li>
+    <span class="listing-timeline-role">Haramaya University</span>
+    <span class="listing-timeline-org">Ethiopia</span>
+    <span class="listing-timeline-when">August 2004 &ndash; December 2009</span>
+  </li>
 </ul>
+</div>

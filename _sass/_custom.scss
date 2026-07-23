@@ -1,0 +1,231 @@
+/* ==========================================================================
+   Custom polish layered on top of the theme.
+   Kept in one file, imported last, so theme upgrades stay easy to merge.
+   ========================================================================== */
+
+$accent: #0b5fa5;
+$accent-soft: #e8f1fa;
+$ink: #1f2933;
+$muted: #6b7684;
+$line: #e3e8ee;
+
+/* --- Publications --------------------------------------------------------- */
+
+.pub-intro {
+  color: $muted;
+  font-size: 0.9em;
+  line-height: 1.6;
+  border-left: 3px solid $accent;
+  padding-left: 0.9em;
+  margin-bottom: 1.6em;
+}
+
+.pub-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em;
+  align-items: center;
+  margin-bottom: 0.8em;
+}
+
+.pub-search {
+  flex: 1 1 260px;
+  padding: 0.55em 0.8em;
+  border: 1px solid $line;
+  border-radius: 6px;
+  font-size: 0.85em;
+  background: #fff;
+  color: $ink;
+
+  &:focus {
+    outline: none;
+    border-color: $accent;
+    box-shadow: 0 0 0 3px rgba(11, 95, 165, 0.12);
+  }
+}
+
+.pub-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35em;
+}
+
+.pub-filter {
+  border: 1px solid $line;
+  background: #fff;
+  color: $muted;
+  border-radius: 999px;
+  padding: 0.32em 0.85em;
+  font-size: 0.72em;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    border-color: $accent;
+    color: $accent;
+  }
+
+  &.is-active {
+    background: $accent;
+    border-color: $accent;
+    color: #fff;
+  }
+}
+
+.pub-count {
+  color: $muted;
+  font-size: 0.75em;
+  margin: 0 0 1.4em;
+}
+
+.pub-year {
+  font-size: 1.15em;
+  color: $ink;
+  margin: 1.6em 0 0.6em;
+  padding-bottom: 0.25em;
+  border-bottom: 2px solid $line;
+}
+
+.pub-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pub-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6em;
+  padding: 0.5em 0;
+  border-bottom: 1px solid $line;
+
+  &[hidden] { display: none; }
+  &:last-child { border-bottom: 0; }
+}
+
+.pub-body { flex: 1 1 auto; min-width: 0; }
+
+.pub-type {
+  flex: 0 0 auto;
+  display: inline-block;
+  min-width: 5.6em;
+  text-align: center;
+  font-size: 0.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  padding: 0.22em 0.5em;
+  border-radius: 3px;
+  background: $accent-soft;
+  color: $accent;
+
+  &--journal      { background: #e6f4ea; color: #1b7f3b; }
+  &--conference   { background: $accent-soft; color: $accent; }
+  &--workshop     { background: #fdf0e3; color: #a55b0b; }
+  &--preprint     { background: #f1eefb; color: #6340c4; }
+  &--thesis       { background: #fce8ec; color: #b02a45; }
+  &--poster       { background: #e9f6f8; color: #1c7b8c; }
+  &--book-chapter { background: #efeee9; color: #6c6350; }
+  &--other        { background: #eef0f2; color: $muted; }
+}
+
+.pub-title {
+  font-weight: 600;
+  font-size: 0.92em;
+  color: $ink;
+  line-height: 1.4;
+}
+
+/* Everything after the title lives on one wrapping line, which is what keeps
+   an entry to roughly two lines instead of five. */
+.pub-meta {
+  font-size: 0.78em;
+  line-height: 1.55;
+  color: $muted;
+}
+
+.pub-authors strong { color: $ink; font-weight: 600; }
+
+.pub-authors__toggle {
+  border: 0;
+  background: none;
+  padding: 0 0.15em;
+  margin-left: 0.15em;
+  font-size: 0.95em;
+  font-weight: 600;
+  color: $accent;
+  cursor: pointer;
+
+  &:hover { text-decoration: underline; }
+}
+
+.pub-venue {
+  font-style: italic;
+
+  &::before { content: " · "; font-style: normal; }
+}
+
+.pub-links {
+  white-space: nowrap;
+
+  a {
+    margin-left: 0.35em;
+    font-size: 0.88em;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+    text-decoration: none;
+    color: $accent;
+
+    &:hover { text-decoration: underline; }
+  }
+}
+
+.pub-award {
+  display: inline-block;
+  font-size: 0.72em;
+  font-weight: 600;
+  padding: 0.1em 0.45em;
+  border-radius: 3px;
+  background: #fff6d8;
+  color: #8a6100;
+  vertical-align: middle;
+}
+
+/* --- News list on the About page ------------------------------------------ */
+
+.page__content {
+  #news + ul,
+  h1#news + ul {
+    list-style: none;
+    padding-left: 0;
+
+    > li {
+      position: relative;
+      padding: 0.6em 0 0.7em 1.1em;
+      border-bottom: 1px solid $line;
+      line-height: 1.6;
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 1.15em;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: $accent;
+      }
+
+      &:last-child { border-bottom: 0; }
+    }
+  }
+}
+
+/* --- Small screens -------------------------------------------------------- */
+
+@media (max-width: 600px) {
+  .pub-controls { flex-direction: column; align-items: stretch; }
+  .pub-search { width: 100%; }
+}
