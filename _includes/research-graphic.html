@@ -39,9 +39,9 @@ printed. Selecting a theme or topic lists the matching papers below the graph.
   try { pubs = JSON.parse(node.textContent); } catch (e) { return; }
   if (!pubs || !pubs.length) return;
 
-  // Two levels: broad themes (the limbs) and the specific topics that fork off
-  // them (the branches). Matching is keyword-based, so a paper can sit on more
-  // than one branch.
+  /* Two levels: broad themes (the limbs) and the specific topics that fork off */
+  /* them (the branches). Matching is keyword-based, so a paper can sit on more */
+  /* than one branch. */
   var THEMES = [
     ['Languages & translation', [
       ['Amharic NLP',             /amharic/i],
@@ -108,17 +108,17 @@ printed. Selecting a theme or topic lists the matching papers below the graph.
   function renderNetwork(el) {
     var W = 1900, H = 1180;
     var cx = W / 2, cy = H / 2;
-    var R1X = 252, R1Y = 205;   // theme ring
-    var R2X = 470, R2Y = 410;   // topic ring
-    var LABEL_GAP = 48;         // scales with the label font size
+    var R1X = 252, R1Y = 205;   /* theme ring */
+    var R2X = 470, R2Y = 410;   /* topic ring */
+    var LABEL_GAP = 48;         /* scales with the label font size */
 
-    // One hue per theme, inherited by all of its topics. Validated as a
-    // categorical set (CVD-safe, >=3:1 on white); every node is also text
-    // labelled, so colour never carries meaning on its own.
-    // [light, light-hover, dark, dark-hover] per theme. The dark set is the
-    // validated dark-surface stepping, ordered magenta-first; both orderings
-    // pass the categorical checks (lightness band, chroma, CVD separation,
-    // >=3:1 on their own surface).
+    /* One hue per theme, inherited by all of its topics. Validated as a */
+    /* categorical set (CVD-safe, >=3:1 on white); every node is also text */
+    /* labelled, so colour never carries meaning on its own. */
+    /* [light, light-hover, dark, dark-hover] per theme. The dark set is the */
+    /* validated dark-surface stepping, ordered magenta-first; both orderings */
+    /* pass the categorical checks (lightness band, chroma, CVD separation, */
+    /* >=3:1 on their own surface). */
     var HUES = [
       ['#2a78d6', '#1c5cab', '#d55181', '#e87ba4'],
       ['#c9403f', '#9e2c2b', '#3987e5', '#6da7ec'],
@@ -155,7 +155,7 @@ printed. Selecting a theme or topic lists the matching papers below the graph.
       return lo + t * (hi - lo);
     }
 
-    // Topic names per theme, so a theme can list everything beneath it.
+    /* Topic names per theme, so a theme can list everything beneath it. */
     themes.forEach(function (t) {
       THEME_TOPICS[t.name] = t.leaves.map(function (l) { return l.name; });
     });
@@ -163,8 +163,8 @@ printed. Selecting a theme or topic lists the matching papers below the graph.
     var TWO_PI = Math.PI * 2;
     var links = [], nodes = [], labels = [];
 
-    // Every topic gets an equal slice of the circle, so themes occupy an arc
-    // proportional to how many topics they hold.
+    /* Every topic gets an equal slice of the circle, so themes occupy an arc */
+    /* proportional to how many topics they hold. */
     var cursor = 0;
     themes.forEach(function (theme, themeIdx) {
       var hue = HUES[themeIdx % HUES.length];
@@ -199,8 +199,8 @@ printed. Selecting a theme or topic lists the matching papers below the graph.
 
     var topics = links.filter(function (l) { return l.key; });
 
-    // Nudge apart labels that would overlap. Only same-side labels can collide,
-    // so each side is resolved on its own.
+    /* Nudge apart labels that would overlap. Only same-side labels can collide, */
+    /* so each side is resolved on its own. */
     ['start', 'end'].forEach(function (side) {
       var group = topics.filter(function (l) { return l.anchor === side; })
                         .sort(function (p, q) { return p.ly - q.ly; });
@@ -209,14 +209,14 @@ printed. Selecting a theme or topic lists the matching papers below the graph.
           group[i].ly = group[i - 1].ly + LABEL_GAP;
         }
       }
-      // Keep the run centred on the hub rather than drifting downwards.
+      /* Keep the run centred on the hub rather than drifting downwards. */
       if (group.length) {
         var shift = ((group[0].ly + group[group.length - 1].ly) / 2) - cy;
         group.forEach(function (g) { g.ly -= shift; });
       }
     });
 
-    // Theme captions can also overlap where two rings sit at similar heights.
+    /* Theme captions can also overlap where two rings sit at similar heights. */
     labels.sort(function (p, q) { return p.y - q.y; });
     for (var li = 1; li < labels.length; li++) {
       var prev = labels[li - 1], cur = labels[li];
@@ -228,7 +228,7 @@ printed. Selecting a theme or topic lists the matching papers below the graph.
 
     var parts = [];
 
-    // Hub-to-theme links first, so they sit behind everything else.
+    /* Hub-to-theme links first, so they sit behind everything else. */
     links.filter(function (l) { return !l.key; }).forEach(function (l) {
       parts.push(
         '<g class="viz-theme" data-theme="' + esc(l.theme) + '"' + l.tint + '"' +
@@ -242,7 +242,7 @@ printed. Selecting a theme or topic lists the matching papers below the graph.
     });
 
     topics.forEach(function (l) {
-      // A gentle bow keeps parallel spokes from reading as a starburst.
+      /* A gentle bow keeps parallel spokes from reading as a starburst. */
       var mx = (l.from[0] + l.to[0]) / 2, my = (l.from[1] + l.to[1]) / 2;
       var bow = 'M' + l.from[0].toFixed(1) + ',' + l.from[1].toFixed(1) +
                 ' Q' + (mx + (my - cy) * 0.07).toFixed(1) + ',' + (my - (mx - cx) * 0.07).toFixed(1) +
@@ -266,7 +266,7 @@ printed. Selecting a theme or topic lists the matching papers below the graph.
       );
     });
 
-    // Theme node and caption travel together as one target.
+    /* Theme node and caption travel together as one target. */
     labels.forEach(function (l) {
       var n = nodes.filter(function (x) { return x.theme === l.text; })[0];
       parts.push(
@@ -279,7 +279,7 @@ printed. Selecting a theme or topic lists the matching papers below the graph.
         '</g>');
     });
 
-    // The hub, drawn last so it sits on top of the spokes.
+    /* The hub, drawn last so it sits on top of the spokes. */
     parts.push('<circle class="viz-hub" cx="' + cx + '" cy="' + cy + '" r="58"/>');
     parts.push('<text class="viz-hub__label" x="' + cx + '" y="' + (cy + 12) +
                '" text-anchor="middle">Pub</text>');
@@ -309,8 +309,8 @@ printed. Selecting a theme or topic lists the matching papers below the graph.
   }
 
   function show(key, isTheme) {
-    // A theme lists the union of everything on its topics; a paper matching
-    // two topics in the same theme is still listed once.
+    /* A theme lists the union of everything on its topics; a paper matching */
+    /* two topics in the same theme is still listed once. */
     var wanted = isTheme ? (THEME_TOPICS[key] || []) : [key];
     var list = pubs.filter(function (p) {
       var ts = topicsOf(p);
@@ -360,7 +360,7 @@ printed. Selecting a theme or topic lists the matching papers below the graph.
       return;
     }
     clearActive();
-    // A theme is drawn as two groups (spoke, and node + caption); light both.
+    /* A theme is drawn as two groups (spoke, and node + caption); light both. */
     if (theme) {
       Array.prototype.forEach.call(
         document.querySelectorAll('.viz-theme'),
@@ -381,7 +381,7 @@ printed. Selecting a theme or topic lists the matching papers below the graph.
     if (btn) activate(btn);
   });
 
-  // SVG groups are not real buttons, so Enter/Space have to be wired up.
+  /* SVG groups are not real buttons, so Enter/Space have to be wired up. */
   root.addEventListener('keydown', function (e) {
     if (e.key !== 'Enter' && e.key !== ' ' && e.key !== 'Spacebar') return;
     var btn = e.target.closest ? e.target.closest('.viz-branch, .viz-theme') : null;

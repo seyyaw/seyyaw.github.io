@@ -19,11 +19,15 @@ endif
 BUNDLE := PATH="$(RUBY_PREFIX)/bin:$$PATH" bundle
 PORT ?= 4000
 
+# Repository slug, needed by jekyll-github-metadata in production builds.
+REPO ?= seyyaw/seyyaw.github.io
+
 .PHONY: help serve build publications clean install check-ruby
 
 help:
 	@echo "make serve         - serve the site at http://localhost:$(PORT)"
 	@echo "make build         - build the site into _site/"
+	@echo "make build-prod    - production build (as deployed) into _site_prod/"
 	@echo "make publications  - refresh _data/publications.yml"
 	@echo "make clean         - remove _site/"
 
@@ -48,8 +52,14 @@ serve: install
 build: install
 	$(BUNDLE) exec jekyll build
 
+# Production build. GitHub Pages sets JEKYLL_ENV=production, which enables the
+# HTML compressor; that strips newlines, so inline scripts must not use //
+# comments. Use this target to reproduce the deployed output locally.
+build-prod: install
+	JEKYLL_ENV=production PAGES_REPO_NWO=$(REPO) $(BUNDLE) exec jekyll build -d _site_prod
+
 publications:
 	python3 scripts/fetch_publications.py
 
 clean:
-	rm -rf _site
+	rm -rf _site _site_prod

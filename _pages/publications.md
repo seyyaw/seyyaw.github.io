@@ -129,7 +129,7 @@ author_profile: true
       el.hidden = !visible;
       if (visible) shown++;
     });
-    // Hide a year heading when every entry under it is filtered out.
+    /* Hide a year heading when every entry under it is filtered out. */
     blocks.forEach(function (block) {
       var any = block.querySelectorAll('.pub-item:not([hidden])').length > 0;
       block.hidden = !any;
@@ -137,7 +137,7 @@ author_profile: true
     counter.textContent = shown + ' of ' + items.length + ' shown';
   }
 
-  // Long author lists show three names; the rest unfold in place on demand.
+  /* Long author lists show three names; the rest unfold in place on demand. */
   Array.prototype.forEach.call(document.querySelectorAll('.pub-authors__toggle'), function (b) {
     b.dataset.label = b.textContent;
   });
