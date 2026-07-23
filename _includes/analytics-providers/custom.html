@@ -1,3 +1,16 @@
 <!-- start custom analytics snippet -->
-
+{%- comment -%}
+GoatCounter. Loads only when site.goatcounter_code is set and only on
+production builds, so local development is never counted. The endpoint records
+a page view with country, referrer and screen size; no cookies are set and no
+data is exposed on the page.
+{%- endcomment -%}
+{%- if site.goatcounter_code and site.goatcounter_code != "" and jekyll.environment == "production" %}
+<script data-goatcounter="https://{{ site.goatcounter_code }}.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+<noscript>
+  <img src="https://{{ site.goatcounter_code }}.goatcounter.com/count?p={{ page.url | uri_escape }}"
+       alt="" width="1" height="1" referrerpolicy="no-referrer-when-downgrade">
+</noscript>
+{%- endif %}
 <!-- end custom analytics snippet -->

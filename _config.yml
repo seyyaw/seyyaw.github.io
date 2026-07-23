@@ -70,10 +70,15 @@ social:
 
 
 # Analytics
+# GoatCounter: cookieless, no personal data, no consent banner required.
+# Set goatcounter_code to the subdomain chosen at https://www.goatcounter.com/
+# (e.g. "seyyaw" for seyyaw.goatcounter.com). Leave it empty to disable
+# tracking entirely. Statistics are private to the GoatCounter account and are
+# not shown anywhere on the site.
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          : UA-101167596-3
+  provider               : "custom"   # false (default), "google", "google-universal", "custom"
+
+goatcounter_code         : "seyyaw"
 
 
 # Site Author
