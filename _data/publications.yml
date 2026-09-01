@@ -52,7 +52,7 @@
   - Shamsuddeen Hassan Muhammad
   - Seid Muhie Yimam
   year: 2026
-  venue: Transactions of the Association for Computational Linguistics
+  venue: Trans. Assoc. Comput. Linguistics
   type: journal
   doi: 10.1162/tacl.a.731
   url: https://www.semanticscholar.org/paper/6ba57d2ac9380e83892612931e59038248c02e31
@@ -67,7 +67,7 @@
   - Aziza Umer Yibrie
   - A. Ayele
   - Shamsuddeen Hassan Muhammad
-  - Seid Muhie Yimam
+  - S. Yimam
   year: 2026
   venue: AfricaNLP Workshop @ EACL 2026
   type: workshop
@@ -193,7 +193,7 @@
   - H. Umar
   - Tadesse Destaw Belay
   - Idris Abdulmumin
-  - Seid Muhie Yimam
+  - S. Yimam
   - Shamsuddeen Hassan Muhammad
   - Kano
   - I. Nacional
@@ -211,7 +211,7 @@
     Languages and Healthcare Environments'
   authors:
   - Aziza Umer Yibrie
-  - Seid Muhie Yimam
+  - S. Yimam
   - Katrin Schöning-Stierand
   - Kaleab Anteneh
   - Rebecca Ashagire
@@ -224,11 +224,31 @@
   url: https://www.semanticscholar.org/paper/e46c5fe97b4fe2f41f6a4ea6275c6c045b7dffbf
   sources:
   - semanticscholar
+- title: 'LLM Safety Alignment in Low-Resource Languages: A Systematic Literature Review'
+  authors:
+  - Valdini Douglace Lemofouet
+  - Blessing Ngozi Uzor
+  - Paula Chikaodinaka Anyanwu
+  - Danielle Blanche Kapsa
+  - Sukairaj Hafiz Imam
+  - P SAM SAHIL
+  - Abigail Oppong
+  - Tassallah Abdullahi
+  - Clemencia Siro
+  - Idris Abdulmumin
+  - S. Yimam
+  - Shamsuddeen Hassan Muhammad
+  year: 2026
+  type: preprint
+  url: https://www.semanticscholar.org/paper/6da090fd6f3ca6292195f20a73d5dbfda49b2222
+  arxiv: '2608.14626'
+  sources:
+  - semanticscholar
 - title: 'Media Framing Analysis of Ethiopian Conflict: An Approach Combining MAXQDA and NLP for Low-resource
     Languages'
   authors:
   - Adem Chanie
-  - Seid Muhie Yimam
+  - S. Yimam
   year: 2026
   venue: AfricaNLP Workshop @ EACL 2026
   type: workshop
@@ -286,7 +306,7 @@
   doi_url: https://doi.org/10.63317/4z33nthezmjs
 - title: 'SAINT: Multilingual Span-Level Interpretability for Sentiment Analysis'
   authors:
-  - Seid Muhie Yimam
+  - S. Yimam
   - Tadesse Destaw Belay
   - Robert Geislinger
   - Shamsuddeen Hassan Muhammad
@@ -344,7 +364,7 @@
   - Shamsuddeen Hassan Muhammad
   - Seid Muhie Yimam
   year: 2026
-  venue: Proceedings of the 20th International Workshop on Semantic Evaluation (2026)
+  venue: SemEval@ACL
   type: workshop
   doi: 10.48550/arxiv.2604.06817
   url: https://www.semanticscholar.org/paper/b4244861c8293d9008cd73b8df8cf6208ba3a5f3
@@ -355,6 +375,29 @@
   award: Best Paper Runner-Up Award, SemEval 2026
   anthology: https://aclanthology.org/2026.semeval-1.453/
   doi_url: https://doi.org/10.48550/arxiv.2604.06817
+- title: The Illusion of Cross-Lingual Safety in Low-Resource Languages
+  authors:
+  - Abigail Oppong
+  - P SAM SAHIL
+  - Tadesse Destaw Belay
+  - Maryam Ibrahim Mukhtar
+  - Esmael Abdu
+  - Tassallah Abdullahi
+  - Jessica Oparebea
+  - Saminu Mohammad Aliyu
+  - Idris Abdulmumin
+  - Abubakar Juma Chilala
+  - Nicholaus Ladislaus
+  - A. Kondoro
+  - Lemofouet Valdini Douglace
+  - Shamsuddeen Hassan Muhammad
+  - S. Yimam
+  year: 2026
+  type: preprint
+  url: https://www.semanticscholar.org/paper/053f1460f46e75265b519816e8cbee605f5f1bad
+  arxiv: '2608.11146'
+  sources:
+  - semanticscholar
 - title: 'Trust but Check: LLM-Assisted Review of Human Translations in African Languages'
   authors:
   - Tadesse Destaw Belay
@@ -385,7 +428,7 @@
   - I. Said
   - 18 Ahmad
   - V. Otiende
-  - Seid Muhie Yimam
+  - S. Yimam
   - Shamsuddeen Hassan Muhammad
   - I. Nacional
   - EthioNLP
@@ -421,7 +464,7 @@
 - title: Adaption and Evaluation of Generative Large Language Models for German Medical Information Extraction
   authors:
   - Sören Spiegel
-  - Seid Muhie Yimam
+  - S. Yimam
   - Philipp Breitfeld
   - F. Ückert
   year: 2025
@@ -550,7 +593,7 @@
   type: workshop
   doi: 10.18653/v1/2025.africanlp-1.13
   url: https://openalex.org/W4412889335
-  pdf: https://aclanthology.org/2025.africanlp-1.13.pdf
+  pdf: https://arxiv.org/pdf/2505.11690
   sources:
   - dblp
   - openalex
@@ -752,7 +795,7 @@
   type: conference
   doi: 10.18653/v1/2025.acl-demo.59
   url: https://openalex.org/W4412886989
-  pdf: https://aclanthology.org/2025.acl-demo.59.pdf
+  pdf: https://doi.org/10.18653/v1/2025.acl-demo.59
   sources:
   - dblp
   - openalex
@@ -811,6 +854,24 @@
   sources:
   - dblp
   - semanticscholar
+- title: 'Seeds of Change: The Impact of Ethiopia’s Direct Seed Marketing Approach on Smallholders’ Seed
+    Purchases and Productivity'
+  authors:
+  - Dawit K. Mekonnen
+  - G. Abate
+  - S. Yimam
+  - Rui Benfica
+  - D. Spielman
+  - Frank Place
+  year: 2025
+  venue: American Journal of Agricultural Economics
+  type: journal
+  doi: 10.1596/1813-9450-11078
+  url: https://www.semanticscholar.org/paper/c2747db84828719821f54f9bb241394592896196
+  pdf: http://documents.worldbank.org/curated/en/099836203032512498
+  sources:
+  - semanticscholar
+  doi_url: https://doi.org/10.1596/1813-9450-11078
 - title: 'SemEval-2025 Task 11: Bridging the Gap in Text-Based Emotion Detection'
   authors:
   - Shamsuddeen Hassan Muhammad
@@ -983,15 +1044,15 @@
   year: 2024
   venue: Advances in Neural Information Processing Systems 37 (NeurIPS 2024) Datasets and Benchmarks Track
   type: conference
-  doi: 10.48550/arxiv.2406.09948
-  url: https://openalex.org/W4399759241
+  doi: 10.52202/079017-2483
+  url: https://openalex.org/W4415797205
   pdf: https://arxiv.org/pdf/2406.09948
   sources:
   - dblp
   - openalex
   - semanticscholar
   arxiv: '2406.09948'
-  doi_url: https://doi.org/10.48550/arxiv.2406.09948
+  doi_url: https://doi.org/10.52202/079017-2483
 - title: 'Demarked: A Strategy for Enhanced Abusive Speech Moderation through Counterspeech, Detoxification,
     and Message Management'
   authors:
@@ -1022,7 +1083,7 @@
   authors:
   - Melese Ayichlie Jigar
   - A. Ayele
-  - Seid Muhie Yimam
+  - S. Yimam
   - Christian Biemann
   year: 2024
   venue: Proceedings of the Fourth Workshop on Threat, Aggression & Cyberbullying @ LREC-COLING-2024
@@ -1043,7 +1104,7 @@
   - Eyasu Shiferaw
   - Yonas Chanie
   - W. Sewunetie
-  - Seid Muhie Yimam
+  - S. Yimam
   - Masakhane Nlp
   - Ethio Nlp
   year: 2024
@@ -1081,6 +1142,20 @@
   arxiv: '2403.13737'
   anthology: https://aclanthology.org/2024.lrec-main.561/
   doi_url: https://doi.org/10.48550/arxiv.2403.13737
+- title: 'Evaluating Ethiopia’s Environmental Management Strategy: Does It Support Green Growth?'
+  authors:
+  - S. Yimam
+  - Tiruwork Arega
+  - Giovanni Occhiali
+  year: 2024
+  venue: The Journal of Environment &amp; Development
+  type: journal
+  doi: 10.1177/10704965251353430
+  url: https://www.semanticscholar.org/paper/cdbb63e8e8c15d0389c08e64cf05f7dd97df5675
+  pdf: https://doi.org/10.1177/10704965251353430
+  sources:
+  - semanticscholar
+  doi_url: https://doi.org/10.1177/10704965251353430
 - title: 'Exploring Boundaries and Intensities in Offensive and Hate Speech: Unveiling the Complex Spectrum
     of Social Media Discourse'
   authors:
@@ -1102,6 +1177,43 @@
   arxiv: '2404.12042'
   anthology: https://aclanthology.org/2024.trac-1.17/
   doi_url: https://doi.org/10.48550/arxiv.2404.12042
+- title: Gender Bias Evaluation in Machine Translation for Amharic, Tigrigna, and Afaan Oromoo
+  authors:
+  - W. Sewunetie
+  - A. Tonja
+  - Tadesse Destaw Belay
+  - H. Nigatu
+  - Gashaw Gebremeskel
+  - Zewdie Mossie
+  - H. Seid
+  - S. Yimam
+  year: 2024
+  venue: GITT
+  type: other
+  url: https://www.semanticscholar.org/paper/0fd42e884385a2f6f777291045848fe1249a0225
+  sources:
+  - semanticscholar
+- title: 'Getting ahead of the game: Experiential learning for groundwater governance in Ethiopia'
+  authors:
+  - Hagar ElDidi
+  - W. Zhang
+  - F. Gelaw
+  - Caterina De Petris
+  - Ivy Blackmore
+  - Natnael Teka
+  - S. Yimam
+  - Dawit K. Mekonnen
+  - C. Ringler
+  - R. Meinzen-Dick
+  year: 2024
+  venue: International Journal of the Commons
+  type: journal
+  doi: 10.2499/p15738coll2.136723
+  url: https://www.semanticscholar.org/paper/ff7f114860be6c47c6cd108615d5bb55b321e820
+  pdf: https://cgspace.cgiar.org/bitstreams/a5362e48-9564-4cdb-9407-4779b0d2dcd1/download
+  sources:
+  - semanticscholar
+  doi_url: https://doi.org/10.2499/p15738coll2.136723
 - title: Hate Speech Detection and Classification in Amharic Text with Deep Learning
   authors:
   - Samuel Minale Gashe
@@ -1125,7 +1237,7 @@
   - A. Ayele
   - Esubalew alemneh Jalew
   - Adem Chanie
-  - Seid Muhie Yimam
+  - S. Yimam
   year: 2024
   venue: WiNLP Workshop 2024
   type: workshop
@@ -1332,8 +1444,8 @@
   - semanticscholar
   anthology: https://aclanthology.org/2024.fever-1.5/
   doi_url: https://doi.org/10.18653/v1/2024.fever-1.5
-- title: 'Uncovering the priorities of scientific research on <scp>sustainable development goals</scp>
-    : A case study in Ethiopia'
+- title: 'Uncovering the priorities of scientific research on sustainable development goals : A case study
+    in Ethiopia'
   authors:
   - Ayalew Kassahun
   - Seid Muhie Yimam
@@ -1345,7 +1457,7 @@
   type: journal
   doi: 10.1002/sd.3020
   url: https://openalex.org/W4396495065
-  pdf: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/sd.3020
+  pdf: https://doi.org/10.1002/sd.3020
   sources:
   - openalex
   - semanticscholar
@@ -1405,8 +1517,8 @@
   year: 2023
   venue: Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
   type: conference
-  doi: 10.48550/arxiv.2302.08956
-  url: https://openalex.org/W4321392937
+  doi: 10.18653/v1/2023.emnlp-main.862
+  url: https://openalex.org/W4389523860
   pdf: https://arxiv.org/pdf/2302.08956
   sources:
   - dblp
@@ -1414,7 +1526,7 @@
   - semanticscholar
   arxiv: '2302.08956'
   anthology: https://aclanthology.org/2023.emnlp-main.862/
-  doi_url: https://doi.org/10.48550/arxiv.2302.08956
+  doi_url: https://doi.org/10.18653/v1/2023.emnlp-main.862
 - title: 'AmhEn: Amharic-English Large Parallel Corpus for Machine Translation'
   authors:
   - Atnafu Lambebo Tonja
@@ -1588,6 +1700,23 @@
   url: https://www.semanticscholar.org/paper/b30f4d91c87c5541eecff98107f8826e818a36f7
   sources:
   - semanticscholar
+- title: 'Demand and supply constraints of credit in smallholder farming: Evidence from Ethiopia and Tanzania'
+  authors:
+  - B. Balana
+  - Dawit K. Mekonnen
+  - B. Haile
+  - F. Hagos
+  - S. Yimam
+  - C. Ringler
+  year: 2022
+  venue: World Development
+  type: journal
+  doi: 10.1016/j.worlddev.2022.106033
+  url: https://www.semanticscholar.org/paper/82c43e588226c666b9f92e3f0d8dd374c029a199
+  pdf: https://doi.org/10.1016/j.worlddev.2022.106033
+  sources:
+  - semanticscholar
+  doi_url: https://doi.org/10.1016/j.worlddev.2022.106033
 - title: 'Elvis vs. M. Jackson: Who has More Albums? Classification and Identification of Elements in
     Comparative Questions'
   authors:
@@ -1600,7 +1729,7 @@
   type: conference
   doi: 10.63317/5nqgj97hsrbr
   url: https://www.semanticscholar.org/paper/ac7f7c58ec4be9418d803201d67bd99f4d4ed679
-  pdf: https://doi.org/10.63317/5nqgj97hsrbr
+  pdf: http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.402.pdf
   sources:
   - dblp
   - semanticscholar
@@ -1622,6 +1751,37 @@
   - openalex
   - semanticscholar
   doi_url: https://doi.org/10.1145/3490389
+- title: Irrigation and agricultural transformation in Ethiopia
+  authors:
+  - Dawit K. Mekonnen
+  - G. Abate
+  - S. Yimam
+  year: 2022
+  type: other
+  doi: 10.2499/p15738coll2.136461
+  url: https://www.semanticscholar.org/paper/292b108b7a5e239deb7f7f40905d99b18cf38ddb
+  pdf: http://cdm15738.contentdm.oclc.org/cdm/ref/collection/p15738coll2/id/136461
+  sources:
+  - semanticscholar
+  doi_url: https://doi.org/10.2499/p15738coll2.136461
+- title: 'Key stakeholders and actions to address Lake Beseka’s challenges in Ethiopia: A social network
+    approach'
+  authors:
+  - Dawit K. Mekonnen
+  - T. M. Tensay
+  - S. Yimam
+  - Tiruwork Arega
+  - E. Beyene
+  - Wei Zhang
+  - C. Ringler
+  year: 2022
+  type: other
+  doi: 10.2499/p15738coll2.136359
+  url: https://www.semanticscholar.org/paper/3f3b6fd5ffc58abe7440f902fb44d040cf21552d
+  pdf: https://www.ifpri.org/publication/key-stakeholders-and-actions-address-lake-besekas-challenges-ethiopia-social-network
+  sources:
+  - semanticscholar
+  doi_url: https://doi.org/10.2499/p15738coll2.136359
 - title: 'More Like This: Semantic Retrieval with Linguistic Information'
   authors:
   - Steffen Remus
@@ -1651,6 +1811,23 @@
   sources:
   - semanticscholar
   anthology: https://aclanthology.org/2022.sigul-1.18/
+- title: 'Relatives, neighbors, or friends: Information exchanges among irrigators on new on-farm water
+    management tools'
+  authors:
+  - Dawit K. Mekonnen
+  - S. Yimam
+  - Tiruwork Arega
+  - K. Matheswaran
+  - Petra Schmitter
+  year: 2022
+  venue: Agricultural Systems
+  type: other
+  doi: 10.1016/j.agsy.2022.103492
+  url: https://www.semanticscholar.org/paper/4576778725a9ccaca885c6a6720f781e49f14d08
+  pdf: https://www.sciencedirect.com/science/article/pii/S0308521X22001287/pdf
+  sources:
+  - semanticscholar
+  doi_url: https://doi.org/10.1016/j.agsy.2022.103492
 - title: 'The 5Js in Ethiopia: Amharic Hate Speech Data Annotation Using Toloka Crowdsourcing Platform'
   authors:
   - Abinew Ali Ayele
@@ -1780,7 +1957,7 @@
   venue: Future Internet
   type: journal
   doi: 10.3390/fi13110275
-  url: https://openalex.org/W3208076653
+  url: https://openalex.org/W3096921982
   pdf: https://www.mdpi.com/1999-5903/13/11/275/pdf?version=1635391981
   sources:
   - dblp
@@ -1876,7 +2053,7 @@
   type: conference
   doi: 10.18653/v1/2021.eacl-demos.23
   url: https://openalex.org/W3156152275
-  pdf: https://aclanthology.org/2021.eacl-demos.23.pdf
+  pdf: https://doi.org/10.18653/v1/2021.eacl-demos.23
   sources:
   - dblp
   - openalex
@@ -1884,6 +2061,25 @@
   arxiv: '2203.09892'
   anthology: https://aclanthology.org/2021.eacl-demos.23/
   doi_url: https://doi.org/10.18653/v1/2021.eacl-demos.23
+- title: 'Seasonal variation in maternal dietary diversity is reduced by small‐scale irrigation practices:
+    A longitudinal study'
+  authors:
+  - K. Baye
+  - Dawit K. Mekonnen
+  - Jowel Choufani
+  - S. Yimam
+  - E. Bryan
+  - Jeffrey K Grifith
+  - C. Ringler
+  year: 2021
+  venue: Maternal and Child Nutrition
+  type: other
+  doi: 10.1111/mcn.13297
+  url: https://www.semanticscholar.org/paper/bc9e99c692697a6ac248d7808d38a332bb68da05
+  pdf: https://doi.org/10.1111/mcn.13297
+  sources:
+  - semanticscholar
+  doi_url: https://doi.org/10.1111/mcn.13297
 - title: The Development of Pre-processing Tools and Pre-trained Embedding Models for Amharic
   authors:
   - Tadesse Destaw
@@ -1896,6 +2092,34 @@
   sources:
   - semanticscholar
   anthology: https://aclanthology.org/2021.winlp-1.5/
+- title: The Impact of Ethiopia's Direct Seed Marketing Approach on Smallholders' Access to Seeds, Productivity,
+    and Commercialization
+  authors:
+  - Dawit K. Mekonnen
+  - G. Abate
+  - S. Yimam
+  - R. Benfica
+  - D. Spielman
+  - F. Place
+  year: 2021
+  type: other
+  doi: 10.22004/ag.econ.312925
+  url: https://www.semanticscholar.org/paper/4a75b7578148b3b2c6355c4d01600ddcc3a5403d
+  sources:
+  - semanticscholar
+  doi_url: https://doi.org/10.22004/ag.econ.312925
+- title: The Role of Irrigation in Stimulating Agricultural Transformation in Ethiopia
+  authors:
+  - Dawit K. Mekonnen
+  - G. Abate
+  - S. Yimam
+  year: 2021
+  type: other
+  doi: 10.22004/ag.econ.315339
+  url: https://www.semanticscholar.org/paper/e2066c7416987799ea1af603ec55587019c04f58
+  sources:
+  - semanticscholar
+  doi_url: https://doi.org/10.22004/ag.econ.315339
 - title: Word Complexity is in the Eye of the Beholder
   authors:
   - Sian Gooding
@@ -1918,7 +2142,7 @@
 - title: 'ActiveAnno: Flexible and E cient Document Annotation Tool with Active Learning Integration'
   authors:
   - Christian Biemann
-  - Seid Muhie Yimam
+  - S. Yimam
   year: 2020
   venue: M.Sc. Thesis, Universität Hamburg, Language Technology Group
   type: thesis
@@ -2357,7 +2581,6 @@
   venue: Baltimore, MD, USA
   type: workshop
   url: https://openalex.org/W2806986658
-  pdf: http://tubiblio.ulb.tu-darmstadt.de/105055/
   sources:
   - openalex
   - semanticscholar
@@ -2402,7 +2625,7 @@
   type: workshop
   doi: 10.3115/v1/n15-2012
   url: https://openalex.org/W2251104783
-  pdf: https://doi.org/10.3115/v1/n15-2012
+  pdf: https://aclanthology.org/N15-2012.pdf
   sources:
   - dblp
   - openalex
