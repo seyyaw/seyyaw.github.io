@@ -1193,6 +1193,7 @@
   url: https://www.semanticscholar.org/paper/0fd42e884385a2f6f777291045848fe1249a0225
   sources:
   - semanticscholar
+<<<<<<< Updated upstream
 - title: 'Getting ahead of the game: Experiential learning for groundwater governance in Ethiopia'
   authors:
   - Hagar ElDidi
@@ -1214,6 +1215,8 @@
   sources:
   - semanticscholar
   doi_url: https://doi.org/10.2499/p15738coll2.136723
+=======
+>>>>>>> Stashed changes
 - title: Hate Speech Detection and Classification in Amharic Text with Deep Learning
   authors:
   - Samuel Minale Gashe
