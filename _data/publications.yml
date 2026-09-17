@@ -854,24 +854,6 @@
   sources:
   - dblp
   - semanticscholar
-- title: 'Seeds of Change: The Impact of Ethiopia’s Direct Seed Marketing Approach on Smallholders’ Seed
-    Purchases and Productivity'
-  authors:
-  - Dawit K. Mekonnen
-  - G. Abate
-  - S. Yimam
-  - Rui Benfica
-  - D. Spielman
-  - Frank Place
-  year: 2025
-  venue: American Journal of Agricultural Economics
-  type: journal
-  doi: 10.1596/1813-9450-11078
-  url: https://www.semanticscholar.org/paper/c2747db84828719821f54f9bb241394592896196
-  pdf: http://documents.worldbank.org/curated/en/099836203032512498
-  sources:
-  - semanticscholar
-  doi_url: https://doi.org/10.1596/1813-9450-11078
 - title: 'SemEval-2025 Task 11: Bridging the Gap in Text-Based Emotion Detection'
   authors:
   - Shamsuddeen Hassan Muhammad
@@ -1142,20 +1124,6 @@
   arxiv: '2403.13737'
   anthology: https://aclanthology.org/2024.lrec-main.561/
   doi_url: https://doi.org/10.48550/arxiv.2403.13737
-- title: 'Evaluating Ethiopia’s Environmental Management Strategy: Does It Support Green Growth?'
-  authors:
-  - S. Yimam
-  - Tiruwork Arega
-  - Giovanni Occhiali
-  year: 2024
-  venue: The Journal of Environment &amp; Development
-  type: journal
-  doi: 10.1177/10704965251353430
-  url: https://www.semanticscholar.org/paper/cdbb63e8e8c15d0389c08e64cf05f7dd97df5675
-  pdf: https://doi.org/10.1177/10704965251353430
-  sources:
-  - semanticscholar
-  doi_url: https://doi.org/10.1177/10704965251353430
 - title: 'Exploring Boundaries and Intensities in Offensive and Hate Speech: Unveiling the Complex Spectrum
     of Social Media Discourse'
   authors:
@@ -1193,30 +1161,6 @@
   url: https://www.semanticscholar.org/paper/0fd42e884385a2f6f777291045848fe1249a0225
   sources:
   - semanticscholar
-<<<<<<< Updated upstream
-- title: 'Getting ahead of the game: Experiential learning for groundwater governance in Ethiopia'
-  authors:
-  - Hagar ElDidi
-  - W. Zhang
-  - F. Gelaw
-  - Caterina De Petris
-  - Ivy Blackmore
-  - Natnael Teka
-  - S. Yimam
-  - Dawit K. Mekonnen
-  - C. Ringler
-  - R. Meinzen-Dick
-  year: 2024
-  venue: International Journal of the Commons
-  type: journal
-  doi: 10.2499/p15738coll2.136723
-  url: https://www.semanticscholar.org/paper/ff7f114860be6c47c6cd108615d5bb55b321e820
-  pdf: https://cgspace.cgiar.org/bitstreams/a5362e48-9564-4cdb-9407-4779b0d2dcd1/download
-  sources:
-  - semanticscholar
-  doi_url: https://doi.org/10.2499/p15738coll2.136723
-=======
->>>>>>> Stashed changes
 - title: Hate Speech Detection and Classification in Amharic Text with Deep Learning
   authors:
   - Samuel Minale Gashe
@@ -1703,23 +1647,6 @@
   url: https://www.semanticscholar.org/paper/b30f4d91c87c5541eecff98107f8826e818a36f7
   sources:
   - semanticscholar
-- title: 'Demand and supply constraints of credit in smallholder farming: Evidence from Ethiopia and Tanzania'
-  authors:
-  - B. Balana
-  - Dawit K. Mekonnen
-  - B. Haile
-  - F. Hagos
-  - S. Yimam
-  - C. Ringler
-  year: 2022
-  venue: World Development
-  type: journal
-  doi: 10.1016/j.worlddev.2022.106033
-  url: https://www.semanticscholar.org/paper/82c43e588226c666b9f92e3f0d8dd374c029a199
-  pdf: https://doi.org/10.1016/j.worlddev.2022.106033
-  sources:
-  - semanticscholar
-  doi_url: https://doi.org/10.1016/j.worlddev.2022.106033
 - title: 'Elvis vs. M. Jackson: Who has More Albums? Classification and Identification of Elements in
     Comparative Questions'
   authors:
@@ -1754,37 +1681,6 @@
   - openalex
   - semanticscholar
   doi_url: https://doi.org/10.1145/3490389
-- title: Irrigation and agricultural transformation in Ethiopia
-  authors:
-  - Dawit K. Mekonnen
-  - G. Abate
-  - S. Yimam
-  year: 2022
-  type: other
-  doi: 10.2499/p15738coll2.136461
-  url: https://www.semanticscholar.org/paper/292b108b7a5e239deb7f7f40905d99b18cf38ddb
-  pdf: http://cdm15738.contentdm.oclc.org/cdm/ref/collection/p15738coll2/id/136461
-  sources:
-  - semanticscholar
-  doi_url: https://doi.org/10.2499/p15738coll2.136461
-- title: 'Key stakeholders and actions to address Lake Beseka’s challenges in Ethiopia: A social network
-    approach'
-  authors:
-  - Dawit K. Mekonnen
-  - T. M. Tensay
-  - S. Yimam
-  - Tiruwork Arega
-  - E. Beyene
-  - Wei Zhang
-  - C. Ringler
-  year: 2022
-  type: other
-  doi: 10.2499/p15738coll2.136359
-  url: https://www.semanticscholar.org/paper/3f3b6fd5ffc58abe7440f902fb44d040cf21552d
-  pdf: https://www.ifpri.org/publication/key-stakeholders-and-actions-address-lake-besekas-challenges-ethiopia-social-network
-  sources:
-  - semanticscholar
-  doi_url: https://doi.org/10.2499/p15738coll2.136359
 - title: 'More Like This: Semantic Retrieval with Linguistic Information'
   authors:
   - Steffen Remus
@@ -1814,23 +1710,6 @@
   sources:
   - semanticscholar
   anthology: https://aclanthology.org/2022.sigul-1.18/
-- title: 'Relatives, neighbors, or friends: Information exchanges among irrigators on new on-farm water
-    management tools'
-  authors:
-  - Dawit K. Mekonnen
-  - S. Yimam
-  - Tiruwork Arega
-  - K. Matheswaran
-  - Petra Schmitter
-  year: 2022
-  venue: Agricultural Systems
-  type: other
-  doi: 10.1016/j.agsy.2022.103492
-  url: https://www.semanticscholar.org/paper/4576778725a9ccaca885c6a6720f781e49f14d08
-  pdf: https://www.sciencedirect.com/science/article/pii/S0308521X22001287/pdf
-  sources:
-  - semanticscholar
-  doi_url: https://doi.org/10.1016/j.agsy.2022.103492
 - title: 'The 5Js in Ethiopia: Amharic Hate Speech Data Annotation Using Toloka Crowdsourcing Platform'
   authors:
   - Abinew Ali Ayele
@@ -2064,25 +1943,6 @@
   arxiv: '2203.09892'
   anthology: https://aclanthology.org/2021.eacl-demos.23/
   doi_url: https://doi.org/10.18653/v1/2021.eacl-demos.23
-- title: 'Seasonal variation in maternal dietary diversity is reduced by small‐scale irrigation practices:
-    A longitudinal study'
-  authors:
-  - K. Baye
-  - Dawit K. Mekonnen
-  - Jowel Choufani
-  - S. Yimam
-  - E. Bryan
-  - Jeffrey K Grifith
-  - C. Ringler
-  year: 2021
-  venue: Maternal and Child Nutrition
-  type: other
-  doi: 10.1111/mcn.13297
-  url: https://www.semanticscholar.org/paper/bc9e99c692697a6ac248d7808d38a332bb68da05
-  pdf: https://doi.org/10.1111/mcn.13297
-  sources:
-  - semanticscholar
-  doi_url: https://doi.org/10.1111/mcn.13297
 - title: The Development of Pre-processing Tools and Pre-trained Embedding Models for Amharic
   authors:
   - Tadesse Destaw
@@ -2095,34 +1955,6 @@
   sources:
   - semanticscholar
   anthology: https://aclanthology.org/2021.winlp-1.5/
-- title: The Impact of Ethiopia's Direct Seed Marketing Approach on Smallholders' Access to Seeds, Productivity,
-    and Commercialization
-  authors:
-  - Dawit K. Mekonnen
-  - G. Abate
-  - S. Yimam
-  - R. Benfica
-  - D. Spielman
-  - F. Place
-  year: 2021
-  type: other
-  doi: 10.22004/ag.econ.312925
-  url: https://www.semanticscholar.org/paper/4a75b7578148b3b2c6355c4d01600ddcc3a5403d
-  sources:
-  - semanticscholar
-  doi_url: https://doi.org/10.22004/ag.econ.312925
-- title: The Role of Irrigation in Stimulating Agricultural Transformation in Ethiopia
-  authors:
-  - Dawit K. Mekonnen
-  - G. Abate
-  - S. Yimam
-  year: 2021
-  type: other
-  doi: 10.22004/ag.econ.315339
-  url: https://www.semanticscholar.org/paper/e2066c7416987799ea1af603ec55587019c04f58
-  sources:
-  - semanticscholar
-  doi_url: https://doi.org/10.22004/ag.econ.315339
 - title: Word Complexity is in the Eye of the Beholder
   authors:
   - Sian Gooding

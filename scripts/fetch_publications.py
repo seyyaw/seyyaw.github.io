@@ -15,6 +15,7 @@ import json
 import re
 import sys
 import time
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -133,6 +134,105 @@ def looks_garbled(title):
         return False
     stubs = sum(1 for tok in tokens if len(tok) <= 2 and tok.isupper())
     return stubs >= max(3, len(tokens) // 4)
+
+
+# --- identity corroboration ----------------------------------------------------
+#
+# OpenAlex results are filtered by ORCID and DBLP's PID page is hand-curated,
+# so both are reliable. Semantic Scholar's author-id search is not: it has
+# repeatedly merged Seid Muhie Yimam's profile with an unrelated "S. Yimam"
+# (an IFPRI agricultural economist with no listed affiliation), surfacing that
+# person's papers on Ethiopian agriculture/irrigation/nutrition under ours.
+# Every such record has come only from Semantic Scholar and never spells out
+# the full name. A record like that is kept only when the full name is
+# present, or when a coauthor also appears on a paper corroborated by
+# OpenAlex or DBLP -- proof the record belongs to the same research network.
+TRUSTED_SOURCES = {"openalex", "dblp"}
+AUTHOR_FULL_NAME = "seid muhie yimam"
+
+
+def normalize_person(name):
+    """Lowercase, strip accents/punctuation -- for matching a person's name
+    across sources that spell it differently ('S. Yimam' vs 'Seid Muhie
+    Yimam', 'A. Ayele' vs 'Abinew Ali Ayele')."""
+    if not name:
+        return ""
+    name = unicodedata.normalize("NFKD", name)
+    name = "".join(c for c in name if not unicodedata.combining(c))
+    name = re.sub(r"[^a-z ]+", " ", name.lower())
+    return " ".join(name.split())
+
+
+def has_full_name(authors):
+    return any(
+        {"seid", AUTHOR_SURNAME} <= set(normalize_person(a).split())
+        for a in (authors or [])
+    )
+
+
+def coauthor_keys(authors):
+    """Fingerprints of every coauthor except Yimam himself, for matching the
+    same person across sources that spell their name differently.
+
+    A bare surname is too weak: common surnames ("Haile", "Zhang") recur
+    across entirely unrelated people, so matching on the surname alone
+    reintroduces the same false-merge problem this check exists to catch.
+    (first-initial, last-token) fixes that while still tolerating an
+    abbreviated given name ("W. Zhang" vs "Wei Zhang").
+
+    Ethiopian names commonly have no fixed surname position, so a source can
+    also truncate from the *end* instead of the front -- "Adem Chanie Ali"
+    becomes "Adem Chanie" rather than "A. Ali". The (first-initial,
+    last-token) key misses that, so (first-token, second-token) is added as a
+    second fingerprint: it matches "Adem Chanie" against "Adem Chanie Ali"
+    while staying specific enough (a two-name prefix, not one common name) to
+    avoid new false merges.
+    """
+    out = set()
+    for a in authors or []:
+        tokens = normalize_person(a).split()
+        if len(tokens) >= 2 and AUTHOR_SURNAME not in tokens:
+            out.add((tokens[0][0], tokens[-1]))
+            out.add((tokens[0], tokens[1]))
+    return out
+
+
+def build_known_collaborators(records, manual):
+    """Coauthor keys seen on records corroborated by OpenAlex or DBLP, plus
+    hand-curated extras -- the trusted side of Seid Muhie Yimam's coauthor
+    network."""
+    keys = set()
+    for rec in records:
+        if TRUSTED_SOURCES & set(rec.get("sources") or []):
+            keys |= coauthor_keys(rec.get("authors"))
+    for extra in manual.get("extra") or []:
+        keys |= coauthor_keys(extra.get("authors"))
+    return keys
+
+
+def build_vetted_titles(manual):
+    """Titles the user has personally curated in publications_manual.yml (an
+    override or an extra) -- direct evidence the paper is really theirs,
+    independent of which author string a source happens to report."""
+    titles = set()
+    for entry in (manual.get("overrides") or []) + (manual.get("extra") or []):
+        t = entry.get("title")
+        if t:
+            titles.add(norm_title(t))
+            titles.add(title_prefix(t))
+    return titles
+
+
+def identity_confirmed(rec, known_collaborators, vetted_titles):
+    if TRUSTED_SOURCES & set(rec.get("sources") or []):
+        return True
+    title = rec.get("title")
+    if norm_title(title) in vetted_titles or title_prefix(title) in vetted_titles:
+        return True
+    authors = rec.get("authors") or []
+    if has_full_name(authors):
+        return True
+    return bool(coauthor_keys(authors) & known_collaborators)
 
 
 PREPRINT_VENUES = ("corr", "arxiv", "arxiv.org", "openreview", "ssrn",
@@ -607,6 +707,12 @@ def main():
     merged = consolidate(merge(records))
     print(f"  merged into {len(merged)} unique publications")
 
+    manual = {}
+    if MANUAL_FILE.exists():
+        manual = yaml.safe_load(MANUAL_FILE.read_text(encoding="utf-8")) or {}
+    known_collaborators = build_known_collaborators(merged, manual)
+    vetted_titles = build_vetted_titles(manual)
+
     # Quality gate. Anything dropped here is reported, never silently removed,
     # so a wrongly-filtered paper can be re-added via publications_manual.yml.
     kept, dropped = [], []
@@ -615,16 +721,14 @@ def main():
             dropped.append(("no matching author", rec))
         elif looks_garbled(rec.get("title")):
             dropped.append(("garbled title", rec))
+        elif not identity_confirmed(rec, known_collaborators, vetted_titles):
+            dropped.append(("unconfirmed identity, likely namesake", rec))
         else:
             kept.append(rec)
     for reason, rec in dropped:
         print(f"  - dropped ({reason}): {rec.get('title', '')[:70]}")
     print(f"  {len(kept)} publications after filtering")
     merged = kept
-
-    manual = {}
-    if MANUAL_FILE.exists():
-        manual = yaml.safe_load(MANUAL_FILE.read_text(encoding="utf-8")) or {}
     merged = apply_manual(merged, manual)
 
     for rec in merged:
