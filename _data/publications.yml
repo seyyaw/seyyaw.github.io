@@ -13,16 +13,36 @@
   - Seid Muhie Yimam
   - Anshuman Chhabra
   year: 2026
-  venue: arXiv (Cornell University)
-  type: preprint
-  doi: 10.48550/arxiv.2604.20996
+  venue: 'Findings of the Association for Computational Linguistics: EMNLP (Findings of EMNLP)'
+  type: conference
+  doi: 10.18653/2026.findings-emnlp.546
   url: https://openalex.org/W7155525670
-  pdf: https://arxiv.org/pdf/2604.20996
+  pdf: https://aclanthology.org/2026.findings-emnlp.546.pdf
   sources:
   - openalex
   - semanticscholar
   arxiv: '2604.20996'
-  doi_url: https://doi.org/10.48550/arxiv.2604.20996
+  doi_url: https://doi.org/10.18653/2026.findings-emnlp.546
+- title: 'Aligning Large Language Models for Safety in African Languages: A Case Study of Hausa'
+  authors:
+  - Valdini Douglace Lemofouet
+  - Blessing Ngozi Uzor
+  - Paula Chikaodinaka Anyanwu
+  - Danielle Blanche Kapsa
+  - Saminu Mohammad Aliyu
+  - Seid Muhie Yimam
+  - Shamsuddeen Hassan Muhammad
+  year: 2026
+  venue: arXiv (Cornell University)
+  type: preprint
+  doi: 10.48550/arxiv.2610.37245
+  url: https://openalex.org/W7224097909
+  pdf: https://arxiv.org/pdf/2610.37245
+  sources:
+  - openalex
+  - semanticscholar
+  arxiv: '2610.37245'
+  doi_url: https://doi.org/10.48550/arxiv.2610.37245
 - title: 'AmharicStoryQA: A Multicultural Story Question Answering Benchmark in Amharic'
   authors:
   - Israel Abebe Azime
@@ -33,16 +53,16 @@
   - Seid Muhie Yimam
   - Dietrich Klakow
   year: 2026
-  venue: arXiv (Cornell University)
-  type: preprint
-  doi: 10.48550/arxiv.2602.02774
+  venue: Widening NLP Workshop (WiNLP)
+  type: workshop
+  doi: 10.18653/2026.winlp-main.3
   url: https://openalex.org/W7127594048
   pdf: https://arxiv.org/pdf/2602.02774
   sources:
   - openalex
   - semanticscholar
   arxiv: '2602.02774'
-  doi_url: https://doi.org/10.48550/arxiv.2602.02774
+  doi_url: https://doi.org/10.18653/2026.winlp-main.3
 - title: 'Beyond Majority Voting: Agreement-Based Clustering to Model Annotator Perspectives in Subjective
     NLP Tasks'
   authors:
@@ -99,7 +119,7 @@
   - Jakhongir Saydaliev
   - Melika Nobakhtian
   - Muhammad Ravi Shulthan Habibi
-  - Kranti Chalamalasetti
+  - Chalamalasetti Kranti
   - Carol Muchemi
   - Khang Nguyen
   - F. Adam
@@ -130,7 +150,7 @@
   - Dmitry Gaynullin
   - Genta Indra Winata
   - Yiyuan Li
-  - Juan Mart'inez
+  - J. Martínez
   - Amit Agarwal
   - Ikhlasul Akmal Hanif
   - Raia Abu Ahmad
@@ -202,6 +222,29 @@
   sources:
   - openalex
   doi_url: https://doi.org/10.18420/delfi2026_30
+- title: Do Language Models Understand Igbo Culture? Beyond Multiple Choice
+  authors:
+  - Blessing Ngozi Uzor
+  - Valdini Douglace Lemofouet
+  - Paula Chikaodinaka Anyanwu
+  - Mmesoma Peace Orji
+  - Danielle Blanche Kapsa
+  - Tassallah Abdullahi
+  - Clemencia Siro
+  - Idris Abdulmumin
+  - Seid Muhie Yimam
+  - Shamsuddeen Hassan Muhammad
+  year: 2026
+  venue: arXiv (Cornell University)
+  type: preprint
+  doi: 10.48550/arxiv.2610.35168
+  url: https://openalex.org/W7223795628
+  pdf: https://arxiv.org/pdf/2610.35168
+  sources:
+  - openalex
+  - semanticscholar
+  arxiv: '2610.35168'
+  doi_url: https://doi.org/10.48550/arxiv.2610.35168
 - title: 'Full Fine-Tuning vs. Parameter-Efficient Adaptation for Low-Resource African ASR: A Controlled
     Study with Whisper-Small'
   authors:
@@ -213,7 +256,7 @@
   - Seid Muhie Yimam
   - Shamsuddeen Hassan Muhammad
   year: 2026
-  venue: Proceedings of the 7th Workshop on African Natural Language Processing (AfricaNLP 2026)
+  venue: Workshop on African Natural Language Processing (AfricaNLP)
   type: workshop
   doi: 10.18653/v1/2026.africanlp-main.19
   url: https://openalex.org/W7140148575
@@ -223,6 +266,27 @@
   - semanticscholar
   anthology: https://aclanthology.org/2026.africanlp-main.19/
   doi_url: https://doi.org/10.18653/v1/2026.africanlp-main.19
+- title: 'Innovative health intervention for Ethiopian migrant domestic workers in the Middle East: Overview
+    of the INNOVETH programme'
+  authors:
+  - Kassahun Habtamu
+  - Abdu Kedir Seid
+  - Dawit Abebe
+  - Berhanu Seyoum
+  - Samrawit Solomon
+  - Seid Muhie Yimam
+  - Haimanot Disassa
+  - Yoseph Addisu
+  - Mohammed Sanni Ali
+  year: 2026
+  venue: Research Square
+  type: preprint
+  doi: 10.21203/rs.3.rs-10744935/v1
+  url: https://openalex.org/W7220739447
+  pdf: https://www.researchsquare.com/article/rs-10744935/latest.pdf
+  sources:
+  - openalex
+  doi_url: https://doi.org/10.21203/rs.3.rs-10744935/v1
 - title: 'LexiMCH: A Bilingual Medical Knowledge Lexicon for Maternal and Child Healthcare in Low-Resource
     Languages and Healthcare Environments'
   authors:
@@ -244,7 +308,7 @@
   authors:
   - Valdini Douglace Lemofouet
   - Blessing Ngozi Uzor
-  - Paula Chikaodinaka Anyanwu
+  - P. C. Anyanwu
   - Danielle Blanche Kapsa
   - Sukairaj Hafiz Imam
   - P SAM SAHIL
@@ -275,12 +339,12 @@
   authors:
   - Association for Computational Linguistics 2026
   - Idris Abdulmumin
-  - Cengiz Acarturk
+  - Cengiz Acartürk
   - Ibrahim Said Ahmad
   - Syed Ishtiaque Ahmed
   - Özge Alaçam
   - Firoj Alam
-  - Ali, Adem
+  - Adem Ali
   - Saba Anwar
   - Md. Arfeen Zeeshan
   - Abinew Ali Ayele
@@ -303,7 +367,7 @@
   - Shantipriya Parida
   - Kritesh Rauniyar
   - Juan Ren
-  - Oleg Rogov
+  - Oleg Y. Rogov
   - P Sam Sahil
   - Martin Semmann
   - Clemencia Siro
@@ -312,7 +376,7 @@
   - Yekyaw Thu
   - Elena Tutubalina
   - Rudy Garrido Veliz
-  - Wang, Xintong
+  - Xintong Wang
   - Lilian Wanzare
   - Seid Muhie Yimam
   - Yiran Zhang
@@ -329,6 +393,29 @@
   award: Best Paper Award, EEUCA 2026 @ ACL 2026
   anthology: https://aclanthology.org/2026.findings-acl.1433/
   doi_url: https://doi.org/10.18653/v1/2026.findings-acl.1433
+- title: 'Red-Teaming Large Language Models in Low-Resource African Languages: A Case Study of Yoruba
+    and Nigerian Pidgin'
+  authors:
+  - Paula Chikaodinaka Anyanwu
+  - Valdini Douglace Lemofouet
+  - Blessing Ngozi Uzor
+  - Ifeoluwa Dorcas Awotunde
+  - Danielle Blanche Kapsa
+  - Tassallah Abdullahi
+  - Clemencia Siro
+  - Idris Abdulmumin
+  - Seid Muhie Yimam
+  - Shamsuddeen Hassan Muhammad
+  year: 2026
+  venue: arXiv (Cornell University)
+  type: preprint
+  doi: 10.48550/arxiv.2610.39590
+  url: https://openalex.org/W7224922142
+  sources:
+  - openalex
+  - semanticscholar
+  arxiv: '2610.39590'
+  doi_url: https://doi.org/10.48550/arxiv.2610.39590
 - title: 'Revisiting German Complex Word Identification: Contextualized LLMs and Feature Injection'
   authors:
   - Thorben Schomacker
@@ -396,7 +483,7 @@
   - Firoj Alam
   - Ye Kyaw Thu
   - Shantipriya Parida
-  - I. Qazi
+  - I. A. Qazi
   - L. Wanzare
   - N. O. Onyango
   - Clemencia Siro
@@ -451,7 +538,7 @@
   - Henok Biadglign Ademtew
   - Idris Abdulmumin
   - Sukairaj Hafiz Imam
-  - Abubakar Juma Chilala
+  - A. Chilala
   - Godfred Agyapong
   - C. Mbonu
   - B. Ovu
@@ -461,7 +548,7 @@
   - Sonia Adhiambo
   - D. Abolade
   - Ponts’o Mpholle
-  - Nicholaus Ladislaus
+  - N. Ladislaus
   - Saminu Mohammad Aliyu
   - Gal Samuel
   - Fabrice Hakuzimana
@@ -528,7 +615,7 @@
   - David Ifeoluwa Adelani
   - Ibrahim Said Ahmad
   - Saminu Mohammad Aliyu
-  - Nelson Odhiambo Onyango
+  - Nelson Odhiambo
   - Lilian Wanzare
   - Samuel Rutunda
   - Lukman Jibril Aliyu
@@ -633,7 +720,7 @@
   - Muhammad Yahuza Bello
   - Shamsuddeen Hassan Muhammad
   year: 2025
-  venue: Proceedings of the Sixth Workshop on African Natural Language Processing (AfricaNLP 2025)
+  venue: Workshop on African Natural Language Processing (AfricaNLP)
   type: workshop
   doi: 10.18653/v1/2025.africanlp-1.13
   url: https://openalex.org/W4412889335
@@ -644,7 +731,7 @@
   arxiv: '2505.11690'
   anthology: https://aclanthology.org/2025.africanlp-1.13/
   doi_url: https://doi.org/10.18653/v1/2025.africanlp-1.13
-- title: 'CULEMO: Cultural Lenses on Emotion -- Benchmarking LLMs for Cross-Cultural Emotion Understanding'
+- title: 'CULEMO: Cultural Lenses on Emotion - Benchmarking LLMs for Cross-Cultural Emotion Understanding'
   authors:
   - Tadesse Destaw Belay
   - Ahmed Haj Ahmed
@@ -659,7 +746,7 @@
   type: conference
   doi: 10.18653/v1/2025.acl-long.925
   url: https://openalex.org/W4412944960
-  pdf: https://arxiv.org/pdf/2503.10688
+  pdf: https://aclanthology.org/2025.acl-long.925.pdf
   sources:
   - openalex
   - semanticscholar
@@ -714,7 +801,7 @@
   - Grigori Sidorov
   - Dietrich Klakow
   - Philipp Slusallek
-  - Olga Kolesnikova
+  - Kolesnikova, Olga
   - Seid Muhie Yimam
   year: 2025
   venue: Proceedings of the 31st International Conference on Computational Linguistics
@@ -951,7 +1038,7 @@
   - G. Sidorov
   - Iqra Ameer
   - Idris Abdulmumin
-  - Tajuddeen Gwadabe
+  - T. Gwadabe
   - V. Marivate
   - S. Yimam
   - Shamsuddeen Hassan Muhammad
@@ -993,7 +1080,7 @@
   - Sukairaj Hafiz Imam
   - Alemu Belay Tessema
   - Mohammed Oumer Adem
-  - Tadesse Amare Belay
+  - T. Belay
   - Robert Geislinger
   - Umma Aliyu Musa
   - Martin Semmann
@@ -1078,7 +1165,7 @@
   authors:
   - Seid Muhie Yimam
   - Daryna Dementieva
-  - Tim Fischer
+  - Fischer, Tim
   - Daniil Moskovskiy
   - Naquee Rizwan
   - Punyajoy Saha
@@ -1109,6 +1196,7 @@
   type: workshop
   doi: 10.63317/3vffy9zhrm6n
   url: https://www.semanticscholar.org/paper/60130f94e9dd791245626f86437cf1891ea0b902
+  pdf: http://www.lrec-conf.org/proceedings/lrec-coling-2024/trac/pdf/2024.trac-1.10.pdf
   sources:
   - semanticscholar
   anthology: https://aclanthology.org/2024.trac-1.10/
@@ -1150,33 +1238,31 @@
   venue: Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language
     Resources and Evaluation (LREC-COLING 2024)
   type: conference
-  doi: 10.48550/arxiv.2403.13737
-  url: https://openalex.org/W4393063826
-  pdf: https://arxiv.org/pdf/2403.13737
+  doi: 10.63317/3xseji2kaeg2
+  url: https://openalex.org/W7131783923
+  pdf: http://www.lrec-conf.org/proceedings/lrec-coling-2024/pdf/2024.main-1.561.pdf
   sources:
   - openalex
   - semanticscholar
   arxiv: '2403.13737'
   anthology: https://aclanthology.org/2024.lrec-main.561/
-  doi_url: https://doi.org/10.48550/arxiv.2403.13737
+  doi_url: https://doi.org/10.63317/3xseji2kaeg2
 - title: 'Exploring Boundaries and Intensities in Offensive and Hate Speech: Unveiling the Complex Spectrum
     of Social Media Discourse'
   authors:
-  - Abinew Ali Ayele
-  - Esubalew Alemneh Jalew
+  - A. Ayele
+  - Esubalew alemneh Jalew
   - Adem Chanie Ali
-  - Seid Muhie Yimam
-  - Chris Biemann
+  - S. Yimam
+  - Christian Biemann
   year: 2024
   venue: Proceedings of the Fourth Workshop on Threat, Aggression & Cyberbullying @ LREC-COLING-2024
   type: workshop
   doi: 10.48550/arxiv.2404.12042
-  url: https://openalex.org/W4394973525
-  pdf: https://arxiv.org/pdf/2404.12042
-  sources:
-  - openalex
-  - semanticscholar
+  url: https://www.semanticscholar.org/paper/981d63fc453419fb1f90eb2d1f4b01d42ad4aa4c
   arxiv: '2404.12042'
+  sources:
+  - semanticscholar
   anthology: https://aclanthology.org/2024.trac-1.17/
   doi_url: https://doi.org/10.48550/arxiv.2404.12042
 - title: Gender Bias Evaluation in Machine Translation for Amharic, Tigrigna, and Afaan Oromoo
@@ -1301,11 +1387,11 @@
   - Lei Jiao
   - Seid Muhie Yimam
   year: 2024
-  venue: 2024 International Symposium on the Tsetlin Machine (ISTM)
+  venue: International Symposium on the Tsetlin Machine (ISTM)
   type: conference
   doi: 10.1109/istm62799.2024.10931519
   url: https://openalex.org/W4408779454
-  pdf: http://arxiv.org/pdf/2411.04557
+  pdf: https://arxiv.org/pdf/2411.04557
   sources:
   - openalex
   - semanticscholar
@@ -1379,7 +1465,7 @@
   authors:
   - Nedjma Djouhra Ousidhoum
   - Shamsuddeen Hassan Muhammad
-  - Mahmoud A. Abdalla
+  - Abdalla, Mohamed
   - Idris Abdulmumin
   - Ibrahim Said Ahmad
   - Ahuja, Sanchit
@@ -1444,7 +1530,7 @@
 - title: 'UHH at AVeriTeC: RAG for Fact-Checking with Real-World Claims'
   authors:
   - Özge Sevgili
-  - Irina Nikolaevna Nikishina
+  - Irina Nikishina
   - Seid Muhie Yimam
   - Martin Semmann
   - Chris Biemann
@@ -1540,24 +1626,6 @@
   arxiv: '2302.08956'
   anthology: https://aclanthology.org/2023.emnlp-main.862/
   doi_url: https://doi.org/10.18653/v1/2023.emnlp-main.862
-- title: 'AmhEn: Amharic-English Large Parallel Corpus for Machine Translation'
-  authors:
-  - Atnafu Lambebo Tonja
-  - Tadesse Destaw Belay
-  - Olga Kolesnikova
-  - Seid Muhie Yimam
-  - Abinew Ali Ayele
-  - Grigori Sidorov
-  - Alexander F. Gelbukh
-  year: 2023
-  venue: Research Square
-  type: preprint
-  doi: 10.21203/rs.3.rs-2494763/v1
-  url: https://openalex.org/W4317794984
-  pdf: https://www.researchsquare.com/article/rs-2494763/latest.pdf
-  sources:
-  - openalex
-  doi_url: https://doi.org/10.21203/rs.3.rs-2494763/v1
 - title: 'ARDIAS: AI-Enhanced Research Management, Discovery, and Advisory System'
   authors:
   - Debayan Banerjee
@@ -1645,7 +1713,7 @@
   - Israel Abebe Azime
   - Abinew Ali Ayele
   - Moges Ahmed Mehamed
-  - Olga Kolesnikova
+  - Kolesnikova, Olga
   - Seid Muhie Yimam
   year: 2023
   venue: Proceedings of the Fourth Workshop on Resources for African Indigenous Languages (RAIL 2023)
@@ -1690,7 +1758,7 @@
   - Seid Muhie Yimam
   - Skadi Dinter
   - Tesfa Tegegne Asfaw
-  - Chris Biemann
+  - C. Biemann
   year: 2022
   venue: Proceedings of the Sixth Widening NLP Workshop (WiNLP), Abu Dhabi, United Arab Emirates
   type: workshop
@@ -1729,12 +1797,27 @@
   - openalex
   - semanticscholar
   doi_url: https://doi.org/10.1145/3490389
+- title: 'More Like This: Semantic Retrieval with Linguistic Information'
+  authors:
+  - Steffen Remus
+  - Gregor Wiedemann
+  - S. Anwar
+  - Fynn Petersen-frey
+  - Seid Muhie Yimam
+  - Chris Biemann
+  year: 2022
+  venue: Proceedings of the 18th Conference on Natural Language Processing (KONVENS 2022)
+  type: conference
+  url: https://www.semanticscholar.org/paper/328c3bc7b4e378132431803014d0324de61d9c19
+  sources:
+  - semanticscholar
+  anthology: https://aclanthology.org/2022.konvens-1.19/
 - title: Question Answering Classification for Amharic Social Media Community Based Questions
   authors:
   - Tadesse Destaw
   - Seid Muhie Yimam
   - A. Ayele
-  - Chris Biemann
+  - C. Biemann
   year: 2022
   venue: Proceedings of the 1st Annual Meeting of the ELRA/ISCA Special Interest Group on Under-Resourced
     Languages (SIGUL 2022)
@@ -1874,7 +1957,7 @@
   - semanticscholar
   arxiv: '2011.01154'
   doi_url: https://doi.org/10.3390/fi13110275
-- title: 'MasakhaNER: Named Entity Recognition for African Languages'
+- title: 'MasakhaNER: Named entity recognition for African languages'
   authors:
   - David Ifeoluwa Adelani
   - Jade Abbott
@@ -1898,7 +1981,7 @@
   - Jesujoba Oluwadara Alabi
   - Seid Muhie Yimam
   - Tajuddeen Gwadabe
-  - Ezeani, Ignatius
+  - Ignatius Ezeani
   - Rubungo Andre Niyongabo
   - Jonathan Mukiibi
   - Verrah Otiende
@@ -1910,7 +1993,7 @@
   - Mofetoluwa Adeyemi
   - Gerald Muriuki
   - Emmanuel Anebi
-  - Chiamaka Chukwuneke
+  - Chiamaka Ijeoma Chukwuneke
   - Nkiruka Odu
   - Eric Peter Wairagala
   - Samuel Oyerinde
@@ -1922,17 +2005,17 @@
   - Deborah Nabagereka
   - Maurice Katusiime
   - Ayodele Awokoya
-  - MBOUP, Mouhamadane
+  - Mouhamadane Mboup
   - Dibora Gebreyohannes
   - Henok Tilaye
-  - Nwaike, Kelechi
+  - Kelechi Nwaike
   - Degaga Wolde
   - Faye, Abdoulaye
   - Blessing Sibanda
   - Orevaoghene Ahia
   - Bonaventure F. P. Dossou
   - Kelechi Ogueji
-  - Thierno Ibrahima DIOP
+  - Thierno, Ibrahima
   - Diallo, Abdoulaye
   - Adewale Akinfaderin
   - Tendai Marengereke
@@ -1948,6 +2031,517 @@
   - semanticscholar
   arxiv: '2103.11811'
   doi_url: https://doi.org/10.1162/tacl_a_00416
+- title: Proceedings of the 5th Workshop on Online Abuse and Harms (WOAH 2021)
+  authors:
+  - A. Bertie
+  - Lambert Douwe
+  - Aida Mostafazadeh Davani
+  - D. Kiela
+  - Mathias Lambert
+  - Bertie Vidgen
+  - Sarfaraz Syed
+  - Akhtar
+  - Mark Alfano
+  - Andrew Caines
+  - A. Culotta
+  - Thomas Davidson
+  - Lucas Dixon
+  - Paula Fortuna
+  - Marco Guerini
+  - Alex Harris
+  - Christopher Homan
+  - Nishant Kambhatla
+  - Simon Fraser
+  - Brendan Kennedy
+  - Ralf Krestel
+  - Debora Nozza
+  - V. Patti
+  - Michal Ptaszynski
+  - B. Ross
+  - Laila Sprejer
+  - Tristan Thrush
+  - Sara Tonelli
+  - Avijit Vajpayee
+  - J. Van Hoboken
+  - Jing Xu
+  - Seung-Min Yoon
+  - H. Weld
+  - Guang-Hao Huang
+  - Jeana Lee
+  - Tong Zhang
+  - Kun-Ze Wang
+  - Xin Guo
+  - Si-Qu Long
+  - Josiah Poon
+  - Caren Soyeon
+  - Han
+  - Milo Z. Trujillo
+  - Samuel F. Rosenblatt
+  - Guillermo De
+  - Anda Juregui
+  - E. Moog
+  - Paul J. Samson
+  - L. Hbert-Dufresne
+  - Allison M. Roth
+  - A. Shvets
+  - Juan Soler
+  - Leo Wanner
+  - Thales Bertaglia
+  - A. Grigoriu
+  - M. Dumontier
+  - G. van Dijck
+  - Lambert Mathias
+  - Shao-Liang Nie
+  - Vinodkumar Prabhakaran
+  - Zeerak Waseem
+  - Piush Aggarwal
+  - M. Liman
+  - Darina Gold
+  - Torsten Racist
+  - Haris Bin
+  - Ignacio Castro
+  - Gareth Tyson
+  - Vasiliki Kougia
+  - J. Pavlopoulos
+  - Sumer Singh
+  - Sheng Li
+  - Ashish Vaswani
+  - Noam Shazeer
+  - N. Parmar
+  - J. Uszkoreit
+  - L. Jones
+  - A. Gomez
+  - Yi-Ming Yang
+  - J. Carbonell
+  - R. Salakhutdinov
+  - Q. Lê
+  - Xlnet
+  - Marcos Zampieri
+  - S. Malmasi
+  - Preslav Nakov
+  - Sara Rosenthal
+  - Noura Farra
+  - Ritesh Kumar
+  - Rong-Hang Zhu
+  - Xiao Jiang
+  - Jiasen Lu
+  - I. Abu
+  - Farha
+  - Walid Magdy
+  - Cristina Valerio Basile
+  - Elisabetta Bosco
+  - Debora Fersini
+  - Viviana Nozza
+  - Francisco Patti
+  - M. Rangel
+  - Paolo Pardo
+  - M. Rosso
+  - Sanguinetti
+  - M. Alvi
+  - A. Zisserman
+  - C. Nellker
+  - Betty van Aken
+  - J. Risch
+  - Alexander Lser
+  - Abdullah Awaysheh
+  - J. Wilcke
+  - Loren Franc Ois Elvinger
+  - W. Rees
+  - Kurt Fan
+  - Zimmerman
+  - Gagan Bansal
+  - Besmira Nushi
+  - Ece Kamar
+  - E. Horvitz
+  - Daniel S. Weld
+  - Yue-Tong Bao
+  - Shi-Yu Chang
+  - R. Barzilay
+  - P. Bartlett
+  - Marten Wegkamp
+  - Justin Cheng
+  - Michael S. Bernstein
+  - Cristian Danescu-Niculescu-Mizil
+  - J. Leskovec
+  - Corinna Cortes
+  - Giulia DeSalvo
+  - C. Gentile
+  - M. Mohri
+  - S. Yang
+  - Jesse Davis
+  - Mark H. Goadrich
+  - J. Devlin
+  - Min Chang
+  - Ke-On Y. Lee
+  - Kristina Toutanova
+  - K. Dinakar
+  - Roi Reichart
+  - H. Lieberman
+  - J. Li
+  - Jeffrey S. Sorensen
+  - Nithum Thain
+  - Lucy Vasserman
+  - Michael W. Dusenberry
+  - D. Tran
+  - EdwardK.K. Choi
+  - Jonas Kemp
+  - J. Nixon
+  - Ghassen Jerfel
+  - K. Heller
+  - An-Hu Dai
+  - B. Etim
+  - Yarin Gal
+  - Zoubin Ghahramani
+  - Chuan-Zhu Guo
+  - Geoff Pleiss
+  - Yu Sun
+  - Kilian Q. Weinberger
+  - Dan Hendrycks
+  - Kevin Gimpel
+  - A. Jesson
+  - S. Mindermann
+  - Uri Shalit
+  - R. Mahabadi
+  - Yonatan Belinkov
+  - James Henderson
+  - Benjamin Kompa
+  - Jasper Snoek
+  - A. Beam
+  - Ranganath Krishnan
+  - Omesh Tickoo
+  - Alexander Balaji Lakshminarayanan
+  - Charles Pritzel
+  - Blundell
+  - Tsung-Yi Lin
+  - Priyansh Goyal
+  - Ross B. Girshick
+  - K. He
+  - Piotr Dollár
+  - J.-J. Liu
+  - Zi-Zhen Lin
+  - Shreyas Padhy
+  - T. Weiss
+  - Balaji Lakshminarayanan
+  - J. Paisley
+  - M. Kioumourtzoglou
+  - Brent A. Coull
+  - Diego Moll
+  - Ben Hutchinson
+  - Jishnu Mukhoti
+  - Viveka Kulharia
+  - Amartya Sanyal
+  - Stuart Golodetz
+  - P. Torr
+  - P. Dokania
+  - Gregory Mahdi Pakdaman Naeini
+  - M. Cooper
+  - Hauskrecht
+  - J. Nam
+  - Hyuntak Cha
+  - Sun-Hee Ahn
+  - Jae-Hyeon Lee
+  - Jingyeon Shin
+  - Yaniv S. Ovadia
+  - Emily Fertig
+  - Jie Ren
+  - Zachary Nado
+  - D. Sculley
+  - S. Nowozin
+  - J. Dillon
+  - Nafise Prasetya Ajie Utama
+  - Iryna Sadat Moosavi
+  - Gurevych
+  - Zhao Wang
+  - Ellery Wulczyn
+  - Yadollah Yaghoobzadeh
+  - Soroush Mehri
+  - Rémi Tachet Des Combes
+  - T. Hazen
+  - A. Sordoni
+  - Zhen Yin
+  - Lian Xue
+  - Brian Y. Hong
+  - April Davison
+  - Lynne Kontostathis
+  - Edwards
+  - Xun Zhou
+  - Maarten Sap
+  - S. Swayamdipta
+  - Yein Choi
+  - Noah Smith
+  - Arup Baruah
+  - K. Das
+  - F. Barbhuiya
+  - K. Dey
+  - S. Bharti
+  - Korra Sathya Babu
+  - Sanjay Kumar
+  - Jena
+  - Pete Burnap
+  - Matthew L. Williams
+  - Chetan Dalal
+  - Shivyansh Tandon
+  - A. Mukerjee
+  - Dana Warmsley
+  - M. Macy
+  - Ingmar Weber
+  - Bjrn Gambck
+  - U. Kumar
+  - Sikdar
+  - N. Gitari
+  - Zuo Zhang
+  - Damien Hanyurwimfura
+  - Jun-Rong Long
+  - Atul Kr. Ojha
+  - Ping Liu
+  - Wen Li
+  - Li-Ze Zou
+  - Mary Mchugh
+  - Corazza Michele
+  - Stefano Menini
+  - A. Pinar
+  - R. Sprugnoli
+  - Cabrio Elena
+  - V. Serena
+  - J. Padilla
+  - Montani
+  - Marzieh Mozafari
+  - R. Farahbakhsh
+  - N. Crespi
+  - Anna Schmidt
+  - Michael Wiegand
+  - J. Schneider
+  - Roland Roller
+  - Peter Bourgonje
+  - Stefanie Hegele
+  - Georg Rehm
+  - H. Sohn
+  - Hyunju Lee
+  - Gregor Wiedemann
+  - E. Ruppert
+  - Raghav Jindal
+  - C. Biemann
+  - Elisa Bassignana
+  - Valerio Basile
+  - M. Dadvar
+  - D. Trieschnigg
+  - R. Ordelman
+  - F. de
+  - Jong
+  - S. Nunes
+  - Antigoni-Maria Founta
+  - Constantinos Djouvas
+  - Despoina Chatzakou
+  - Ilias Leontiadis
+  - Jeremy Blackburn
+  - G. Stringhini
+  - A. Vakali
+  - M. Sirivianos
+  - N. Kourtellis
+  - Bahareh Radfar
+  - K. Shivaram
+  - L. Silva
+  - Mainack Mondal
+  - Denzil Correa
+  - Fabrcio Benevenuto
+  - R. Yla
+  - James Tausczik
+  - Pennebaker
+  - Stphan Tulkens
+  - Lisa Hilte
+  - E. Lodewyckx
+  - B. Verhoeven
+  - Walter Daelemans
+  - Leon Derczynski
+  - S. Baccianella
+  - Andrea Esuli
+  - Fabrizio Sebastiani
+  - M. Emily
+  - Batya Bender
+  - Friedman
+  - Emily M. Bender
+  - T. Gebru
+  - Angelina McMillan-Major
+  - Shmargaret Shmitchell
+  - Tommaso Caselli
+  - Jelena Mitrovi
+  - Inga Kartoziya
+  - M. Granitzer
+  - Michele Corazza
+  - Elena Cabrio
+  - S. Villata
+  - E. Fersini
+  - Paolo Rosso
+  - Jennifer Golbeck
+  - Z. Ashktorab
+  - Rashad O. Banjo
+  - A. Berlinger
+  - Siddharth Bhagwan
+  - C. Buntain
+  - Paul Cheakalos
+  - Alicia A. Geller
+  - Quint Gergory
+  - Rajesh Kumar Gnanasekaran
+  - Claudia Volpetti
+  - Eirini Ntoutsi
+  - Pavlos Fafalios
+  - U. Gadiraju
+  - Vasileios Iosifidis
+  - W. Nejdl
+  - M. Vidal
+  - Salvatore Ruggieri
+  - F. Turini
+  - Symeon Papadopoulos
+  - Emmanouil Krasanakis
+  - I. Kompatsiaris
+  - K. Kinder-Kurlanda
+  - Claudia Wagner
+  - F. Karimi
+  - Miriam Fernandez
+  - Harith Alani
+  - B. Berendt
+  - Tina Kruegel
+  - C. Heinze
+  - Klaus Broelemann
+  - Gjergji Kasneci
+  - T. Tiropanis
+  - Steffen Staab
+  - M. Peters
+  - Mark Neumann
+  - M. Iyyer
+  - Matthew Gardner
+  - Christopher Clark
+  - Luke S. Zettlemoyer
+  - Marco Túlio
+  - Ribeiro
+  - Carlos Guestrin
+  - Sameer Singh
+  - Marco Tulio Ribeiro
+  - Tong-Shuang Wu
+  - Anna Rogers
+  - Shashwath Hosur Ananthakrishna
+  - Anna Rumshisky
+  - Dallas Card
+  - Saadia Gabriel
+  - Liang Qin
+  - D. Jurafsky
+  - Y. Tsvetkov
+  - Manaal Faruqui
+  - C. Dyer
+  - I. Kaiser
+  - Polosukhin
+  - Dirk Hovy
+  - S. Yimam
+  - Josef Ruppenhofer
+  - Thomas Kleinbauer
+  - M. Abadi
+  - Paul Barham
+  - Jian-Ming Chen
+  - Zhi-Feng Chen
+  - A. Davis
+  - Jeffrey F. D. Dean
+  - Matthieu Devin
+  - Sanjay Ghemawat
+  - Geoffrey Irving
+  - M. Isard
+  - J. Amy
+  - S. Cuddy
+  - Virginia Fiske
+  - Peter Kwan
+  - S. Glick
+  - Jacques-Philippe Demoulin
+  - Michael Leyens
+  - John Bond
+  - Naomi Croizet
+  - Ed Ellemers
+  - Sleebos
+  - J. Devlin
+  - Cynthia Dwork
+  - Moritz Hardt
+  - T. Pitassi
+  - Omer Reingold
+  - R. Zemel
+  - L. Joseph
+  - Fleiss
+  - Sahaj Garg
+  - Vincent Perot
+  - Nicole Limtiaco
+  - Ankur Taly
+  - E. Chi
+  - Alex Beutel
+  - G. Anthony
+  - M. Greenwald
+  - Banaji
+  - Eric C. Price
+  - Nati Srebro
+  - Atoosa Kasirzadeh
+  - Andrew Smart
+  - Xisen Jin
+  - Morteza Dehghani
+  - Xiang-Lu Ren
+  - Matt J. Kusner
+  - Joshua R. Loftus
+  - Chris Russell
+  - Ricardo Silva
+  - David Lewis
+  - J. Pennington
+  - R. Socher
+  - C. Manning
+  - A. Radford
+  - Jeffrey Wu
+  - R. Child
+  - D. Luan
+  - D. Amodei
+  - I. Sutskever
+  - C. Robert
+  - Stalnaker
+  - Thomas Wolf
+  - Lysandre Debut
+  - Victor Sanh
+  - Julien Chaumond
+  - Clement Delangue
+  - Anthony Moi
+  - Pierric Cistac
+  - Tim Rault
+  - Rémi Louf
+  - Morgan Funtowicz
+  - Joe Davison
+  - Sam Shleifer
+  - Clara Patrick Von Platen
+  - Yacine Ma
+  - Julien Jernite
+  - Canwen Plu
+  - Teven Xu
+  - Sylvain Le Scao
+  - Mariama Gugger
+  - Quentin Drame
+  - Alexander Lhoest
+  - Rush
+  - B. Zhang
+  - Blake Lemoine
+  - Margaret Mitchell
+  - Amine Abdaoui
+  - J. Az.
+  - S. Bringay
+  - P. Poncelet
+  - Francisca Adoma
+  - Acheampong
+  - Wen-Yu Chen
+  - Henry Nunoo-Mensah
+  - A. Agrawal
+  - Ai-Jun An
+  - Samar Alsaqqa
+  - H. Abdel-Nabi
+  - Arafat A. Awajan
+  year: 2021
+  type: workshop
+  doi: 10.18653/v1/2021.woah-1
+  url: https://www.semanticscholar.org/paper/8bf00dbe0a2b61f672490b56c3afe6478ea6380e
+  pdf: https://aclanthology.org/2021.woah-1.pdf
+  sources:
+  - semanticscholar
+  anthology: https://aclanthology.org/2021.woah-1/
+  doi_url: https://doi.org/10.18653/v1/2021.woah-1
 - title: 'SCoT: Sense Clustering over Time: a tool for the analysis of lexical change'
   authors:
   - Christian Haase
@@ -2019,7 +2613,7 @@
   venue: Proceedings of the Twelfth Language Resources and Evaluation Conference
   type: conference
   doi: 10.48550/arxiv.2003.02955
-  url: https://openalex.org/W4298174470
+  url: https://openalex.org/W3009393748
   pdf: https://arxiv.org/pdf/2003.02955
   sources:
   - openalex
@@ -2059,7 +2653,7 @@
   sources:
   - semanticscholar
   anthology: https://aclanthology.org/2020.semeval-1.213/
-- title: 'UHH-LT at SemEval-2020 Task 12: Fine-Tuning of Pre-Trained Transformer\n Networks for Offensive
+- title: 'UHH-LT at SemEval-2020 Task 12: Fine-Tuning of Pre-Trained Transformer Networks for Offensive
     Language Detection'
   authors:
   - Gregor Wiedemann
@@ -2116,7 +2710,519 @@
   pdf: /files/Yimametal_2019_lt4all.pdf
   sources:
   - manual
-- title: A Multilingual Information Extraction Pipeline for Investigative\n Journalism
+- title: 'Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: System
+    Demonstrations'
+  authors:
+  - Sebastian Gehrmann
+  - H. Strobelt
+  - Alexander M. Rush
+  - Fabio Kepler
+  - Jonay Trénous
+  - Marcos Vinícius Treviso
+  - Miguel Vera
+  - André F. T. Martins
+  - Sung-Jin Lee
+  - Qi Zhu
+  - Ryuichi Takanobu
+  - Zheng Zhang
+  - Yao-Qin Zhang
+  - Xiang Li
+  - Jin-Chao Li
+  - Baolin Peng
+  - Xiu-Jun Li
+  - Min-Lie Huang
+  - Jianfeng Gao
+  - Texar Modularized
+  - Extensible Toolkit
+  - Text Generation
+  - Zhi-Ting Hu
+  - Hao-Ran Shi
+  - Bowen Tan
+  - Wen-Tao Wang
+  - Zichao Yang
+  - Tiancheng Zhao
+  - Jun-Xian He
+  - L. Qin
+  - Di Wang
+  - Xue-Zhe Ma
+  - Zheng-Zhong Liu
+  - Xiao-Dan Liang
+  - Wanrong Zhu
+  - D. Sachan
+  - E. Xing
+  - M. Costa-jussà
+  - E. Alfonseca
+  - J. Arevalo
+  - Laurent Besacier
+  - Eduardo Blanco
+  - Vittorio Castelli
+  - A. Chang
+  - Hai Leong Chieu
+  - Christos Christodoulopoulos
+  - S. Clark
+  - Vincent Claveau
+  - Bonaventura Coppola
+  - Danilo Croce
+  - Marina Danilevsky
+  - Daniël de Kok
+  - Jesse Dodge
+  - Doug Downey
+  - D. Galanis
+  - Marcos García
+  - Pawan Goyal
+  - Dilek Z. Hakkani-Tür
+  - Xian-Pei Han
+  - Ales Horak
+  - S. Ikbal
+  - Douwe Kiela
+  - Mamoru Komachi
+  - Valia Kordoni
+  - Jayant Krishnamurthy
+  - Carolin Lawrence
+  - John Lee
+  - Alessandro Lenci
+  - Nikola Ljubešić
+  - Wei Lu
+  - Suraj Maharjan
+  - W. Benjamin
+  - M. Stella
+  - Martín Martínez Gómez
+  - I. Vladimir
+  - Meza Ruiz
+  - Makoto Miwa
+  - T. Moon
+  - Alessandro Moschitti
+  - Philippe Muller
+  - Preslav Nakov
+  - Borja Navarro-Colorado
+  - P. Nugues
+  - Constantin Orasan
+  - Yannick Parmentier
+  - Stelios Piperidis
+  - Maja Popovic
+  - Prokopis Prokopidis
+  - A. Raganato
+  - German Rigau
+  - Satoshi Sekine
+  - Michel Simard
+  - Sunayana Sitaram
+  - Vivek Srikumar
+  - Irina Temnikova
+  - Juan-Manuel Torres-Moreno
+  - Andrea Varga
+  - Ivan Vulic
+  - Hua-Zhen Wang
+  - Rui Wang
+  - Qing Wu
+  - Kun Xu
+  - T. Yano
+  - Hai-Ying Zhao
+  - Jun-Xian Zhao
+  - Guang-You Zhou
+  - Mio Arai
+  - Tomonori Kodaira
+  - Jonathan K. Kummerfeld
+  - Sai R. Gouravajhala
+  - Joseph Peper
+  - Vignesh Athreya
+  - Chulaka Gunasekara
+  - Mennatallah El-Assady
+  - Wolfgang Jentner
+  - F. Sperrle
+  - Rita Sevastjanova
+  - A. Hautli-Janisz
+  - Miriam Butt
+  - Daniel A. Keim
+  - Daniel A. Keim
+  - Mei Chen
+  - Shih-Ting Huang
+  - Hung-Ting Hsieh
+  - Ting-hui Kao
+  - Jason S. Chang
+  - A. Kilgarriff
+  - P. Rychlý
+  - Pavel Smr
+  - David Tugwell
+  - Shigeki Matsubara
+  - Yoshihide Kato
+  - Seiji Egawa
+  - T. Mizumoto
+  - Mamoru Komachi
+  - Masaaki Nagata
+  - Yuji Matsumoto
+  - K. Nishina
+  - Bor Hodoek
+  - Yutaka Yagi
+  - Takeshi Abekawa
+  - Hiromi Oyama
+  - Yuji Mastumoto
+  - E. Rakhilina
+  - A. Vyrenkova
+  - É. Mustakimova
+  - Toshikazu Tajiri
+  - D. Wible
+  - Nai-Lung Tsao
+  - Tzu-Hsi Yen
+  - Jian-Cheng Wu
+  - Jim Chang
+  - Joanne Boisson
+  - Rebecca S. Portnoff
+  - Sadia Afroz
+  - Greg Durrett
+  - Jonathan K. Kummerfeld
+  - Taylor Berg-Kirkpatrick
+  - D. Mccoy
+  - К. Levchenko
+  - V. Paxson
+  - Younes Samih
+  - Wolfgang Maier
+  - Laura Kallmeyer
+  - B. South
+  - Shu-Ying Shen
+  - J. Leng
+  - Tyler Forbush
+  - S. DuVall
+  - W. Chapman
+  - Pontus Stenetorp
+  - S. Pyysalo
+  - G. Topi
+  - T. Ohta
+  - Sophia Ananiadou
+  - Jun'ichi Tsujii
+  - Amber Stubbs
+  - Antoine Widlcher
+  - Yann Mathet
+  - Jie Yang
+  - Yue Zhang
+  - Lin-Wei Li
+  - Xingxuan Li
+  - Iryna Seid Muhie Yimam
+  - Richard Gurevych
+  - Christian Eckart De Castilho
+  - Biemann
+  - M. Baroni
+  - G. Dinu
+  - Germán Kruszewski
+  - Yu-Bo Chen
+  - Li-Heng Xu
+  - Kang Liu
+  - D. Zeng
+  - Jun-Xian Zhao
+  - George Doddington
+  - A. Mitchell
+  - Mark A. Przybocki
+  - L. Ramshaw
+  - S. Strassel
+  - R. Weischedel
+  - Germán Ferrero
+  - Audi Primadhanty
+  - A. Quattoni
+  - Marjorie Freedman
+  - Elizabeth Boschee
+  - Ryan Gabbard
+  - Gary Kratkiewicz
+  - N. Ward
+  - Ralph Weishedel
+  - Yi-Fan He
+  - R. Grishman
+  - Yun-Yao Li
+  - Laura Chiticariu
+  - Hua Yang
+  - Frederick Reiss
+  - Arnaldo Carreno-Fuentes
+  - Thilo Michael
+  - A. Akbik
+  - Mike D. Mintz
+  - S. Bills
+  - R. Snow
+  - Daniel Jurafsky
+  - Thien Huu Nguyen
+  - K. Cho
+  - Liu Fu
+  - Hao-Ruo Peng
+  - Yan-Miao Song
+  - Dan Roth
+  - D. Bahdanau
+  - Yoshua Bengio
+  - Anthony Bau
+  - Yonatan Belinkov
+  - Hassan Sajjad
+  - Nadir Durrani
+  - Fahim Dalvi
+  - J. Glass
+  - J. Devlin
+  - M. Chang
+  - Kenton Lee
+  - K. Toutanova
+  - Jaesong Lee
+  - Joong-Hwi Shin
+  - Junseok Kim
+  - Shu-Sen Liu
+  - Tao Li
+  - Zhi-Ming Li
+  - Vivek Srikumar
+  - Peer-Timo Valerio Pascucci
+  - Bremer
+  - A. Raganato
+  - Jrg Tiedemann
+  - Tim Rocktschel
+  - Edward Grefenstette
+  - K. Hermann
+  - Tomás Kociský
+  - P. Blunsom
+  - A. Rush
+  - S. Chopra
+  - J. Weston
+  - Jesse Vig
+  - Jie Zhao
+  - Tian-Lu Wang
+  - M. Yatskar
+  - Vicente Ordonez
+  - Kai-Wei Chang
+  - Jon Louis
+  - Bentley
+  - Marcela Charfuelan
+  - I. Steiner
+  - Li Dong
+  - Mirella Lapata
+  - Mark Johnson
+  - D. Povey
+  - Arnab Ghoshal
+  - Gilles Boulianne
+  - Yu-Shiuan Wang
+  - J. Berant
+  - P. Liang
+  - L. Zettlemoyer
+  - Michael Collins
+  - Kalina Bontcheva
+  - H. Cunningham
+  - Ian Roberts
+  - A. Roberts
+  - V. Tablan
+  - Niraj Aswani
+  - Genevieve Gorrell
+  - Richard Eckart de Castilho
+  - Va Mjdricza-Maydt
+  - Seid Muhie Yimam
+  - Silvana Hartmann
+  - I. Gurevych
+  - A. Frank
+  - Christian Biemann
+  - Wei-Te Chen
+  - Will Styler
+  - A. Culotta
+  - Andrew McCallum
+  - Stephan Druskat
+  - Lennart Bierkandt
+  - V. Gast
+  - Christoph Rzymski
+  - F. Zipser
+  - Guillaume Lample
+  - Miguel Ballesteros
+  - Sandeep Subramanian
+  - Kazuya Kawakami
+  - C. Dyer
+  - Bill Yuchen Lin
+  - Frank F. Xu
+  - Zhi-Yi Luo
+  - Ke-Fu Zhu
+  - Bill Yuchen
+  - Lin
+  - Wei Lu
+  - Li-Yuan Liu
+  - Jing-Bo Shang
+  - Xian-Gang Ren
+  - Hua-Wang Gui
+  - Jia-Jia Peng
+  - Jia-Wei Han
+  - D. Christopher
+  - M. Manning
+  - John Surdeanu
+  - Jenny Bauer
+  - Steven E. Finkel
+  - David Bethard
+  - Mc-Closky
+  - An Thanh Nguyen
+  - Byron Wallace
+  - Jessy Junyi
+  - An-Ran Li
+  - Matthew Nenkova
+  - Lease
+  - P. Ogren
+  - F. Rodrigues
+  - Francisco Pereira
+  - Bernardete Ribeiro
+  - Jia-Lu Liu
+  - Meng Jiang
+  - Clare R. Voss
+  - Ya Shen
+  - Hyokun Yun
+  - Zachary C. Lipton
+  - Y. Kronrod
+  - Anima Anandkumar
+  - Aditya Siddhant
+  - Zachary C. Lipton
+  - Xuan Wang
+  - Yu Zhang
+  - Yu-Hao Zhang
+  - M. Zitnik
+  - Curtis P. Langlotz
+  - Yao Yang
+  - Mei Zhang
+  - Wenliang Chen
+  - Wei Zhang
+  - Hao-Feng Wang
+  - Min Zhang
+  - Christian Eckart De Castilho
+  - Silver
+  - Jianfeng Gao
+  - Michel Galley
+  - Li-Hong Li
+  - Young-Bum Kim
+  - Sung-Jin Lee
+  - K. Stratos
+  - Philipp
+  - Wen-Qiang Lei
+  - Xisen Jin
+  - Min-Yen Kan
+  - Zhao-Chun Ren
+  - Xiang-Nan He
+  - David Yin
+  - Milica Franc Ois Mairesse
+  - Filip Gasic
+  - Simon Jurcicek
+  - Blaise Keizer
+  - Kai Thomson
+  - Steve Yu
+  - Young
+  - C. Manning
+  - M. Surdeanu
+  - John Bauer
+  - J. Finkel
+  - Steven Bethard
+  - D. Mcclosky
+  - J. Schatzmann
+  - Blaise Thomson
+  - K. Weilhammer
+  - Hu-Gui Ye
+  - Steve Young
+  - I. Sutskever
+  - O. Vinyals
+  - Q. Le
+  - Stefan
+  - Tsung-Hsien Wen
+  - Milica Gasic
+  - N. Mrki
+  - Pei-Hao Su
+  - David Vandyke
+  - Jason D. Williams
+  - Antoine Raux
+  - Deepak Ramachandran
+  - A. Black
+  - Williams Ronald
+  - G. Evermann
+  - M. Gales
+  - Thomas Hain
+  - Dan Kershaw
+  - Xun-Ying Liu
+  - G. Moore
+  - J. Odell
+  - D. Ollason
+  - D. Povey
+  - Vicente Alabau
+  - Ragnar Bonk
+  - C. Buck
+  - M. Carl
+  - Francisco Casacuberta
+  - M. Garca-Martnez
+  - Jess Gonzlez-Rubio
+  - Philipp Koehn
+  - Luis F. Leiva
+  - B. Mesa-Lao
+  - Daniel Ortiz-Martnez
+  - H. Saint-Amand
+  - Germn Sanchis-Trilles
+  - Chara Tsoukala
+  - Ana Guerberof
+  - Arenas
+  - Robert Dale
+  - Miguel Domingo
+  - Lvaro Peris
+  - A. Helle
+  - Amando Estela
+  - L.-R. Bi
+  - Manuel Herranz
+  - Marcello Federico
+  - N. Bertoldi
+  - Mauro Cettolo
+  - Matteo Negri
+  - M. Turchi
+  - M. Trombetti
+  - A. Cattelan
+  - A. Fariña
+  - D. Lupinetti
+  - A. Martines
+  - A. Massidda
+  - H. Schwenk
+  - L. Barrault
+  - Frédéric Blain
+  - Ulrich Germann
+  - Ke Hu
+  - Patrick Cadwell
+  - G. Klein
+  - Yoon Kim
+  - Yun-Tian Deng
+  - J. Senellart
+  - Rebecca Knowles
+  - S. Sri
+  - R. Kothur
+  - M. Burtsev
+  - A. Seliverstov
+  - R. Airapetyan
+  - M. Arkhipov
+  - D. Baymurzina
+  - N. Bushkov
+  - O. Gureenkova
+  - T. Khakhulin
+  - Yuri Kuratov
+  - D. Kuznetsov
+  - A. Litinsky
+  - V. Logacheva
+  - A. Lymar
+  - Valentin Malykh
+  - Maxim Petrov
+  - V. Polulyakh
+  - Leonid Pugachev
+  - A. Sorokin
+  - M. Vikhreva
+  - M. Zaynutdinov
+  - James Martin
+  - P. Lison
+  - C. Kennington
+  - Samuel Louvan
+  - Bernardo Magnini
+  - Grgoire Mesnil
+  - Y. Dauphin
+  - K. Yao
+  - Li Deng
+  - Dilek Z. Hakkani-Tür
+  - Xiao-Dong He
+  - Larry Heck
+  - Gokhan Tur
+  - Dong Yu
+  - Stefan Ultes
+  - L. Rojas-Barahona
+  - Dongho Kim
+  year: 2019
+  type: conference
+  doi: 10.18653/v1/p19-3
+  url: https://www.semanticscholar.org/paper/7643d41d9937d61d04219c7066a7e34c2170782b
+  pdf: https://www.aclweb.org/anthology/P19-3.pdf
+  sources:
+  - semanticscholar
+  anthology: https://aclanthology.org/P19-3/
+  doi_url: https://doi.org/10.18653/v1/p19-3
+- title: A Multilingual Information Extraction Pipeline for Investigative Journalism
   authors:
   - Gregor Wiedemann
   - Seid Muhie Yimam
@@ -2156,7 +3262,7 @@
   arxiv: '1804.09132'
   anthology: https://aclanthology.org/W18-0507/
   doi_url: https://doi.org/10.18653/v1/w18-0507
-- title: Demonstrating PAR4SEM - A Semantic Writing Aid with Adaptive\n Paraphrasing
+- title: Demonstrating Par4Sem - A Semantic Writing Aid with Adaptive Paraphrasing
   authors:
   - Seid Muhie Yimam
   - Chris Biemann
@@ -2173,7 +3279,7 @@
   arxiv: '1808.06853'
   anthology: https://aclanthology.org/D18-2009/
   doi_url: https://doi.org/10.18653/v1/d18-2009
-- title: New/s/leak 2.0 - Multilingual Information Extraction and Visualization\n for Investigative Journalism
+- title: New/s/leak 2.0 – Multilingual Information Extraction and Visualization for Investigative Journalism
   authors:
   - Gregor Wiedemann
   - Seid Muhie Yimam
@@ -2319,7 +3425,7 @@
   - Richard Eckart de Castilho
   - Éva Mújdricza-Maydt
   - Seid Muhie Yimam
-  - Silvana Pinto Hartmann
+  - Silvana Hartmann
   - Iryna Gurevych
   - Anette Frank
   - Chris Biemann
